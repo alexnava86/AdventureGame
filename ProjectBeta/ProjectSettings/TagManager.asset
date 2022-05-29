@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Enemy
+  - NPC
+  - Trigger
+  - Platform
+  - Foreground
+  - Background
+  - ParallaxFG
+  - ParallaxBG
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: ParallaxBG
+    uniqueID: 4040618529
+    locked: 0
+  - name: Background
+    uniqueID: 3466673601
+    locked: 0
+  - name: ParallaxFG
+    uniqueID: 2809511445
+    locked: 0
+  - name: Foreground
+    uniqueID: 3665976681
+    locked: 0
