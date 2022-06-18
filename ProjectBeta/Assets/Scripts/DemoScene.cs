@@ -15,7 +15,7 @@ public class DemoScene : MonoBehaviour
     [HideInInspector]
     private float normalizedHorizontalSpeed = 0;
 
-    private CharacterController2D _controller;
+    private CharacterController2dOld _controller;
     private Animator _animator;
     private RaycastHit2D _lastControllerColliderHit;
     private Vector3 _velocity;
@@ -24,7 +24,7 @@ public class DemoScene : MonoBehaviour
     void Awake()
     {
         _animator = GetComponent<Animator>();
-        _controller = GetComponent<CharacterController2D>();
+        _controller = GetComponent<CharacterController2dOld>();
 
         // listen to some events for illustration purposes
         _controller.onControllerCollidedEvent += onControllerCollider;
