@@ -18,10 +18,10 @@ TagManager:
   - NPC
   - Trigger
   - Platform
-  - Foreground
-  - Background
-  - ParallaxFG
-  - ParallaxBG
+  - Ground
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -41,15 +41,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: ParallaxBG
-    uniqueID: 4040618529
-    locked: 0
-  - name: Background
-    uniqueID: 3466673601
-    locked: 0
-  - name: ParallaxFG
-    uniqueID: 2809511445
-    locked: 0
-  - name: Foreground
-    uniqueID: 3665976681
+  - name: Overlay
+    uniqueID: 237126897
     locked: 0
