@@ -1,2 +1,2 @@
-# ProjectBeta
- Project Beta
+# Adventure Game
+ Tentatively-titled side-scrolling Zelda II/Metroidvania inspired action-RPG utilizing modern features, graphics, game design and gameplay. Set in an ancient and mysterious world, explore as a young soldier who stumbles upon an incredible power.
