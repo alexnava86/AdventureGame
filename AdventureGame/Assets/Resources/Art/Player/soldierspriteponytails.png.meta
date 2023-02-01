@@ -1,0 +1,809 @@
+fileFormatVersion: 2
+guid: 2de6e79e0fa1340e2be6f8e27676a385
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4005021356552145526
+    second: soldierspriteponytails_0
+  - first:
+      213: 3281688235693520837
+    second: soldierspriteponytails_1
+  - first:
+      213: -2964185055390551434
+    second: soldierspriteponytails_2
+  - first:
+      213: 9103717339800439931
+    second: soldierspriteponytails_3
+  - first:
+      213: 7655235889543084224
+    second: soldierspriteponytails_4
+  - first:
+      213: -2848241039223931932
+    second: soldierspriteponytails_5
+  - first:
+      213: -6831840671248839409
+    second: soldierspriteponytails_6
+  - first:
+      213: -3900496756046522150
+    second: soldierspriteponytails_7
+  - first:
+      213: -672272705469738279
+    second: soldierspriteponytails_8
+  - first:
+      213: -267950420624649638
+    second: soldierspriteponytails_9
+  - first:
+      213: -6329533912012591311
+    second: soldierspriteponytails_10
+  - first:
+      213: -3810409423266592258
+    second: soldierspriteponytails_11
+  - first:
+      213: 1179009596961656646
+    second: soldierspriteponytails_12
+  - first:
+      213: -8186115491723718949
+    second: soldierspriteponytails_13
+  - first:
+      213: -4088422335129125608
+    second: soldierspriteponytails_14
+  - first:
+      213: -1824015939804268654
+    second: soldierspriteponytails_15
+  - first:
+      213: -4892905011119121079
+    second: soldierspriteponytails_16
+  - first:
+      213: -2658865666819361600
+    second: soldierspriteponytails_17
+  - first:
+      213: -8991976871218022867
+    second: soldierspriteponytails_18
+  - first:
+      213: -1857192562633809705
+    second: soldierspriteponytails_19
+  - first:
+      213: -4360215776194428865
+    second: soldierspriteponytails_20
+  - first:
+      213: -8463882248844915043
+    second: soldierspriteponytails_21
+  - first:
+      213: 5640984169460591997
+    second: soldierspriteponytails_22
+  - first:
+      213: 4012512285799737349
+    second: soldierspriteponytails_23
+  - first:
+      213: -3083948518326359959
+    second: soldierspriteponytails_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: soldierspriteponytails_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 480
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a853bd4bb4e4b68c0800000000000000
+      internalID: -4005021356552145526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 480
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c737103016ea8d20800000000000000
+      internalID: 3281688235693520837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 480
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672bce4a5691dd6d0800000000000000
+      internalID: -2964185055390551434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 480
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c8e5edfa6e65e70800000000000000
+      internalID: 9103717339800439931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_4
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 480
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8790c7b7cdc3a60800000000000000
+      internalID: 7655235889543084224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb3e5e8dd30978d0800000000000000
+      internalID: -2848241039223931932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 17
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d852c2b1d6031a0800000000000000
+      internalID: -6831840671248839409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_7
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 480
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad89848bdd6aed9c0800000000000000
+      internalID: -3900496756046522150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 15
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d21946498b9ba6f0800000000000000
+      internalID: -672272705469738279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 448
+        width: 31
+        height: 31
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a525049138c084cf0800000000000000
+      internalID: -267950420624649638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f63bc317af828a0800000000000000
+      internalID: -6329533912012591311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9c46561d4be1bc0800000000000000
+      internalID: -3810409423266592258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 18
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde4c790553156e80800000000000000
+      internalID: -8186115491723718949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297f053ba2bcfa6e0800000000000000
+      internalID: -1824015939804268654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_16
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 384
+        width: 31
+        height: 31
+      alignment: 9
+      pivot: {x: 0.75, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d148ce0d8e81cb0800000000000000
+      internalID: -4892905011119121079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_17
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 384
+        width: 15
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4ffb763cfc91bd0800000000000000
+      internalID: -2658865666819361600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 352
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26758a5da4163380800000000000000
+      internalID: -8991976871218022867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0e6b0443de936e0800000000000000
+      internalID: -1857192562633809705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3080eb5ad66d73c0800000000000000
+      internalID: -4360215776194428865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_22
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 320
+        width: 31
+        height: 23
+      alignment: 9
+      pivot: {x: 0.75, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dec44073dc84e40800000000000000
+      internalID: 5640984169460591997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_23
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 448
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508ebfb2aae4fa730800000000000000
+      internalID: 4012512285799737349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 416
+        width: 31
+        height: 23
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968a09b792d9335d0800000000000000
+      internalID: -3083948518326359959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394ecd6bb56ec74b0800000000000000
+      internalID: -5441220968186059629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_26
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 288
+        width: 17
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645ffb22893932290800000000000000
+      internalID: -7916321438359882426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834a17794dde2c920800000000000000
+      internalID: 3009228998366569528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c23f85f0228086f0800000000000000
+      internalID: -684404065289948476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_29
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 288
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f25fb83981388b0800000000000000
+      internalID: -5151246526794354895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_30
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 288
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041db04bfcf6d77e0800000000000000
+      internalID: -1766132540989779648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_31
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 288
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaaa8535ea8b7cf40800000000000000
+      internalID: 5748766508223867566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldierspriteponytails_32
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 288
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98653d81f397ef970800000000000000
+      internalID: 8790596834580190857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
