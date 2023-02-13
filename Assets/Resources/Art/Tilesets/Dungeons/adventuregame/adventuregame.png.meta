@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8de674d17249e40198ecc03947d2d1cf
+guid: 9179b867d95934810b7e8e1576a8ac31
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -770,6 +770,774 @@ TextureImporter:
   - first:
       213: 3816214525474393809
     second: adventuregame_255
+  - first:
+      213: -2647540634420518945
+    second: adventuregame_256
+  - first:
+      213: 5757787897863093457
+    second: adventuregame_257
+  - first:
+      213: 4742122908610964585
+    second: adventuregame_258
+  - first:
+      213: -7058647579146844677
+    second: adventuregame_259
+  - first:
+      213: 3086318238514464396
+    second: adventuregame_260
+  - first:
+      213: 8261886580849374008
+    second: adventuregame_261
+  - first:
+      213: -7018868871825591583
+    second: adventuregame_262
+  - first:
+      213: 1283387796487270189
+    second: adventuregame_263
+  - first:
+      213: 8129437863807767249
+    second: adventuregame_264
+  - first:
+      213: 4873177803530333976
+    second: adventuregame_265
+  - first:
+      213: -2029464951632778193
+    second: adventuregame_266
+  - first:
+      213: -2828344210838421261
+    second: adventuregame_267
+  - first:
+      213: 9123825583381102136
+    second: adventuregame_268
+  - first:
+      213: 6473565683333685976
+    second: adventuregame_269
+  - first:
+      213: -3145526856253648630
+    second: adventuregame_270
+  - first:
+      213: -6981089066368989582
+    second: adventuregame_271
+  - first:
+      213: -6338639875106833446
+    second: adventuregame_272
+  - first:
+      213: 1388669967905560771
+    second: adventuregame_273
+  - first:
+      213: 5816337258988872335
+    second: adventuregame_274
+  - first:
+      213: 840944585899327784
+    second: adventuregame_275
+  - first:
+      213: 5845567067925693337
+    second: adventuregame_276
+  - first:
+      213: 1024929971406916512
+    second: adventuregame_277
+  - first:
+      213: -7250801201540201520
+    second: adventuregame_278
+  - first:
+      213: 3281743793180238584
+    second: adventuregame_279
+  - first:
+      213: 8516398297851098166
+    second: adventuregame_280
+  - first:
+      213: 8885906893225985968
+    second: adventuregame_281
+  - first:
+      213: 2825853985328750183
+    second: adventuregame_282
+  - first:
+      213: 274325564154913366
+    second: adventuregame_283
+  - first:
+      213: -7805132925323661509
+    second: adventuregame_284
+  - first:
+      213: -7028283990859679568
+    second: adventuregame_285
+  - first:
+      213: 349356401591369116
+    second: adventuregame_286
+  - first:
+      213: 6945687686183909157
+    second: adventuregame_287
+  - first:
+      213: -1432514595920799882
+    second: adventuregame_288
+  - first:
+      213: -5422821012776433787
+    second: adventuregame_289
+  - first:
+      213: 190495398826347439
+    second: adventuregame_290
+  - first:
+      213: 2144044156429044435
+    second: adventuregame_291
+  - first:
+      213: 9146633371539934507
+    second: adventuregame_292
+  - first:
+      213: 8863932538529213801
+    second: adventuregame_293
+  - first:
+      213: -3304263773778927719
+    second: adventuregame_294
+  - first:
+      213: -2121786897419932984
+    second: adventuregame_295
+  - first:
+      213: 4833687461427756780
+    second: adventuregame_296
+  - first:
+      213: -2338717376644261165
+    second: adventuregame_297
+  - first:
+      213: 1609171250556521390
+    second: adventuregame_298
+  - first:
+      213: -4291927961245761808
+    second: adventuregame_299
+  - first:
+      213: -5954675502141788390
+    second: adventuregame_300
+  - first:
+      213: -7585860008901707743
+    second: adventuregame_301
+  - first:
+      213: -5501758079520428366
+    second: adventuregame_302
+  - first:
+      213: 7771582507290119245
+    second: adventuregame_303
+  - first:
+      213: 995084473891541482
+    second: adventuregame_304
+  - first:
+      213: 8782967192592709624
+    second: adventuregame_305
+  - first:
+      213: -4104836466255424393
+    second: adventuregame_306
+  - first:
+      213: 8212910115282923729
+    second: adventuregame_307
+  - first:
+      213: 6545286497665793255
+    second: adventuregame_308
+  - first:
+      213: -4739807160812556822
+    second: adventuregame_309
+  - first:
+      213: -3089277489864017701
+    second: adventuregame_310
+  - first:
+      213: 3712736583126789106
+    second: adventuregame_311
+  - first:
+      213: -4133437202593245956
+    second: adventuregame_312
+  - first:
+      213: -8167000982582837532
+    second: adventuregame_313
+  - first:
+      213: -3408561916364032480
+    second: adventuregame_314
+  - first:
+      213: 1950026651871542855
+    second: adventuregame_315
+  - first:
+      213: 4503465228606990511
+    second: adventuregame_316
+  - first:
+      213: -2988292547707191312
+    second: adventuregame_317
+  - first:
+      213: -2827552204719767770
+    second: adventuregame_318
+  - first:
+      213: -4451300998156927472
+    second: adventuregame_319
+  - first:
+      213: -6640027378953262662
+    second: adventuregame_320
+  - first:
+      213: 4789628816078578532
+    second: adventuregame_321
+  - first:
+      213: 6816994267612044535
+    second: adventuregame_322
+  - first:
+      213: -5934785026708850619
+    second: adventuregame_323
+  - first:
+      213: -4118542546297425969
+    second: adventuregame_324
+  - first:
+      213: -5698498098239189221
+    second: adventuregame_325
+  - first:
+      213: 8543332433961703197
+    second: adventuregame_326
+  - first:
+      213: -5456805360200660707
+    second: adventuregame_327
+  - first:
+      213: 6596474272495691069
+    second: adventuregame_328
+  - first:
+      213: -8961299493205268578
+    second: adventuregame_329
+  - first:
+      213: 1315995736016878748
+    second: adventuregame_330
+  - first:
+      213: -8485306791127353418
+    second: adventuregame_331
+  - first:
+      213: -6021197736372352463
+    second: adventuregame_332
+  - first:
+      213: 6544347499383692800
+    second: adventuregame_333
+  - first:
+      213: -9082338156928545203
+    second: adventuregame_334
+  - first:
+      213: 1505462204563955238
+    second: adventuregame_335
+  - first:
+      213: -502586618067393232
+    second: adventuregame_336
+  - first:
+      213: -7739130784637632266
+    second: adventuregame_337
+  - first:
+      213: -740422122222645399
+    second: adventuregame_338
+  - first:
+      213: -7954534274125436504
+    second: adventuregame_339
+  - first:
+      213: -8391691919291056814
+    second: adventuregame_340
+  - first:
+      213: -4340976608655359261
+    second: adventuregame_341
+  - first:
+      213: 7565482023471032918
+    second: adventuregame_342
+  - first:
+      213: -9178205136325032679
+    second: adventuregame_343
+  - first:
+      213: 1235260537394844218
+    second: adventuregame_344
+  - first:
+      213: -4304509399909591134
+    second: adventuregame_345
+  - first:
+      213: -5726617080797776571
+    second: adventuregame_346
+  - first:
+      213: -1284197563552114354
+    second: adventuregame_347
+  - first:
+      213: 8712589446272523784
+    second: adventuregame_348
+  - first:
+      213: -5078458890721353745
+    second: adventuregame_349
+  - first:
+      213: -717354367498706602
+    second: adventuregame_350
+  - first:
+      213: -3627639979095223266
+    second: adventuregame_351
+  - first:
+      213: 9137879354001611343
+    second: adventuregame_352
+  - first:
+      213: 150355539635656569
+    second: adventuregame_353
+  - first:
+      213: 7028238256403783116
+    second: adventuregame_354
+  - first:
+      213: -3959437413221789425
+    second: adventuregame_355
+  - first:
+      213: 3818016340099987296
+    second: adventuregame_356
+  - first:
+      213: 6087912901096551663
+    second: adventuregame_357
+  - first:
+      213: -8538810766738732311
+    second: adventuregame_358
+  - first:
+      213: -8450072277231401006
+    second: adventuregame_359
+  - first:
+      213: -6309303652514475996
+    second: adventuregame_360
+  - first:
+      213: 3307540489676273732
+    second: adventuregame_361
+  - first:
+      213: -2707152033517033647
+    second: adventuregame_362
+  - first:
+      213: 7527628813512955240
+    second: adventuregame_363
+  - first:
+      213: 8206324181016578772
+    second: adventuregame_364
+  - first:
+      213: -2019250179882078823
+    second: adventuregame_365
+  - first:
+      213: 6465547123602956654
+    second: adventuregame_366
+  - first:
+      213: -2306415647890272992
+    second: adventuregame_367
+  - first:
+      213: -2142725731255514628
+    second: adventuregame_368
+  - first:
+      213: -6663098034685618621
+    second: adventuregame_369
+  - first:
+      213: 5327369855125917240
+    second: adventuregame_370
+  - first:
+      213: 805749784793720901
+    second: adventuregame_371
+  - first:
+      213: 626907769760985331
+    second: adventuregame_372
+  - first:
+      213: -5731690338957484550
+    second: adventuregame_373
+  - first:
+      213: -7953810936071109844
+    second: adventuregame_374
+  - first:
+      213: 3992430539352504772
+    second: adventuregame_375
+  - first:
+      213: 7837792831705461432
+    second: adventuregame_376
+  - first:
+      213: -7840467690391670415
+    second: adventuregame_377
+  - first:
+      213: -4941174136049340950
+    second: adventuregame_378
+  - first:
+      213: -8889489724792425304
+    second: adventuregame_379
+  - first:
+      213: -91290820091037940
+    second: adventuregame_380
+  - first:
+      213: -1963079594646028917
+    second: adventuregame_381
+  - first:
+      213: -5921240511954440694
+    second: adventuregame_382
+  - first:
+      213: 6869194522911723378
+    second: adventuregame_383
+  - first:
+      213: 6730853157317633091
+    second: adventuregame_384
+  - first:
+      213: 6270627040345560934
+    second: adventuregame_385
+  - first:
+      213: -8032481366622350660
+    second: adventuregame_386
+  - first:
+      213: 410389882038047136
+    second: adventuregame_387
+  - first:
+      213: -1575761068434288365
+    second: adventuregame_388
+  - first:
+      213: 2810195502361407513
+    second: adventuregame_389
+  - first:
+      213: -2214774041397191503
+    second: adventuregame_390
+  - first:
+      213: 7262463052975389150
+    second: adventuregame_391
+  - first:
+      213: -9031581259266957987
+    second: adventuregame_392
+  - first:
+      213: -928954555135560349
+    second: adventuregame_393
+  - first:
+      213: -3121022714528198158
+    second: adventuregame_394
+  - first:
+      213: 225344608268740958
+    second: adventuregame_395
+  - first:
+      213: -3493396243617844332
+    second: adventuregame_396
+  - first:
+      213: 2538549758315749736
+    second: adventuregame_397
+  - first:
+      213: -3915449093443216285
+    second: adventuregame_398
+  - first:
+      213: -4473449678051084193
+    second: adventuregame_399
+  - first:
+      213: 7738668433083196420
+    second: adventuregame_400
+  - first:
+      213: -5185390802097343782
+    second: adventuregame_401
+  - first:
+      213: 4945042504863659866
+    second: adventuregame_402
+  - first:
+      213: 6606258818412904387
+    second: adventuregame_403
+  - first:
+      213: -7186792409843597884
+    second: adventuregame_404
+  - first:
+      213: -5927257306074626005
+    second: adventuregame_405
+  - first:
+      213: 4243278458541154156
+    second: adventuregame_406
+  - first:
+      213: -2993858499054231285
+    second: adventuregame_407
+  - first:
+      213: -2028250432380875393
+    second: adventuregame_408
+  - first:
+      213: -7076295720216896764
+    second: adventuregame_409
+  - first:
+      213: -8049581099890688446
+    second: adventuregame_410
+  - first:
+      213: -246441859362006891
+    second: adventuregame_411
+  - first:
+      213: -5023902667422480303
+    second: adventuregame_412
+  - first:
+      213: 383966944345820970
+    second: adventuregame_413
+  - first:
+      213: 7001655478657825091
+    second: adventuregame_414
+  - first:
+      213: 4869627931203871400
+    second: adventuregame_415
+  - first:
+      213: 4435291935713155415
+    second: adventuregame_416
+  - first:
+      213: 9139885801512632362
+    second: adventuregame_417
+  - first:
+      213: -5424285635807559660
+    second: adventuregame_418
+  - first:
+      213: 1430858669756620991
+    second: adventuregame_419
+  - first:
+      213: -375352440437587462
+    second: adventuregame_420
+  - first:
+      213: 8081092882108129678
+    second: adventuregame_421
+  - first:
+      213: -7710941689330883731
+    second: adventuregame_422
+  - first:
+      213: -2371551042875099475
+    second: adventuregame_423
+  - first:
+      213: 3883661690018491371
+    second: adventuregame_424
+  - first:
+      213: 1382922678864700543
+    second: adventuregame_425
+  - first:
+      213: -6290550300360029099
+    second: adventuregame_426
+  - first:
+      213: -138309185267785796
+    second: adventuregame_427
+  - first:
+      213: -1093871773175908132
+    second: adventuregame_428
+  - first:
+      213: 6413525770977285511
+    second: adventuregame_429
+  - first:
+      213: 1255952023498396284
+    second: adventuregame_430
+  - first:
+      213: 2911235552410104132
+    second: adventuregame_431
+  - first:
+      213: -8828939521671887905
+    second: adventuregame_432
+  - first:
+      213: -602500352656521664
+    second: adventuregame_433
+  - first:
+      213: 6654619464203076251
+    second: adventuregame_434
+  - first:
+      213: -1834036199781077055
+    second: adventuregame_435
+  - first:
+      213: 2415643406776531086
+    second: adventuregame_436
+  - first:
+      213: 6752463261669120163
+    second: adventuregame_437
+  - first:
+      213: -6279744802701132467
+    second: adventuregame_438
+  - first:
+      213: 443455267492415331
+    second: adventuregame_439
+  - first:
+      213: -6693730866679539867
+    second: adventuregame_440
+  - first:
+      213: 3384629332938422954
+    second: adventuregame_441
+  - first:
+      213: 4625980820561746794
+    second: adventuregame_442
+  - first:
+      213: 8669989046614421195
+    second: adventuregame_443
+  - first:
+      213: -1284960804149674054
+    second: adventuregame_444
+  - first:
+      213: -8416954815767976836
+    second: adventuregame_445
+  - first:
+      213: -5317674286340900351
+    second: adventuregame_446
+  - first:
+      213: 3593724779896376039
+    second: adventuregame_447
+  - first:
+      213: -698471053711295210
+    second: adventuregame_448
+  - first:
+      213: -5694557868182188967
+    second: adventuregame_449
+  - first:
+      213: -4870642924569129875
+    second: adventuregame_450
+  - first:
+      213: 8962846175252813171
+    second: adventuregame_451
+  - first:
+      213: 5494665538408608116
+    second: adventuregame_452
+  - first:
+      213: 2179225737087577429
+    second: adventuregame_453
+  - first:
+      213: -8052501521556480213
+    second: adventuregame_454
+  - first:
+      213: -3510271393541049685
+    second: adventuregame_455
+  - first:
+      213: 8778036349596398173
+    second: adventuregame_456
+  - first:
+      213: 1596981505263219151
+    second: adventuregame_457
+  - first:
+      213: -7095342222220856875
+    second: adventuregame_458
+  - first:
+      213: 3011735642213359807
+    second: adventuregame_459
+  - first:
+      213: 4532812572707621955
+    second: adventuregame_460
+  - first:
+      213: 4142445056463528779
+    second: adventuregame_461
+  - first:
+      213: 2584793182960849544
+    second: adventuregame_462
+  - first:
+      213: -7263424811049648963
+    second: adventuregame_463
+  - first:
+      213: 5634641903659495280
+    second: adventuregame_464
+  - first:
+      213: 1199321761946607573
+    second: adventuregame_465
+  - first:
+      213: 880135371761364508
+    second: adventuregame_466
+  - first:
+      213: -7926585659775099292
+    second: adventuregame_467
+  - first:
+      213: -290678686226487754
+    second: adventuregame_468
+  - first:
+      213: 2252833859081659887
+    second: adventuregame_469
+  - first:
+      213: -2887315600427758887
+    second: adventuregame_470
+  - first:
+      213: 7929292898813695744
+    second: adventuregame_471
+  - first:
+      213: -6852406079559298147
+    second: adventuregame_472
+  - first:
+      213: -6862589534008362620
+    second: adventuregame_473
+  - first:
+      213: -1442934735811492220
+    second: adventuregame_474
+  - first:
+      213: 3901821277883825949
+    second: adventuregame_475
+  - first:
+      213: 5396281198778835180
+    second: adventuregame_476
+  - first:
+      213: -6672862830385919100
+    second: adventuregame_477
+  - first:
+      213: 7036352113330565656
+    second: adventuregame_478
+  - first:
+      213: 4829348475321999391
+    second: adventuregame_479
+  - first:
+      213: 7608684680205117620
+    second: adventuregame_480
+  - first:
+      213: 1515422117778056694
+    second: adventuregame_481
+  - first:
+      213: 7930088071498924674
+    second: adventuregame_482
+  - first:
+      213: 4225672227202316182
+    second: adventuregame_483
+  - first:
+      213: -343802238302747610
+    second: adventuregame_484
+  - first:
+      213: 1282888719635761654
+    second: adventuregame_485
+  - first:
+      213: -7899421791400754943
+    second: adventuregame_486
+  - first:
+      213: 6301671475349990172
+    second: adventuregame_487
+  - first:
+      213: 2713422262155631584
+    second: adventuregame_488
+  - first:
+      213: -6164108016930276477
+    second: adventuregame_489
+  - first:
+      213: -5476943817262337823
+    second: adventuregame_490
+  - first:
+      213: 5796329021330198679
+    second: adventuregame_491
+  - first:
+      213: 8748381818718377516
+    second: adventuregame_492
+  - first:
+      213: 2079629145501999163
+    second: adventuregame_493
+  - first:
+      213: -3594124836809131536
+    second: adventuregame_494
+  - first:
+      213: 7762917791879854525
+    second: adventuregame_495
+  - first:
+      213: 5994270100998981390
+    second: adventuregame_496
+  - first:
+      213: 903356448963663538
+    second: adventuregame_497
+  - first:
+      213: 4470125464237469485
+    second: adventuregame_498
+  - first:
+      213: -3264679020958462623
+    second: adventuregame_499
+  - first:
+      213: -8883062971651517261
+    second: adventuregame_500
+  - first:
+      213: 2579600825422856314
+    second: adventuregame_501
+  - first:
+      213: 8911537108590138647
+    second: adventuregame_502
+  - first:
+      213: 8111460901709282122
+    second: adventuregame_503
+  - first:
+      213: 1883581443199264953
+    second: adventuregame_504
+  - first:
+      213: -3868744524232907671
+    second: adventuregame_505
+  - first:
+      213: -4567599806368560933
+    second: adventuregame_506
+  - first:
+      213: 7608010824047439861
+    second: adventuregame_507
+  - first:
+      213: 1862444452891445478
+    second: adventuregame_508
+  - first:
+      213: 1746983629537950464
+    second: adventuregame_509
+  - first:
+      213: -7939207878439752295
+    second: adventuregame_510
+  - first:
+      213: 6924817606842984155
+    second: adventuregame_511
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -809,7 +1577,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -831,8 +1599,8 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureFormat: 4
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -843,8 +1611,20 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -859,7 +1639,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 240
+        y: 496
         width: 16
         height: 16
       alignment: 0
@@ -880,7 +1660,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 240
+        y: 496
         width: 16
         height: 16
       alignment: 0
@@ -901,7 +1681,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 240
+        y: 496
         width: 16
         height: 16
       alignment: 0
@@ -922,7 +1702,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 240
+        y: 496
         width: 16
         height: 16
       alignment: 0
@@ -943,7 +1723,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 240
+        y: 496
         width: 16
         height: 16
       alignment: 0
@@ -964,7 +1744,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 240
+        y: 496
         width: 16
         height: 16
       alignment: 0
@@ -985,7 +1765,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 240
+        y: 496
         width: 16
         height: 16
       alignment: 0
@@ -1006,7 +1786,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 240
+        y: 496
         width: 16
         height: 16
       alignment: 0
@@ -1027,7 +1807,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 240
+        y: 496
         width: 16
         height: 16
       alignment: 0
@@ -1048,7 +1828,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 240
+        y: 496
         width: 16
         height: 16
       alignment: 0
@@ -1069,7 +1849,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 240
+        y: 496
         width: 16
         height: 16
       alignment: 0
@@ -1090,7 +1870,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 176
-        y: 240
+        y: 496
         width: 16
         height: 16
       alignment: 0
@@ -1111,7 +1891,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 240
+        y: 496
         width: 16
         height: 16
       alignment: 0
@@ -1132,7 +1912,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 240
+        y: 496
         width: 16
         height: 16
       alignment: 0
@@ -1153,7 +1933,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 240
+        y: 496
         width: 16
         height: 16
       alignment: 0
@@ -1174,7 +1954,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 240
+        y: 496
         width: 16
         height: 16
       alignment: 0
@@ -1195,7 +1975,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 224
+        y: 480
         width: 16
         height: 16
       alignment: 0
@@ -1216,7 +1996,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 224
+        y: 480
         width: 16
         height: 16
       alignment: 0
@@ -1237,7 +2017,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 224
+        y: 480
         width: 16
         height: 16
       alignment: 0
@@ -1258,7 +2038,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 224
+        y: 480
         width: 16
         height: 16
       alignment: 0
@@ -1279,7 +2059,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 224
+        y: 480
         width: 16
         height: 16
       alignment: 0
@@ -1300,7 +2080,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 224
+        y: 480
         width: 16
         height: 16
       alignment: 0
@@ -1321,7 +2101,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 224
+        y: 480
         width: 16
         height: 16
       alignment: 0
@@ -1342,7 +2122,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 224
+        y: 480
         width: 16
         height: 16
       alignment: 0
@@ -1363,7 +2143,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 224
+        y: 480
         width: 16
         height: 16
       alignment: 0
@@ -1384,7 +2164,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 224
+        y: 480
         width: 16
         height: 16
       alignment: 0
@@ -1405,7 +2185,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 224
+        y: 480
         width: 16
         height: 16
       alignment: 0
@@ -1426,7 +2206,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 176
-        y: 224
+        y: 480
         width: 16
         height: 16
       alignment: 0
@@ -1447,7 +2227,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 224
+        y: 480
         width: 16
         height: 16
       alignment: 0
@@ -1468,7 +2248,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 224
+        y: 480
         width: 16
         height: 16
       alignment: 0
@@ -1489,7 +2269,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 224
+        y: 480
         width: 16
         height: 16
       alignment: 0
@@ -1510,7 +2290,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 224
+        y: 480
         width: 16
         height: 16
       alignment: 0
@@ -1531,7 +2311,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 208
+        y: 464
         width: 16
         height: 16
       alignment: 0
@@ -1552,7 +2332,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 208
+        y: 464
         width: 16
         height: 16
       alignment: 0
@@ -1573,7 +2353,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 208
+        y: 464
         width: 16
         height: 16
       alignment: 0
@@ -1594,7 +2374,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 208
+        y: 464
         width: 16
         height: 16
       alignment: 0
@@ -1615,7 +2395,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 208
+        y: 464
         width: 16
         height: 16
       alignment: 0
@@ -1636,7 +2416,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 208
+        y: 464
         width: 16
         height: 16
       alignment: 0
@@ -1657,7 +2437,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 208
+        y: 464
         width: 16
         height: 16
       alignment: 0
@@ -1678,7 +2458,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 208
+        y: 464
         width: 16
         height: 16
       alignment: 0
@@ -1699,7 +2479,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 208
+        y: 464
         width: 16
         height: 16
       alignment: 0
@@ -1720,7 +2500,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 208
+        y: 464
         width: 16
         height: 16
       alignment: 0
@@ -1741,7 +2521,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 208
+        y: 464
         width: 16
         height: 16
       alignment: 0
@@ -1762,7 +2542,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 176
-        y: 208
+        y: 464
         width: 16
         height: 16
       alignment: 0
@@ -1783,7 +2563,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 208
+        y: 464
         width: 16
         height: 16
       alignment: 0
@@ -1804,7 +2584,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 208
+        y: 464
         width: 16
         height: 16
       alignment: 0
@@ -1825,7 +2605,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 208
+        y: 464
         width: 16
         height: 16
       alignment: 0
@@ -1846,7 +2626,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 208
+        y: 464
         width: 16
         height: 16
       alignment: 0
@@ -1867,7 +2647,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
+        y: 448
         width: 16
         height: 16
       alignment: 0
@@ -1888,7 +2668,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 192
+        y: 448
         width: 16
         height: 16
       alignment: 0
@@ -1909,7 +2689,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 192
+        y: 448
         width: 16
         height: 16
       alignment: 0
@@ -1930,7 +2710,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 192
+        y: 448
         width: 16
         height: 16
       alignment: 0
@@ -1951,7 +2731,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 192
+        y: 448
         width: 16
         height: 16
       alignment: 0
@@ -1972,7 +2752,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 192
+        y: 448
         width: 16
         height: 16
       alignment: 0
@@ -1993,7 +2773,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 192
+        y: 448
         width: 16
         height: 16
       alignment: 0
@@ -2014,7 +2794,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 192
+        y: 448
         width: 16
         height: 16
       alignment: 0
@@ -2035,7 +2815,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 192
+        y: 448
         width: 16
         height: 16
       alignment: 0
@@ -2056,7 +2836,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 192
+        y: 448
         width: 16
         height: 16
       alignment: 0
@@ -2077,7 +2857,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 192
+        y: 448
         width: 16
         height: 16
       alignment: 0
@@ -2098,7 +2878,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 176
-        y: 192
+        y: 448
         width: 16
         height: 16
       alignment: 0
@@ -2119,7 +2899,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 192
+        y: 448
         width: 16
         height: 16
       alignment: 0
@@ -2140,7 +2920,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 192
+        y: 448
         width: 16
         height: 16
       alignment: 0
@@ -2161,7 +2941,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 192
+        y: 448
         width: 16
         height: 16
       alignment: 0
@@ -2182,7 +2962,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 192
+        y: 448
         width: 16
         height: 16
       alignment: 0
@@ -2203,7 +2983,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 176
+        y: 432
         width: 16
         height: 16
       alignment: 0
@@ -2224,7 +3004,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 176
+        y: 432
         width: 16
         height: 16
       alignment: 0
@@ -2245,7 +3025,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 176
+        y: 432
         width: 16
         height: 16
       alignment: 0
@@ -2266,7 +3046,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 176
+        y: 432
         width: 16
         height: 16
       alignment: 0
@@ -2287,7 +3067,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 176
+        y: 432
         width: 16
         height: 16
       alignment: 0
@@ -2308,7 +3088,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 176
+        y: 432
         width: 16
         height: 16
       alignment: 0
@@ -2329,7 +3109,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 176
+        y: 432
         width: 16
         height: 16
       alignment: 0
@@ -2350,7 +3130,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 176
+        y: 432
         width: 16
         height: 16
       alignment: 0
@@ -2371,7 +3151,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 176
+        y: 432
         width: 16
         height: 16
       alignment: 0
@@ -2392,7 +3172,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 176
+        y: 432
         width: 16
         height: 16
       alignment: 0
@@ -2413,7 +3193,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 176
+        y: 432
         width: 16
         height: 16
       alignment: 0
@@ -2434,7 +3214,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 176
-        y: 176
+        y: 432
         width: 16
         height: 16
       alignment: 0
@@ -2455,7 +3235,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 176
+        y: 432
         width: 16
         height: 16
       alignment: 0
@@ -2476,7 +3256,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 176
+        y: 432
         width: 16
         height: 16
       alignment: 0
@@ -2497,7 +3277,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 176
+        y: 432
         width: 16
         height: 16
       alignment: 0
@@ -2518,7 +3298,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 176
+        y: 432
         width: 16
         height: 16
       alignment: 0
@@ -2539,7 +3319,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 160
+        y: 416
         width: 16
         height: 16
       alignment: 0
@@ -2560,7 +3340,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 160
+        y: 416
         width: 16
         height: 16
       alignment: 0
@@ -2581,7 +3361,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 160
+        y: 416
         width: 16
         height: 16
       alignment: 0
@@ -2602,7 +3382,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 160
+        y: 416
         width: 16
         height: 16
       alignment: 0
@@ -2623,7 +3403,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 160
+        y: 416
         width: 16
         height: 16
       alignment: 0
@@ -2644,7 +3424,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 160
+        y: 416
         width: 16
         height: 16
       alignment: 0
@@ -2665,7 +3445,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 160
+        y: 416
         width: 16
         height: 16
       alignment: 0
@@ -2686,7 +3466,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 160
+        y: 416
         width: 16
         height: 16
       alignment: 0
@@ -2707,7 +3487,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 160
+        y: 416
         width: 16
         height: 16
       alignment: 0
@@ -2728,7 +3508,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 160
+        y: 416
         width: 16
         height: 16
       alignment: 0
@@ -2749,7 +3529,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 160
+        y: 416
         width: 16
         height: 16
       alignment: 0
@@ -2770,7 +3550,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 176
-        y: 160
+        y: 416
         width: 16
         height: 16
       alignment: 0
@@ -2791,7 +3571,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 160
+        y: 416
         width: 16
         height: 16
       alignment: 0
@@ -2812,7 +3592,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 160
+        y: 416
         width: 16
         height: 16
       alignment: 0
@@ -2833,7 +3613,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 160
+        y: 416
         width: 16
         height: 16
       alignment: 0
@@ -2854,7 +3634,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 160
+        y: 416
         width: 16
         height: 16
       alignment: 0
@@ -2875,7 +3655,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 144
+        y: 400
         width: 16
         height: 16
       alignment: 0
@@ -2896,7 +3676,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 144
+        y: 400
         width: 16
         height: 16
       alignment: 0
@@ -2917,7 +3697,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 144
+        y: 400
         width: 16
         height: 16
       alignment: 0
@@ -2938,7 +3718,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 144
+        y: 400
         width: 16
         height: 16
       alignment: 0
@@ -2959,7 +3739,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 144
+        y: 400
         width: 16
         height: 16
       alignment: 0
@@ -2980,7 +3760,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 144
+        y: 400
         width: 16
         height: 16
       alignment: 0
@@ -3001,7 +3781,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 144
+        y: 400
         width: 16
         height: 16
       alignment: 0
@@ -3022,7 +3802,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 144
+        y: 400
         width: 16
         height: 16
       alignment: 0
@@ -3043,7 +3823,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 144
+        y: 400
         width: 16
         height: 16
       alignment: 0
@@ -3064,7 +3844,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 144
+        y: 400
         width: 16
         height: 16
       alignment: 0
@@ -3085,7 +3865,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 144
+        y: 400
         width: 16
         height: 16
       alignment: 0
@@ -3106,7 +3886,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 176
-        y: 144
+        y: 400
         width: 16
         height: 16
       alignment: 0
@@ -3127,7 +3907,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 144
+        y: 400
         width: 16
         height: 16
       alignment: 0
@@ -3148,7 +3928,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 144
+        y: 400
         width: 16
         height: 16
       alignment: 0
@@ -3169,7 +3949,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 144
+        y: 400
         width: 16
         height: 16
       alignment: 0
@@ -3190,7 +3970,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 144
+        y: 400
         width: 16
         height: 16
       alignment: 0
@@ -3211,7 +3991,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
+        y: 384
         width: 16
         height: 16
       alignment: 0
@@ -3232,7 +4012,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 128
+        y: 384
         width: 16
         height: 16
       alignment: 0
@@ -3253,7 +4033,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 128
+        y: 384
         width: 16
         height: 16
       alignment: 0
@@ -3274,7 +4054,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 128
+        y: 384
         width: 16
         height: 16
       alignment: 0
@@ -3295,7 +4075,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 128
+        y: 384
         width: 16
         height: 16
       alignment: 0
@@ -3316,7 +4096,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 128
+        y: 384
         width: 16
         height: 16
       alignment: 0
@@ -3337,7 +4117,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 128
+        y: 384
         width: 16
         height: 16
       alignment: 0
@@ -3358,7 +4138,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 128
+        y: 384
         width: 16
         height: 16
       alignment: 0
@@ -3379,7 +4159,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 128
+        y: 384
         width: 16
         height: 16
       alignment: 0
@@ -3400,7 +4180,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 128
+        y: 384
         width: 16
         height: 16
       alignment: 0
@@ -3421,7 +4201,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 128
+        y: 384
         width: 16
         height: 16
       alignment: 0
@@ -3442,7 +4222,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 176
-        y: 128
+        y: 384
         width: 16
         height: 16
       alignment: 0
@@ -3463,7 +4243,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 128
+        y: 384
         width: 16
         height: 16
       alignment: 0
@@ -3484,7 +4264,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 128
+        y: 384
         width: 16
         height: 16
       alignment: 0
@@ -3505,7 +4285,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 128
+        y: 384
         width: 16
         height: 16
       alignment: 0
@@ -3526,7 +4306,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 128
+        y: 384
         width: 16
         height: 16
       alignment: 0
@@ -3547,7 +4327,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 112
+        y: 368
         width: 16
         height: 16
       alignment: 0
@@ -3568,7 +4348,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 112
+        y: 368
         width: 16
         height: 16
       alignment: 0
@@ -3589,7 +4369,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 112
+        y: 368
         width: 16
         height: 16
       alignment: 0
@@ -3610,7 +4390,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 112
+        y: 368
         width: 16
         height: 16
       alignment: 0
@@ -3631,7 +4411,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 112
+        y: 368
         width: 16
         height: 16
       alignment: 0
@@ -3652,7 +4432,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 112
+        y: 368
         width: 16
         height: 16
       alignment: 0
@@ -3673,7 +4453,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 112
+        y: 368
         width: 16
         height: 16
       alignment: 0
@@ -3694,7 +4474,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 112
+        y: 368
         width: 16
         height: 16
       alignment: 0
@@ -3715,7 +4495,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 112
+        y: 368
         width: 16
         height: 16
       alignment: 0
@@ -3736,7 +4516,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 112
+        y: 368
         width: 16
         height: 16
       alignment: 0
@@ -3757,7 +4537,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 112
+        y: 368
         width: 16
         height: 16
       alignment: 0
@@ -3778,7 +4558,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 176
-        y: 112
+        y: 368
         width: 16
         height: 16
       alignment: 0
@@ -3799,7 +4579,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 112
+        y: 368
         width: 16
         height: 16
       alignment: 0
@@ -3820,7 +4600,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 112
+        y: 368
         width: 16
         height: 16
       alignment: 0
@@ -3841,7 +4621,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 112
+        y: 368
         width: 16
         height: 16
       alignment: 0
@@ -3862,7 +4642,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 112
+        y: 368
         width: 16
         height: 16
       alignment: 0
@@ -3883,7 +4663,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
+        y: 352
         width: 16
         height: 16
       alignment: 0
@@ -3904,7 +4684,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 96
+        y: 352
         width: 16
         height: 16
       alignment: 0
@@ -3925,7 +4705,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 96
+        y: 352
         width: 16
         height: 16
       alignment: 0
@@ -3946,7 +4726,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 96
+        y: 352
         width: 16
         height: 16
       alignment: 0
@@ -3967,7 +4747,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 96
+        y: 352
         width: 16
         height: 16
       alignment: 0
@@ -3988,7 +4768,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 96
+        y: 352
         width: 16
         height: 16
       alignment: 0
@@ -4009,7 +4789,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 96
+        y: 352
         width: 16
         height: 16
       alignment: 0
@@ -4030,7 +4810,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 96
+        y: 352
         width: 16
         height: 16
       alignment: 0
@@ -4051,7 +4831,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 96
+        y: 352
         width: 16
         height: 16
       alignment: 0
@@ -4072,7 +4852,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 96
+        y: 352
         width: 16
         height: 16
       alignment: 0
@@ -4093,7 +4873,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 96
+        y: 352
         width: 16
         height: 16
       alignment: 0
@@ -4114,7 +4894,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 176
-        y: 96
+        y: 352
         width: 16
         height: 16
       alignment: 0
@@ -4135,7 +4915,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 96
+        y: 352
         width: 16
         height: 16
       alignment: 0
@@ -4156,7 +4936,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 96
+        y: 352
         width: 16
         height: 16
       alignment: 0
@@ -4177,7 +4957,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 96
+        y: 352
         width: 16
         height: 16
       alignment: 0
@@ -4198,7 +4978,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 96
+        y: 352
         width: 16
         height: 16
       alignment: 0
@@ -4219,7 +4999,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 80
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -4240,7 +5020,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 80
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -4261,7 +5041,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 80
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -4282,7 +5062,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 80
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -4303,7 +5083,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 80
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -4324,7 +5104,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 80
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -4345,7 +5125,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 80
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -4366,7 +5146,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 80
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -4387,7 +5167,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 80
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -4408,7 +5188,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 80
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -4429,7 +5209,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 80
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -4450,7 +5230,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 176
-        y: 80
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -4471,7 +5251,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 80
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -4492,7 +5272,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 80
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -4513,7 +5293,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 80
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -4534,7 +5314,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 80
+        y: 336
         width: 16
         height: 16
       alignment: 0
@@ -4555,7 +5335,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
+        y: 320
         width: 16
         height: 16
       alignment: 0
@@ -4576,7 +5356,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 64
+        y: 320
         width: 16
         height: 16
       alignment: 0
@@ -4597,7 +5377,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 64
+        y: 320
         width: 16
         height: 16
       alignment: 0
@@ -4618,7 +5398,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 64
+        y: 320
         width: 16
         height: 16
       alignment: 0
@@ -4639,7 +5419,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 64
+        y: 320
         width: 16
         height: 16
       alignment: 0
@@ -4660,7 +5440,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 64
+        y: 320
         width: 16
         height: 16
       alignment: 0
@@ -4681,7 +5461,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 64
+        y: 320
         width: 16
         height: 16
       alignment: 0
@@ -4702,7 +5482,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 64
+        y: 320
         width: 16
         height: 16
       alignment: 0
@@ -4723,7 +5503,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 64
+        y: 320
         width: 16
         height: 16
       alignment: 0
@@ -4744,7 +5524,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 64
+        y: 320
         width: 16
         height: 16
       alignment: 0
@@ -4765,7 +5545,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 64
+        y: 320
         width: 16
         height: 16
       alignment: 0
@@ -4786,7 +5566,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 176
-        y: 64
+        y: 320
         width: 16
         height: 16
       alignment: 0
@@ -4807,7 +5587,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 64
+        y: 320
         width: 16
         height: 16
       alignment: 0
@@ -4828,7 +5608,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 64
+        y: 320
         width: 16
         height: 16
       alignment: 0
@@ -4849,7 +5629,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 64
+        y: 320
         width: 16
         height: 16
       alignment: 0
@@ -4870,7 +5650,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 64
+        y: 320
         width: 16
         height: 16
       alignment: 0
@@ -4891,7 +5671,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
+        y: 304
         width: 16
         height: 16
       alignment: 0
@@ -4912,7 +5692,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 48
+        y: 304
         width: 16
         height: 16
       alignment: 0
@@ -4933,7 +5713,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 48
+        y: 304
         width: 16
         height: 16
       alignment: 0
@@ -4954,7 +5734,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 48
+        y: 304
         width: 16
         height: 16
       alignment: 0
@@ -4975,7 +5755,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 48
+        y: 304
         width: 16
         height: 16
       alignment: 0
@@ -4996,7 +5776,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 48
+        y: 304
         width: 16
         height: 16
       alignment: 0
@@ -5017,7 +5797,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 48
+        y: 304
         width: 16
         height: 16
       alignment: 0
@@ -5038,7 +5818,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 48
+        y: 304
         width: 16
         height: 16
       alignment: 0
@@ -5059,7 +5839,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 48
+        y: 304
         width: 16
         height: 16
       alignment: 0
@@ -5080,7 +5860,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 48
+        y: 304
         width: 16
         height: 16
       alignment: 0
@@ -5101,7 +5881,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 48
+        y: 304
         width: 16
         height: 16
       alignment: 0
@@ -5122,7 +5902,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 176
-        y: 48
+        y: 304
         width: 16
         height: 16
       alignment: 0
@@ -5143,7 +5923,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 48
+        y: 304
         width: 16
         height: 16
       alignment: 0
@@ -5164,7 +5944,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 48
+        y: 304
         width: 16
         height: 16
       alignment: 0
@@ -5185,7 +5965,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 48
+        y: 304
         width: 16
         height: 16
       alignment: 0
@@ -5206,7 +5986,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 48
+        y: 304
         width: 16
         height: 16
       alignment: 0
@@ -5227,7 +6007,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
+        y: 288
         width: 16
         height: 16
       alignment: 0
@@ -5248,7 +6028,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 32
+        y: 288
         width: 16
         height: 16
       alignment: 0
@@ -5269,7 +6049,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 32
+        y: 288
         width: 16
         height: 16
       alignment: 0
@@ -5290,7 +6070,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 32
+        y: 288
         width: 16
         height: 16
       alignment: 0
@@ -5311,7 +6091,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 32
+        y: 288
         width: 16
         height: 16
       alignment: 0
@@ -5332,7 +6112,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 32
+        y: 288
         width: 16
         height: 16
       alignment: 0
@@ -5353,7 +6133,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 32
+        y: 288
         width: 16
         height: 16
       alignment: 0
@@ -5374,7 +6154,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 32
+        y: 288
         width: 16
         height: 16
       alignment: 0
@@ -5395,7 +6175,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 32
+        y: 288
         width: 16
         height: 16
       alignment: 0
@@ -5416,7 +6196,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 32
+        y: 288
         width: 16
         height: 16
       alignment: 0
@@ -5437,7 +6217,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 32
+        y: 288
         width: 16
         height: 16
       alignment: 0
@@ -5458,7 +6238,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 176
-        y: 32
+        y: 288
         width: 16
         height: 16
       alignment: 0
@@ -5479,7 +6259,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 32
+        y: 288
         width: 16
         height: 16
       alignment: 0
@@ -5500,7 +6280,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 32
+        y: 288
         width: 16
         height: 16
       alignment: 0
@@ -5521,7 +6301,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 32
+        y: 288
         width: 16
         height: 16
       alignment: 0
@@ -5542,7 +6322,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 32
+        y: 288
         width: 16
         height: 16
       alignment: 0
@@ -5563,7 +6343,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
+        y: 272
         width: 16
         height: 16
       alignment: 0
@@ -5584,7 +6364,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 16
+        y: 272
         width: 16
         height: 16
       alignment: 0
@@ -5605,7 +6385,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 16
+        y: 272
         width: 16
         height: 16
       alignment: 0
@@ -5626,7 +6406,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 16
+        y: 272
         width: 16
         height: 16
       alignment: 0
@@ -5647,7 +6427,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 16
+        y: 272
         width: 16
         height: 16
       alignment: 0
@@ -5668,7 +6448,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 16
+        y: 272
         width: 16
         height: 16
       alignment: 0
@@ -5689,7 +6469,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 16
+        y: 272
         width: 16
         height: 16
       alignment: 0
@@ -5710,7 +6490,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 16
+        y: 272
         width: 16
         height: 16
       alignment: 0
@@ -5731,7 +6511,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 16
+        y: 272
         width: 16
         height: 16
       alignment: 0
@@ -5752,7 +6532,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 16
+        y: 272
         width: 16
         height: 16
       alignment: 0
@@ -5773,7 +6553,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 16
+        y: 272
         width: 16
         height: 16
       alignment: 0
@@ -5794,7 +6574,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 176
-        y: 16
+        y: 272
         width: 16
         height: 16
       alignment: 0
@@ -5815,7 +6595,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 16
+        y: 272
         width: 16
         height: 16
       alignment: 0
@@ -5836,7 +6616,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 16
+        y: 272
         width: 16
         height: 16
       alignment: 0
@@ -5857,7 +6637,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 16
+        y: 272
         width: 16
         height: 16
       alignment: 0
@@ -5878,7 +6658,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 16
+        y: 272
         width: 16
         height: 16
       alignment: 0
@@ -5899,7 +6679,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 256
         width: 16
         height: 16
       alignment: 0
@@ -5920,7 +6700,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 0
+        y: 256
         width: 16
         height: 16
       alignment: 0
@@ -5941,7 +6721,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 0
+        y: 256
         width: 16
         height: 16
       alignment: 0
@@ -5962,7 +6742,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 0
+        y: 256
         width: 16
         height: 16
       alignment: 0
@@ -5983,7 +6763,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 0
+        y: 256
         width: 16
         height: 16
       alignment: 0
@@ -6004,7 +6784,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 0
+        y: 256
         width: 16
         height: 16
       alignment: 0
@@ -6025,7 +6805,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 0
+        y: 256
         width: 16
         height: 16
       alignment: 0
@@ -6046,7 +6826,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 0
+        y: 256
         width: 16
         height: 16
       alignment: 0
@@ -6067,7 +6847,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 0
+        y: 256
         width: 16
         height: 16
       alignment: 0
@@ -6088,7 +6868,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 0
+        y: 256
         width: 16
         height: 16
       alignment: 0
@@ -6109,7 +6889,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 0
+        y: 256
         width: 16
         height: 16
       alignment: 0
@@ -6130,7 +6910,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 176
-        y: 0
+        y: 256
         width: 16
         height: 16
       alignment: 0
@@ -6151,7 +6931,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 0
+        y: 256
         width: 16
         height: 16
       alignment: 0
@@ -6172,7 +6952,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 0
+        y: 256
         width: 16
         height: 16
       alignment: 0
@@ -6193,7 +6973,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 0
+        y: 256
         width: 16
         height: 16
       alignment: 0
@@ -6214,7 +6994,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 0
+        y: 256
         width: 16
         height: 16
       alignment: 0
@@ -6226,6 +7006,5382 @@ TextureImporter:
       bones: []
       spriteID: 1de469944eae5f430800000000000000
       internalID: 3816214525474393809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_256
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfd3fcf1db024bd0800000000000000
+      internalID: -2647540634420518945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_257
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc3c284695c7ef40800000000000000
+      internalID: 5757787897863093457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_258
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96caff819a76fc140800000000000000
+      internalID: 4742122908610964585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_259
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf50842dc65aa0e90800000000000000
+      internalID: -7058647579146844677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_260
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86c67ef51ec4da20800000000000000
+      internalID: 3086318238514464396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_261
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833f71a621e18a270800000000000000
+      internalID: 8261886580849374008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_262
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2f9c9d2f7f79e90800000000000000
+      internalID: -7018868871825591583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_263
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fe1b6b6628fc110800000000000000
+      internalID: 1283387796487270189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_264
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d25fdf5aa091d070800000000000000
+      internalID: 8129437863807767249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_265
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f6eb2a46101a340800000000000000
+      internalID: 4873177803530333976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_266
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ca2d90164e5d3e0800000000000000
+      internalID: -2029464951632778193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_267
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0817aece3bfb8d0800000000000000
+      internalID: -2828344210838421261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_268
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e3d0a27075e9e70800000000000000
+      internalID: 9123825583381102136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_269
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d26349c0b9b6d950800000000000000
+      internalID: 6473565683333685976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_270
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01dc8d6df7d854d0800000000000000
+      internalID: -3145526856253648630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_271
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27686b54b703e1f90800000000000000
+      internalID: -6981089066368989582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_272
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb712dfd90a808a0800000000000000
+      internalID: -6338639875106833446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_273
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c893437afb854310800000000000000
+      internalID: 1388669967905560771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_274
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82a6e7bbe7c7b050800000000000000
+      internalID: 5816337258988872335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_275
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821415635a2abab00800000000000000
+      internalID: 840944585899327784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_276
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993ce62f640af1150800000000000000
+      internalID: 5845567067925693337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_277
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab4c51f068493e00800000000000000
+      internalID: 1024929971406916512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_278
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3883d39baff5b90800000000000000
+      internalID: -7250801201540201520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_279
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2e95ca7981b8d20800000000000000
+      internalID: 3281743793180238584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_280
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634f72d4123503670800000000000000
+      internalID: 8516398297851098166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_281
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b70ee56d35115b70800000000000000
+      internalID: 8885906893225985968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_282
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e54a64a33773720800000000000000
+      internalID: 2825853985328750183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_283
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652234ca5a99ec300800000000000000
+      internalID: 274325564154913366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_284
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fa06135f89ea390800000000000000
+      internalID: -7805132925323661509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_285
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b87e30a2f4867e90800000000000000
+      internalID: -7028283990859679568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_286
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9dbcd8dbc929d400800000000000000
+      internalID: 349356401591369116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_287
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527fbc7962a046060800000000000000
+      internalID: 6945687686183909157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_288
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6771496909fae1ce0800000000000000
+      internalID: -1432514595920799882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_289
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587cfec25054eb4b0800000000000000
+      internalID: -5422821012776433787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_290
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab04625e86c4a200800000000000000
+      internalID: 190495398826347439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_291
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da84b6fccc21cd10800000000000000
+      internalID: 2144044156429044435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_292
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d0f59279e5fee70800000000000000
+      internalID: 9146633371539934507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_293
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d6f004ea3030b70800000000000000
+      internalID: 8863932538529213801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_294
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f17bfba95e422d0800000000000000
+      internalID: -3304263773778927719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_295
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cae43afe06ed82e0800000000000000
+      internalID: -2121786897419932984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_296
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee39add225b41340800000000000000
+      internalID: 4833687461427756780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_297
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dad51fdfe43b8fd0800000000000000
+      internalID: -2338717376644261165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_298
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab41340abce45610800000000000000
+      internalID: 1609171250556521390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_299
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe316442420074c0800000000000000
+      internalID: -4291927961245761808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_300
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f2e161e2ebc5da0800000000000000
+      internalID: -5954675502141788390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_301
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1287295738c99b690800000000000000
+      internalID: -7585860008901707743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_302
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2beac0e1d24d5a3b0800000000000000
+      internalID: -5501758079520428366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_303
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ccaa16d153adb60800000000000000
+      internalID: 7771582507290119245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_304
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1dfcb8e004fcd00800000000000000
+      internalID: 995084473891541482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_305
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7f564a02e53e970800000000000000
+      internalID: 8782967192592709624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_306
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77496c77bf0b807c0800000000000000
+      internalID: -4104836466255424393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_307
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0b6a96c3e1af170800000000000000
+      internalID: 8212910115282923729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_308
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecb786246785da50800000000000000
+      internalID: 6545286497665793255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_309
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed2ae3ff72d83eb0800000000000000
+      internalID: -4739807160812556822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_310
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd87b0c9d7ea025d0800000000000000
+      internalID: -3089277489864017701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_311
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbaedd504a468330800000000000000
+      internalID: 3712736583126789106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_312
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf49b0e93c413a6c0800000000000000
+      internalID: -4133437202593245956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_313
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee32e080ebf8ae80800000000000000
+      internalID: -8167000982582837532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_314
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02672341ffa52b0d0800000000000000
+      internalID: -3408561916364032480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_315
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ef85f78e2ef0b10800000000000000
+      internalID: 1950026651871542855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_316
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa86179d3c58f7e30800000000000000
+      internalID: 4503465228606990511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_317
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff37f0b2c37786d0800000000000000
+      internalID: -2988292547707191312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_318
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f3ec5304482c8d0800000000000000
+      internalID: -2827552204719767770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_319
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01eb380835dc932c0800000000000000
+      internalID: -4451300998156927472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_320
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab96f9a7742e9d3a0800000000000000
+      internalID: -6640027378953262662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_321
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463a65c180e287240800000000000000
+      internalID: 4789628816078578532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_322
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcd3ec1b24da9e50800000000000000
+      internalID: 6816994267612044535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_323
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54836b8467863ada0800000000000000
+      internalID: -5934785026708850619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_324
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfeb97006ff7d6c0800000000000000
+      internalID: -4118542546297425969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_325
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fc63deb2edae0b0800000000000000
+      internalID: -5698498098239189221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_326
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d175c5c8593009670800000000000000
+      internalID: 8543332433961703197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_327
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19cac0bf688544b0800000000000000
+      internalID: -5456805360200660707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_328
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35eb16b6626b8b50800000000000000
+      internalID: 6596474272495691069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_329
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97ac95079113a380800000000000000
+      internalID: -8961299493205268578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_330
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cf633462b534210800000000000000
+      internalID: 1315995736016878748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_331
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7f4a83e622e3a80800000000000000
+      internalID: -8485306791127353418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_332
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ac3297f88607ca0800000000000000
+      internalID: -6021197736372352463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_333
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e1b73906132da50800000000000000
+      internalID: 6544347499383692800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_334
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e4c4a019d05f180800000000000000
+      internalID: -9082338156928545203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_335
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e9fc516e974e410800000000000000
+      internalID: 1505462204563955238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_336
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0356a3932247609f0800000000000000
+      internalID: -502586618067393232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_337
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f042671e85199490800000000000000
+      internalID: -7739130784637632266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_338
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f0415b00e79b5f0800000000000000
+      internalID: -740422122222645399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_339
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9651df831db9190800000000000000
+      internalID: -7954534274125436504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_340
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25df32619a8ba8b80800000000000000
+      internalID: -8391691919291056814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_341
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e241de16c0c1c3c0800000000000000
+      internalID: -4340976608655359261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_342
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a289311ddfdf860800000000000000
+      internalID: 7565482023471032918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_343
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9154ea58e0770a080800000000000000
+      internalID: -9178205136325032679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_344
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a325a700ae6842110800000000000000
+      internalID: 1235260537394844218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_345
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a71f0ec18f4344c0800000000000000
+      internalID: -4304509399909591134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_346
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5453d5e1b18f680b0800000000000000
+      internalID: -5726617080797776571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_347
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49dd03be1d9d2ee0800000000000000
+      internalID: -1284197563552114354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_348
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e14eaa0f559e870800000000000000
+      internalID: 8712589446272523784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_349
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef1124bb80b589b0800000000000000
+      internalID: -5078458890721353745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_350
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6512a23e0027b06f0800000000000000
+      internalID: -717354367498706602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_351
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e141609b8a808adc0800000000000000
+      internalID: -3627639979095223266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_352
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a54af9bd440de70800000000000000
+      internalID: 9137879354001611343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_353
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977def1119b261200800000000000000
+      internalID: 150355539635656569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_354
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd12cdf471598160800000000000000
+      internalID: 7028238256403783116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_355
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01168296a04d09c0800000000000000
+      internalID: -3959437413221789425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_356
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067fb42f1a15cf430800000000000000
+      internalID: 3818016340099987296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_357
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4b065478c9c7450800000000000000
+      internalID: 6087912901096551663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_358
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eac14429dc008980800000000000000
+      internalID: -8538810766738732311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_359
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d70f35c8005bba80800000000000000
+      internalID: -8450072277231401006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_360
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420dcc391c9d078a0800000000000000
+      internalID: -6309303652514475996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_361
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448306f1d8eb6ed20800000000000000
+      internalID: 3307540489676273732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_362
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157ad3191934e6ad0800000000000000
+      internalID: -2707152033517033647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_363
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8655f66d582877860800000000000000
+      internalID: 7527628813512955240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_364
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da01391d58b2e170800000000000000
+      internalID: 8206324181016578772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_365
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d2c7be8ae2af3e0800000000000000
+      internalID: -2019250179882078823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_366
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6127ec5adc3ab950800000000000000
+      internalID: 6465547123602956654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_367
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d091b2037fdffd0800000000000000
+      internalID: -2306415647890272992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_368
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf90d61dc428342e0800000000000000
+      internalID: -2142725731255514628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_369
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346d5fad3abe783a0800000000000000
+      internalID: -6663098034685618621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_370
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e87e958ae9ee940800000000000000
+      internalID: 5327369855125917240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_371
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5482a7409299e2b00800000000000000
+      internalID: 805749784793720901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_372
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0398b8b4933b800800000000000000
+      internalID: 626907769760985331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_373
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd96e72102f470b0800000000000000
+      internalID: -5731690338957484550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_374
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c234dd048136e9190800000000000000
+      internalID: -7953810936071109844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_375
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9f6883c66f76730800000000000000
+      internalID: 3992430539352504772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_376
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b238e4dd0f65cc60800000000000000
+      internalID: 7837792831705461432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_377
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171f6491d20113390800000000000000
+      internalID: -7840467690391670415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_378
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed6e6f7d4c6d6bb0800000000000000
+      internalID: -4941174136049340950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_379
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4334f913032a480800000000000000
+      internalID: -8889489724792425304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_380
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0738399b7babbef0800000000000000
+      internalID: -91290820091037940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_381
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d3e4f628db1c4e0800000000000000
+      internalID: -1963079594646028917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_382
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ead4f502783dda0800000000000000
+      internalID: -5921240511954440694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_383
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f46372608445f50800000000000000
+      internalID: 6869194522911723378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_384
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344eb35f84bc86d50800000000000000
+      internalID: 6730853157317633091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_385
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66791cae11eb50750800000000000000
+      internalID: 6270627040345560934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_386
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2d78541c4e68090800000000000000
+      internalID: -8032481366622350660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_387
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1da426c6ff1b500800000000000000
+      internalID: 410389882038047136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_388
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311951138a5c12ae0800000000000000
+      internalID: -1575761068434288365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_389
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910f6ab9be1dff620800000000000000
+      internalID: 2810195502361407513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_390
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc93c46eba8341e0800000000000000
+      internalID: -2214774041397191503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_391
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed93ff22ba379c460800000000000000
+      internalID: 7262463052975389150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_392
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d515132b069a280800000000000000
+      internalID: -9031581259266957987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_393
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365f9a001c0bb13f0800000000000000
+      internalID: -928954555135560349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_394
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f11f948066efa4d0800000000000000
+      internalID: -3121022714528198158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_395
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5968ef2ab5902300800000000000000
+      internalID: 225344608268740958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_396
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493797f00a6f48fc0800000000000000
+      internalID: -3493396243617844332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_397
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861601d2e8dba3320800000000000000
+      internalID: 2538549758315749736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_398
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c11316bc789a9c0800000000000000
+      internalID: -3915449093443216285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_399
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58fd2b183d1be1c0800000000000000
+      internalID: -4473449678051084193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_400
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404e37c40f5456b60800000000000000
+      internalID: 7738668433083196420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_401
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2f863f98ac908b0800000000000000
+      internalID: -5185390802097343782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_402
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a573b9d45f150a440800000000000000
+      internalID: 4945042504863659866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_403
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cffac5d4652eab50800000000000000
+      internalID: 6606258818412904387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_404
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd7cc86162634c90800000000000000
+      internalID: -7186792409843597884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_405
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28451352e62ebda0800000000000000
+      internalID: -5927257306074626005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_406
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f9964b64723ea30800000000000000
+      internalID: 4243278458541154156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_407
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01a618ae8da376d0800000000000000
+      internalID: -2993858499054231285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_408
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7dc7665af43ad3e0800000000000000
+      internalID: -2028250432380875393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_409
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bdad6c882fbcd90800000000000000
+      internalID: -7076295720216896764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_410
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e315e53a42a4090800000000000000
+      internalID: -8049581099890688446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_411
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598d0f24f66749cf0800000000000000
+      internalID: -246441859362006891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_412
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158452a4423874ab0800000000000000
+      internalID: -5023902667422480303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_413
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f893bc6ef145500800000000000000
+      internalID: 383966944345820970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_414
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349311dbf80ea2160800000000000000
+      internalID: 7001655478657825091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_415
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a22ab39dc4649340800000000000000
+      internalID: 4869627931203871400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_416
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759565f24825d8d30800000000000000
+      internalID: 4435291935713155415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_417
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a200cc616b567de70800000000000000
+      internalID: 9139885801512632362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_418
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410cf6d04f019b4b0800000000000000
+      internalID: -5424285635807559660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_419
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0a1ae016e6bd310800000000000000
+      internalID: 1430858669756620991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_420
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af14422b1fa7acaf0800000000000000
+      internalID: -375352440437587462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_421
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e812efa292fc52070800000000000000
+      internalID: 8081092882108129678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_422
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63aeab436b3df490800000000000000
+      internalID: -7710941689330883731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_423
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6f8ba34ee861fd0800000000000000
+      internalID: -2371551042875099475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_424
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb68550bb985e530800000000000000
+      internalID: 3883661690018491371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_425
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74ef8179d0213310800000000000000
+      internalID: 1382922678864700543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_426
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c4051a4d973b8a0800000000000000
+      internalID: -6290550300360029099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_427
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf90fe5780a41ef0800000000000000
+      internalID: -138309185267785796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_428
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8f50afa69c1d0f0800000000000000
+      internalID: -1093871773175908132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_429
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7851ae855bb610950800000000000000
+      internalID: 6413525770977285511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_430
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c721e8706b90e6110800000000000000
+      internalID: 1255952023498396284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_431
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44174ee7f49c66820800000000000000
+      internalID: 2911235552410104132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_432
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd30753684e497580800000000000000
+      internalID: -8828939521671887905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_433
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0464cd61f1d73a7f0800000000000000
+      internalID: -602500352656521664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_434
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92893f1525f95c50800000000000000
+      internalID: 6654619464203076251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_435
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf67de1bc13c86e0800000000000000
+      internalID: -1834036199781077055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_436
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88fdec31e6168120800000000000000
+      internalID: 2415643406776531086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_437
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8d9a67f8195bd50800000000000000
+      internalID: 6752463261669120163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_438
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4db4ea9f5dd9d8a0800000000000000
+      internalID: -6279744802701132467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_439
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36749ac5738772600800000000000000
+      internalID: 443455267492415331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_440
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5679f7ddd371b13a0800000000000000
+      internalID: -6693730866679539867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_441
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa792e127e98fe20800000000000000
+      internalID: 3384629332938422954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_442
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b5a5bfb09c23040800000000000000
+      internalID: 4625980820561746794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_443
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bceeaf13a1df15870800000000000000
+      internalID: 8669989046614421195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_444
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfbb56e4f6ea2ee0800000000000000
+      internalID: -1284960804149674054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_445
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74e2a3a038f03b80800000000000000
+      internalID: -8416954815767976836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_446
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10afb6b2963d336b0800000000000000
+      internalID: -5317674286340900351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_447
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea0e3e95a97fd130800000000000000
+      internalID: 3593724779896376039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_448
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d35adf6488e46f0800000000000000
+      internalID: -698471053711295210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_449
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c481a3acdd8f0b0800000000000000
+      internalID: -5694557868182188967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_450
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c894dd010086cb0800000000000000
+      internalID: -4870642924569129875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_451
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3759964fb1d626c70800000000000000
+      internalID: 8962846175252813171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_452
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471fc68f139f04c40800000000000000
+      internalID: 5494665538408608116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_453
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d6e78034a2e3e10800000000000000
+      internalID: 2179225737087577429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_454
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f5556b784cf3090800000000000000
+      internalID: -8052501521556480213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_455
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba235ca04c2094fc0800000000000000
+      internalID: -3510271393541049685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_456
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52f82b4d89d1d970800000000000000
+      internalID: 8778036349596398173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_457
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc13516c73e992610800000000000000
+      internalID: 1596981505263219151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_458
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1f1b477d7488d90800000000000000
+      internalID: -7095342222220856875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_459
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0a2871c95dbc920800000000000000
+      internalID: 3011735642213359807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_460
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c89add409c7ee30800000000000000
+      internalID: 4532812572707621955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_461
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43e41cc4dbec7930800000000000000
+      internalID: 4142445056463528779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_462
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8829b3084b70fd320800000000000000
+      internalID: 2584793182960849544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_463
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc70ac1e91233b90800000000000000
+      internalID: -7263424811049648963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_464
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fa72035f4423e40800000000000000
+      internalID: 5634641903659495280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_465
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df1938c9c8d4a010800000000000000
+      internalID: 1199321761946607573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_466
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ea71c157ed63c00800000000000000
+      internalID: 880135371761364508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_467
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e566bd65c1ff190800000000000000
+      internalID: -7926585659775099292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_468
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63661b3664d47fbf0800000000000000
+      internalID: -290678686226487754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_469
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5e884757ca34f10800000000000000
+      internalID: 2252833859081659887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_470
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da4f0252c13ee7d0800000000000000
+      internalID: -2887315600427758887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_471
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00751d951e18a0e60800000000000000
+      internalID: 7929292898813695744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_472
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93142be9fc57e0a0800000000000000
+      internalID: -6852406079559298147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_473
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4893e1aad2f23c0a0800000000000000
+      internalID: -6862589534008362620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_474
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48642e5b08aa9fbe0800000000000000
+      internalID: -1442934735811492220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_475
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f735d87cd062630800000000000000
+      internalID: 3901821277883825949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_476
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0e459d82173ea40800000000000000
+      internalID: 5396281198778835180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_477
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b80ff2c9a3563a0800000000000000
+      internalID: -6672862830385919100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_478
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81233a587f426a160800000000000000
+      internalID: 7036352113330565656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_479
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f106420f9da450340800000000000000
+      internalID: 4829348475321999391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_480
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b82593776a779960800000000000000
+      internalID: 7608684680205117620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_481
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f56ee6136cd70510800000000000000
+      internalID: 1515422117778056694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_482
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282814be5155d0e60800000000000000
+      internalID: 7930088071498924674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_483
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697b0a7808a94aa30800000000000000
+      internalID: 4225672227202316182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_484
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6240bf09fa19a3bf0800000000000000
+      internalID: -343802238302747610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_485
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9ce345e7cbdc110800000000000000
+      internalID: 1282888719635761654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_486
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1010490dbbd9f5290800000000000000
+      internalID: -7899421791400754943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_487
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ba273b1d8047750800000000000000
+      internalID: 6301671475349990172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_488
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb5c6dcb2308a520800000000000000
+      internalID: 2713422262155631584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_489
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bbbbdda60b47aa0800000000000000
+      internalID: -6164108016930276477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_490
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e07e45cd9cfdf3b0800000000000000
+      internalID: -5476943817262337823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_491
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7909cadd882b07050800000000000000
+      internalID: 5796329021330198679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_492
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26d138c9ee786970800000000000000
+      internalID: 8748381818718377516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_493
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30223280b35cdc10800000000000000
+      internalID: 2079629145501999163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_494
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9359fd08a1f1ec0800000000000000
+      internalID: -3594124836809131536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_495
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9fe8d1a9c6bbb60800000000000000
+      internalID: 7762917791879854525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_496
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e070ac9d5ecef2350800000000000000
+      internalID: 5994270100998981390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_497
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6990677ed598c00800000000000000
+      internalID: 903356448963663538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_498
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f6d4d0d63190e30800000000000000
+      internalID: 4470125464237469485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_499
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16dc91a3ab781b2d0800000000000000
+      internalID: -3264679020958462623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_500
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b41941ba4509b480800000000000000
+      internalID: -8883062971651517261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_501
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7042ad88459cc320800000000000000
+      internalID: 2579600825422856314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_502
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7151a30f8c32cab70800000000000000
+      internalID: 8911537108590138647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_503
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bf9d7b6b2b19070800000000000000
+      internalID: 8111460901709282122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_504
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8e86bc753d32a10800000000000000
+      internalID: 1883581443199264953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_505
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9642c5a4a557f4ac0800000000000000
+      internalID: -3868744524232907671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_506
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd842412d20ac90c0800000000000000
+      internalID: -4567599806368560933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_507
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffaca61985159960800000000000000
+      internalID: 7608010824047439861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_508
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8cd7cbc5bb8d910800000000000000
+      internalID: 1862444452891445478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_509
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b380bea588e3810800000000000000
+      internalID: 1746983629537950464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_510
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99dad9f8f7442d190800000000000000
+      internalID: -7939207878439752295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adventuregame_511
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd62f369ce4e91060800000000000000
+      internalID: 6924817606842984155
       vertices: []
       indices: 
       edges: []

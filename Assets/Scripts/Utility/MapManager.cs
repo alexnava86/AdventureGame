@@ -130,9 +130,10 @@ public class MapManager : MonoBehaviour
                         if (json["tilesets"][tilesets]["tiles"][tileanims]["animation"] != null)
                         {
                             List<Sprite> frames = new List<Sprite>();
-                            AnimatedTile at = new AnimatedTile();
+                            AnimatedTile at = ScriptableObject.CreateInstance(typeof(AnimatedTile)) as AnimatedTile;//new AnimatedTile();
                             int animationID = json["tilesets"][tilesets]["tiles"][tileanims]["id"].AsInt + tileIDOffset;
                             int frameCount = json["tilesets"][tilesets]["tiles"][tileanims]["animation"].AsArray.Count;
+                            //at = AnimatedTile.CreateInstance();
 
                             for (int animFrames = 0; animFrames < frameCount; animFrames++)
                             {
@@ -141,6 +142,8 @@ public class MapManager : MonoBehaviour
                             }
                             at.m_AnimatedSprites = frames.ToArray();
                             tileAnimations.Add(animationID, at);
+                            tileAnimations[animationID].m_MinSpeed = 14f;
+                            tileAnimations[animationID].m_MaxSpeed = 14f;
                         }
                     }
                 }
@@ -175,7 +178,7 @@ public class MapManager : MonoBehaviour
             for (int layer = 0; layer < map.LayerCount; layer++)
             {
                 //Load the ground/collision layer
-                if (json["layers"][layer]["name"].ToString().Trim('"') == "Ground")
+                if (json["layers"][layer]["name"].ToString().Trim('"') == "GROUND")
                 {
                     string tint = json["layers"][layer]["tintcolor"] != null ? json["layers"][layer]["tintcolor"].ToString() : "#ffffff";
                     float alpha = json["layers"][layer]["opacity"] != null ? json["layers"][layer]["opacity"].AsFloat : 1f;
