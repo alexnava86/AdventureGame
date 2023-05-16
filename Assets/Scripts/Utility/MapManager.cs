@@ -117,23 +117,38 @@ public class MapManager : MonoBehaviour
                     path = path + paths[paths.Length - 1] + "/Tiles/";
                     tileset = Resources.LoadAll(path).OfType<Tile>().ToList();
                     tileset = tileset.OrderBy(i => Convert.ToInt16(Regex.Match(i.name, @"_[0-9]+").Captures[0].Value.Trim('_'))).ToList();
+                    /*
+                    try
+                    {
+                        //Debug.Log(path);
+                        //Debug.Log(tilesets + " Successful");
+                        tileset = Resources.LoadAll(path).OfType<Tile>().ToList();
+                        tileset = tileset.OrderBy(i => Convert.ToInt16(Regex.Match(i.name, @"_[0-9]+").Captures[0].Value.Trim('_'))).ToList();
+                        //Debug.Log(Resources.Load(path).ToString());//tileset[tileset.Count - 1].sprite.name);
+                    }
+                    catch (Exception e)
+                    {
+                        //Debug.Log(path);
+                        //Debug.Log(tilesets + " Failed");
+                        //Debug.Log(e);
+                    }
+                    */
 
                     //Add the loaded tiles to the tile dictionary...
                     for (int tile = 0; tile < json["tilesets"][tilesets]["tilecount"].AsInt; tile++)
                     {
                         tiles.Add((int)tile + tileIDOffset, tileset[tile]);
                     }
-
+                    
                     //Now create and add the tile animations...
                     for (int tileanims = 0; tileanims < json["tilesets"][tilesets]["tiles"].AsArray.Count; tileanims++)
                     {
                         if (json["tilesets"][tilesets]["tiles"][tileanims]["animation"] != null)
                         {
                             List<Sprite> frames = new List<Sprite>();
-                            AnimatedTile at = ScriptableObject.CreateInstance(typeof(AnimatedTile)) as AnimatedTile;//new AnimatedTile();
+                            AnimatedTile at = ScriptableObject.CreateInstance(typeof(AnimatedTile)) as AnimatedTile;
                             int animationID = json["tilesets"][tilesets]["tiles"][tileanims]["id"].AsInt + tileIDOffset;
                             int frameCount = json["tilesets"][tilesets]["tiles"][tileanims]["animation"].AsArray.Count;
-                            //at = AnimatedTile.CreateInstance();
 
                             for (int animFrames = 0; animFrames < frameCount; animFrames++)
                             {
@@ -142,12 +157,11 @@ public class MapManager : MonoBehaviour
                             }
                             at.m_AnimatedSprites = frames.ToArray();
                             tileAnimations.Add(animationID, at);
-                            tileAnimations[animationID].m_MinSpeed = 14f;
-                            tileAnimations[animationID].m_MaxSpeed = 14f;
+                            tileAnimations[animationID].m_MinSpeed = 1000 / json["tilesets"][tilesets]["tiles"][tileanims]["animation"][0]["duration"].AsUInt; //json["tilesets"][tilesets]["tiles"][tileanims]["animation"][animationID]["duration"].AsUInt //14f;
+                            tileAnimations[animationID].m_MaxSpeed = 1000 / json["tilesets"][tilesets]["tiles"][tileanims]["animation"][0]["duration"].AsUInt; //json["tilesets"][tilesets]["tiles"][tileanims]["animation"][animationID]["duration"].AsUInt //14f;
                         }
                     }
                 }
-
                 //Create the object sets and add to the object dictionary...
                 catch
                 {
@@ -174,6 +188,7 @@ public class MapManager : MonoBehaviour
                     }
                 }
             }
+            //Debug.Log(tiles[544].sprite.name);
 
             for (int layer = 0; layer < map.LayerCount; layer++)
             {
@@ -217,7 +232,7 @@ public class MapManager : MonoBehaviour
                         xscale = ((tileID & flippedHorizontally) != 0) ? -1f : 1f;
                         yscale = ((tileID & flippedVertically) != 0) ? -1f : 1f;
                         rotation = ((tileID & flippedDiagonally) != 0) ? -90f : 0f;
-                        tileID = (tileID & ~(flippedHorizontally | flippedVertically | flippedDiagonally));
+                        tileID &= ~(flippedHorizontally | flippedVertically | flippedDiagonally);
 
                         Matrix4x4 matrix = Matrix4x4.TRS(Vector3.zero, Quaternion.Euler(0f, Mathf.Round(rotation * 2f), rotation * xscale * yscale), new Vector3(xscale, yscale, 1f));
 
@@ -258,7 +273,7 @@ public class MapManager : MonoBehaviour
                         xscale = ((objectID & flippedHorizontally) != 0) ? -1f : 1f;
                         yscale = ((objectID & flippedVertically) != 0) ? -1f : 1f;
                         rotation = json["layers"][layer]["objects"][i]["rotation"].AsFloat * -1;
-                        objectID = (objectID & ~(flippedHorizontally | flippedVertically | flippedDiagonally));
+                        objectID &= ~(flippedHorizontally | flippedVertically | flippedDiagonally);
 
                         if (objectID != 0)
                         {
@@ -390,5 +405,4 @@ public class MapManager : MonoBehaviour
         }
     }
     #endregion
-
 }

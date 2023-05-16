@@ -59,6 +59,7 @@ public class SmoothFollow : MonoBehaviour
                 {
                     var leftOffset = cameraOffset;
                     leftOffset.x *= -1;
+                    //this.transform.position = Vector3.SmoothDamp(transform.position, target.position - leftOffset, ref _smoothDampVelocity, smoothDampTime);
                     this.transform.position = Vector3.SmoothDamp(transform.position, target.position - leftOffset, ref _smoothDampVelocity, smoothDampTime);
                 }
             }

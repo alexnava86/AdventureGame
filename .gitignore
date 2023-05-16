@@ -10,6 +10,8 @@
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
+/[Pp]reviews/
+/[Dd]ocumentation/
 /[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.

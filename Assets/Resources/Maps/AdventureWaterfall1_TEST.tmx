@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="96" height="84" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="5">
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="96" height="84" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="17">
  <tileset firstgid="1" name="AdventureSet" tilewidth="16" tileheight="16" tilecount="512" columns="16">
   <transformations hflip="1" vflip="1" rotate="1" preferuntransformed="0"/>
   <image source="../Art/Tilesets/Dungeons/adventuregame/adventuregame.png" width="256" height="512"/>
@@ -98,7 +98,7 @@
   </tile>
  </tileset>
  <tileset firstgid="513" name="Objects" tilewidth="1" tileheight="1" tilecount="0" columns="0"/>
- <tileset firstgid="513" name="Items" tilewidth="26" tileheight="22" tilecount="5" columns="0">
+ <tileset firstgid="513" name="Items" tilewidth="26" tileheight="22" tilecount="5" columns="0" objectalignment="center">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
    <image width="10" height="11" source="../Art/Items/#Placeholder/Apple.png"/>
@@ -116,7 +116,7 @@
    <image width="26" height="22" source="../Art/Items/#Placeholder/Watermelon.png"/>
   </tile>
  </tileset>
- <tileset firstgid="518" name="#Tools" tilewidth="33" tileheight="16" tilecount="2" columns="0">
+ <tileset firstgid="518" name="#Tools" tilewidth="33" tileheight="16" tilecount="2" columns="0" objectalignment="center">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
    <image width="33" height="16" source="../Art/Tools/Start.png"/>
@@ -124,6 +124,9 @@
   <tile id="1">
    <image width="22" height="16" source="../Art/Tools/End.png"/>
   </tile>
+ </tileset>
+ <tileset firstgid="520" name="Zelda2TheAdventureOfLink-Palace1" tilewidth="16" tileheight="16" tilecount="24" columns="8">
+  <image source="../Art/Tilesets/Dungeons/Placeholder/Zelda2TheAdventureOfLink-Palace1/Zelda2TheAdventureOfLink-Palace1.png" width="128" height="48"/>
  </tileset>
  <layer id="8" name="SKY" width="96" height="84" tintcolor="#4824a0">
   <data encoding="csv">
@@ -395,9 +398,9 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,520,0,2684355080,0,3221225992,0,1610613256,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,2147484168,0,3221225992,0,1610613256,0,520,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -477,6 +480,14 @@
 58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,0,3,3,3,0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58
 </data>
  </layer>
+ <objectgroup id="11" name="ITEM">
+  <object id="7" gid="513" x="5" y="6" width="10" height="11"/>
+  <object id="9" gid="514" x="12" y="20" width="24" height="16"/>
+  <object id="10" gid="2147484162" x="23" y="8" width="24" height="16"/>
+  <object id="13" gid="1073742338" x="40" y="22" width="24" height="16"/>
+  <object id="14" gid="515" x="24" y="31" width="13" height="11" rotation="90"/>
+  <object id="16" gid="517" x="42" y="41" width="26" height="22"/>
+ </objectgroup>
  <layer id="5" name="WATER" width="96" height="84">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AdventureWaterfall1_DAY.unity
     guid: fd0820c40773f4f15ba401aead73f350
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AdventureWaterfall1_NIGHT.unity
     guid: 1117a5e73318e44a890fd826fb036e9b
   m_configObjects:

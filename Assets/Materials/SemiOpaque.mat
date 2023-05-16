@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SemiOpaque
-  m_Shader: {fileID: 4800000, guid: 3c441fd0ac2034f7480060520d1253ee, type: 3}
+  m_Shader: {fileID: 4800000, guid: 58d55ba443b844557a223c98f60ea207, type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
