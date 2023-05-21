@@ -515,6 +515,10 @@ PrefabInstance:
       propertyPath: jumpHeight
       value: 320
       objectReference: {fileID: 0}
+    - target: {fileID: 2006459579, guid: 853bfbf59326f405385e66a7a00a49ad, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7423360054341984121, guid: 853bfbf59326f405385e66a7a00a49ad,
         type: 3}
       propertyPath: m_ActionEvents.Array.size

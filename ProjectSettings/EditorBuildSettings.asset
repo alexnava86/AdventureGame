@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AdventureWaterfall1_DAY.unity
     guid: fd0820c40773f4f15ba401aead73f350
   - enabled: 0

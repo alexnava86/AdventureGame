@@ -121,6 +121,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &301786948 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 428912, guid: 853bfbf59326f405385e66a7a00a49ad,
+    type: 3}
+  m_PrefabInstance: {fileID: 1515936764}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &476945442
 GameObject:
   m_ObjectHideFlags: 0
@@ -516,6 +522,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4672052571193393409, guid: b27dcf90a06d244d2ad1a58fa1d30ef5,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 301786948}
     - target: {fileID: 4672052571193393466, guid: b27dcf90a06d244d2ad1a58fa1d30ef5,
         type: 3}
       propertyPath: m_Name
