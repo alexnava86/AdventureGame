@@ -91,7 +91,7 @@
          "id":8,
          "name":"SKY",
          "opacity":1,
-         "tintcolor":"#a0d8ff",
+         "tintcolor":"#fff0ff",
          "type":"tilelayer",
          "visible":true,
          "width":96,
