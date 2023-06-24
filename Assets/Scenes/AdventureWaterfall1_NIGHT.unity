@@ -121,12 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!20 &452200428 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 4672052571193393470, guid: b27dcf90a06d244d2ad1a58fa1d30ef5,
-    type: 3}
-  m_PrefabInstance: {fileID: 4672052569867053024}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &476945442
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,72 +355,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1515936764}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &936175874
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2011724800}
-    m_Modifications:
-    - target: {fileID: 136166, guid: 606d67c9d811e46f8a94a4a86ddc38d5, type: 3}
-      propertyPath: m_Name
-      value: GameManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 136166, guid: 606d67c9d811e46f8a94a4a86ddc38d5, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 457700, guid: 606d67c9d811e46f8a94a4a86ddc38d5, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 457700, guid: 606d67c9d811e46f8a94a4a86ddc38d5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -256
-      objectReference: {fileID: 0}
-    - target: {fileID: 457700, guid: 606d67c9d811e46f8a94a4a86ddc38d5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 400
-      objectReference: {fileID: 0}
-    - target: {fileID: 457700, guid: 606d67c9d811e46f8a94a4a86ddc38d5, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 457700, guid: 606d67c9d811e46f8a94a4a86ddc38d5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 457700, guid: 606d67c9d811e46f8a94a4a86ddc38d5, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 457700, guid: 606d67c9d811e46f8a94a4a86ddc38d5, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 457700, guid: 606d67c9d811e46f8a94a4a86ddc38d5, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 457700, guid: 606d67c9d811e46f8a94a4a86ddc38d5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 457700, guid: 606d67c9d811e46f8a94a4a86ddc38d5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 457700, guid: 606d67c9d811e46f8a94a4a86ddc38d5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7516688377931331610, guid: 606d67c9d811e46f8a94a4a86ddc38d5,
-        type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 452200428}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 606d67c9d811e46f8a94a4a86ddc38d5, type: 3}
 --- !u!1001 &1515936764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -587,12 +515,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 858e8346fcce04de591d59f16ef308c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &2011724800 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4672052571193393471, guid: b27dcf90a06d244d2ad1a58fa1d30ef5,
-    type: 3}
-  m_PrefabInstance: {fileID: 4672052569867053024}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4672052569867053024
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -688,6 +610,11 @@ PrefabInstance:
     - target: {fileID: 4672052571193393471, guid: b27dcf90a06d244d2ad1a58fa1d30ef5,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878983987555116728, guid: b27dcf90a06d244d2ad1a58fa1d30ef5,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:

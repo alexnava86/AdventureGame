@@ -5,9 +5,7 @@ using UnityEngine;
 public class AbstractCharacter : MonoBehaviour
 {
     #region Variables
-    public List<Color32> mainColor = new List<Color32>();
-    public List<Color32> subColor = new List<Color32>();
-    public List<Color32> accentColor = new List<Color32>();
+
     #endregion
 
     #region Properties
@@ -19,7 +17,7 @@ public class AbstractCharacter : MonoBehaviour
     public int PhysicalDefense { get; set; }
     public int MagicAttack { get; set; }
     public int MagicDefense { get; set; }
-    //public Item[] Inventory { get; set; }
+    public AbstractItem[] Inventory { get; set; }
     //public Skill[] Skills { get; set; }
     //public Spell[] Spells { get; set; }
     //public enum StatusEffect { Poisoned, Silenced, Sleeping, Charmed, Hypnotized, Blinded, Confused, Paralyzed };
