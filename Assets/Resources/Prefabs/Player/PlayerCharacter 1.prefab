@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 5016196}
   - component: {fileID: 6114676}
   - component: {fileID: 7423360054341984121}
-  - component: {fileID: 1743000644}
   - component: {fileID: 1901107403}
+  - component: {fileID: 1743000644}
   - component: {fileID: 2006459579}
+  - component: {fileID: 318186253}
   m_Layer: 8
   m_Name: PlayerCharacter 1
   m_TagString: Player
@@ -240,6 +241,40 @@ MonoBehaviour:
   m_DefaultActionMap: Character
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1901107403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7275cc23c6b2e4f208a1a7edf02c0817, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Inventory:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  hpBar: []
 --- !u!114 &1743000644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -258,21 +293,6 @@ MonoBehaviour:
   groundCheck: {fileID: 2045566106}
   speed: 96
   jumpHeight: 320
---- !u!114 &1901107403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 136270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7275cc23c6b2e4f208a1a7edf02c0817, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainColor: []
-  subColor: []
-  accentColor: []
 --- !u!114 &2006459579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,7 +300,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136270}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 03be5738d22f844b78e171f2100d7dec, type: 3}
   m_Name: 
@@ -318,6 +338,19 @@ MonoBehaviour:
   accentSaturation: 0
   accentBrightness: 0
   colorType: 0
+--- !u!114 &318186253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6929fa1288c4f41e38d816f2408829b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  csvFile: {fileID: 4900000, guid: 08e2586a093eb4fa2a1b101a2c1ed6dd, type: 3}
 --- !u!1 &2045566105
 GameObject:
   m_ObjectHideFlags: 0

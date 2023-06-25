@@ -18,7 +18,6 @@ public class SmoothFollow : MonoBehaviour
 
     void Awake()
     {
-        //t = gameObject.transform;
         _playerController = target.GetComponent<CharacterController2dOld>();
         //Debug.Log(Camera.main.View);
         //Camera.main.OrthographicBounds();
@@ -44,7 +43,6 @@ public class SmoothFollow : MonoBehaviour
         {
             if (Camera.main.OrthographicBounds().min.x >= 16)
             {
-                //MapManager.ma
                 if (_playerController == null)
                 {
                     transform.position = Vector3.SmoothDamp(transform.position, target.position - cameraOffset, ref _smoothDampVelocity, smoothDampTime);
@@ -59,7 +57,6 @@ public class SmoothFollow : MonoBehaviour
                 {
                     var leftOffset = cameraOffset;
                     leftOffset.x *= -1;
-                    //this.transform.position = Vector3.SmoothDamp(transform.position, target.position - leftOffset, ref _smoothDampVelocity, smoothDampTime);
                     this.transform.position = Vector3.SmoothDamp(transform.position, target.position - leftOffset, ref _smoothDampVelocity, smoothDampTime);
                 }
             }

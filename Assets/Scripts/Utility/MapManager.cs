@@ -22,6 +22,7 @@ public class MapManager : MonoBehaviour
     private Dictionary<int, GameObject> objects = new Dictionary<int, GameObject>();
     private int tileCount = 0;
     private int objectCount = 0;
+    private JSONNode json = new JSONNode();
     #endregion
 
     #region Properties
@@ -79,7 +80,7 @@ public class MapManager : MonoBehaviour
         if (mapFile != null)
         {
             map = new Map(mapFile.name, mapFile.text);
-            JSONNode json = JSON.Parse(mapFile.text);
+            json = JSON.Parse(mapFile.text);
 
             uint flippedHorizontally = 0x80000000;
             uint flippedVertically = 0x40000000;
@@ -352,8 +353,6 @@ public class MapManager : MonoBehaviour
 
     public void RemoveItemFromMap(int objectID)
     {
-        JSONNode json = JSON.Parse(map.MapData);
-
         for (int layer = 0; layer < json["layers"].AsArray.Count; layer++)
         {
             if (json["layers"][layer]["type"].ToString().Trim('"') == "objectgroup")
@@ -364,8 +363,7 @@ public class MapManager : MonoBehaviour
                 }
             }
         }
-        //map.MapFile = JsonUtility.ToJson(json, true);
-        map.MapData = json.ToString(); //.Split();
+        //map.MapData = json.ToString();
     }
 
     private void SaveMap()

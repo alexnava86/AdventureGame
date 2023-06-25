@@ -8,7 +8,7 @@ public class CSVReader : MonoBehaviour
 	public string [,] grid;
 	private void Awake ()
 	{
-		//grid = SplitCsvGrid (csvFile.text);
+		grid = SplitCsvGrid (csvFile.text);
 		//Debug.Log ("size = " + (1 + grid.GetUpperBound (0)) + "," + (1 + grid.GetUpperBound (1)));
 
 		//GridOutput ();

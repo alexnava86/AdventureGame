@@ -1,10 +1,10 @@
-﻿using System;
+﻿//using System;
 using System.Linq;
-using System.Collections;
+//using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using Prime31;
+//using Prime31;
 
 public class CharacterController2D : MonoBehaviour
 {
@@ -82,7 +82,6 @@ public class CharacterController2D : MonoBehaviour
 
     private void FlipAxis()
     {
-        //
         facingRight = !facingRight;
         Vector3 localScale = this.transform.localScale;
         localScale.x *= -1f;

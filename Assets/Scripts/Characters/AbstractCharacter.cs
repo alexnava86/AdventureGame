@@ -1,11 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿//using System.Collections;
+//using System.Collections.Generic;
+using System;
 using UnityEngine;
 
-public class AbstractCharacter : MonoBehaviour
+public class AbstractCharacter : MonoBehaviour, ITakeDamage
 {
     #region Variables
-
+    public AbstractItem[] Inventory = new AbstractItem[20];
+    protected CSVReader data;
     #endregion
 
     #region Properties
@@ -13,20 +15,22 @@ public class AbstractCharacter : MonoBehaviour
     public int MaxHp { get; set; }
     public int Mp { get; set; }
     public int MaxMp { get; set; }
+    public int Endurance { get; set; }
+    public int MaxEndurance { get; set; }
     public int PhysicalAttack { get; set; }
     public int PhysicalDefense { get; set; }
     public int MagicAttack { get; set; }
     public int MagicDefense { get; set; }
-    public AbstractItem[] Inventory { get; set; }
+    public int ExpToLvlUp { get; set; }
+    //public AbstractItem[] Inventory { get; set; }
     //public Skill[] Skills { get; set; }
     //public Spell[] Spells { get; set; }
-    //public enum StatusEffect { Poisoned, Silenced, Sleeping, Charmed, Hypnotized, Blinded, Confused, Paralyzed };
-    //public enum StatusEffect { Poisoned, Silenced, Sleeping, Charmed, Hypnotized, Blinded, Confused, Paralyzed };
+    public enum StatusEffect { Poisoned, Silenced, Sleeping, Charmed, Hypnotized, Blinded, Confused, Paralyzed };
     #endregion
 
 
     #region MonoBehaviour
-    public void Start()
+    public virtual void Start()
     {
         if (this.GetComponent<SpriteRenderer>() != null && MapManager.Instance.map != null)
         {
@@ -44,15 +48,26 @@ public class AbstractCharacter : MonoBehaviour
     #region Methods
     protected void SetLevelData(int Level)
     {
-        /*
         data = this.GetComponent<CSVReader>();
         this.MaxHp = Convert.ToInt32(data.grid[Level, 1]);
         this.MaxMp = Convert.ToInt32(data.grid[Level, 2]);
-        this.PhysicalAttack = Convert.ToInt32(data.grid[Level, 3]);
-        this.PhysicalDefense = Convert.ToInt32(data.grid[Level, 4]);
-        this.MagicAttack = Convert.ToInt32(data.grid[Level, 5]);
-        this.MagicDefense = Convert.ToInt32(data.grid[Level, 6]);
-        */
+        this.MaxEndurance = Convert.ToInt32(data.grid[Level, 3]);
+        this.PhysicalAttack = Convert.ToInt32(data.grid[Level, 4]);
+        this.PhysicalDefense = Convert.ToInt32(data.grid[Level, 5]);
+        this.MagicAttack = Convert.ToInt32(data.grid[Level, 6]);
+        this.MagicDefense = Convert.ToInt32(data.grid[Level, 7]);
+        this.ExpToLvlUp = Convert.ToInt32(data.grid[Level, 8]);
+    }
+
+    public void Damage(int damage)
+    {
+        this.Hp -= damage;
+        // The player was damaged!
+        if (this.Hp <= 0)
+        {
+            Destroy(this.gameObject);
+            //Restart the game
+        }
     }
 
     public virtual void ExecuteActiveStatusEffects()
@@ -189,5 +204,4 @@ public class AbstractCharacter : MonoBehaviour
     }
     */
     #endregion
-
 }
