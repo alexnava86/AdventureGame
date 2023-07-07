@@ -1,9 +1,13 @@
-﻿using UnityEngine;
+﻿using System;
 using System.Collections.Generic;
 //using System.Runtime.CompilerServices;
+using UnityEngine;
 
 public class Player : AbstractCharacter
 {
+    public delegate void PlayerAction<T>(T action);
+    public static event PlayerAction<Int32> OnPlayerDamage;
+
     #region Variables
     public List<Sprite> hpBar = new List<Sprite>();
     #endregion
@@ -29,13 +33,31 @@ public class Player : AbstractCharacter
     {
 
     }
+    void OnEnable()
+    {
+        Enemy.OnCharacterTouch += Damage;
+    }
+
+
+    void OnDisable()
+    {
+        Enemy.OnCharacterTouch -= Damage;
+    }
     #endregion
 
     #region Methods
     private void Damage(int damage)
     {
+        float hpRatio;// = ((float)this.Hp / (float)this.MaxHp) * 100f;
+        int hpPercent;// = (int)hpRatio;
+
         base.Damage(damage);
-        //GameManager.Instance.gameObject.transform.GetChild(0).GetChild(0).GetComponent<UnityEngine.UI.Image>().sprite = ;
+        hpRatio = ((float)this.Hp / (float)this.MaxHp) * 100f;
+        hpPercent = (int)hpRatio;
+        if (OnPlayerDamage != null)
+        {
+            OnPlayerDamage(hpPercent);
+        }
     }
     #endregion
 

@@ -10,7 +10,7 @@ public class PlayerEnd : MonoBehaviour
         if (collider.GetComponent<Player>() != null)
         {
             Application.Quit();
-            EditorApplication.isPlaying = false;
+            //EditorApplication.isPlaying = false;
         }
     }
 }

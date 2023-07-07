@@ -30,7 +30,7 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
 
 
     #region MonoBehaviour
-    public virtual void Start()
+    protected virtual void Start()
     {
         if (this.GetComponent<SpriteRenderer>() != null && MapManager.Instance.map != null)
         {
@@ -62,11 +62,9 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
     public void Damage(int damage)
     {
         this.Hp -= damage;
-        // The player was damaged!
-        if (this.Hp <= 0)
+        if (this.Hp <= 0) //Player Death
         {
             Destroy(this.gameObject);
-            //Restart the game
         }
     }
 

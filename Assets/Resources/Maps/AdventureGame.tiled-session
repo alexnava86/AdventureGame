@@ -1,5 +1,5 @@
 {
-    "activeFile": "",
+    "activeFile": "AdventureWaterfall1_TEST.json",
     "expandedProjectPaths": [
         "."
     ],
@@ -70,11 +70,11 @@
             "scaleInDock": 1
         },
         "AdventureWaterfall1_TEST.json": {
-            "scale": 2,
-            "selectedLayer": 4,
+            "scale": 3,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 511,
-                "y": 623.75
+                "x": 410,
+                "y": 658.8333333333333
             }
         },
         "AdventureWaterfall1_TEST.json##Tools": {
@@ -172,6 +172,7 @@
     "last.imagePath": "/Users/nava/Studio/Projects/AdventureGame/Assets/Resources/Art/Items/Power Ups",
     "map.lastUsedFormat": "json",
     "openFiles": [
+        "AdventureWaterfall1_TEST.json"
     ],
     "project": "AdventureGame.tiled-project",
     "recentFiles": [
