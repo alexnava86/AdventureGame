@@ -453,12 +453,20 @@ PrefabInstance:
       value: -128
       objectReference: {fileID: 0}
     - target: {fileID: 2006459579, guid: 853bfbf59326f405385e66a7a00a49ad, type: 3}
+      propertyPath: secondaryHue
+      value: 78
+      objectReference: {fileID: 0}
+    - target: {fileID: 2006459579, guid: 853bfbf59326f405385e66a7a00a49ad, type: 3}
       propertyPath: primaryBrightness
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2006459579, guid: 853bfbf59326f405385e66a7a00a49ad, type: 3}
       propertyPath: primarySaturation
       value: 0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 2006459579, guid: 853bfbf59326f405385e66a7a00a49ad, type: 3}
+      propertyPath: secondarySaturation
+      value: 0.18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 853bfbf59326f405385e66a7a00a49ad, type: 3}
@@ -507,7 +515,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 15.5}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -518,7 +526,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8, y: 13}
+  m_Size: {x: 0.0001, y: 0.0001}
   m_EdgeRadius: 0
 --- !u!114 &1524279040
 MonoBehaviour:
@@ -544,6 +552,81 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Zombie
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107470890056066883, guid: 796c86a8d7042449abbe91d33b54f3ef,
+        type: 3}
+      propertyPath: accentHue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107470890056066883, guid: 796c86a8d7042449abbe91d33b54f3ef,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107470890056066883, guid: 796c86a8d7042449abbe91d33b54f3ef,
+        type: 3}
+      propertyPath: primaryHue
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107470890056066883, guid: 796c86a8d7042449abbe91d33b54f3ef,
+        type: 3}
+      propertyPath: secondaryHue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107470890056066883, guid: 796c86a8d7042449abbe91d33b54f3ef,
+        type: 3}
+      propertyPath: accentBrightness
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107470890056066883, guid: 796c86a8d7042449abbe91d33b54f3ef,
+        type: 3}
+      propertyPath: primarySaturation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107470890056066883, guid: 796c86a8d7042449abbe91d33b54f3ef,
+        type: 3}
+      propertyPath: accentColors.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107470890056066883, guid: 796c86a8d7042449abbe91d33b54f3ef,
+        type: 3}
+      propertyPath: primaryColors.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107470890056066883, guid: 796c86a8d7042449abbe91d33b54f3ef,
+        type: 3}
+      propertyPath: secondaryColors.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107470890056066883, guid: 796c86a8d7042449abbe91d33b54f3ef,
+        type: 3}
+      propertyPath: accentColors.Array.data[0].rgba
+      value: 4288985284
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107470890056066883, guid: 796c86a8d7042449abbe91d33b54f3ef,
+        type: 3}
+      propertyPath: accentColors.Array.data[1].rgba
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107470890056066883, guid: 796c86a8d7042449abbe91d33b54f3ef,
+        type: 3}
+      propertyPath: primaryColors.Array.data[0].rgba
+      value: 4283724968
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107470890056066883, guid: 796c86a8d7042449abbe91d33b54f3ef,
+        type: 3}
+      propertyPath: primaryColors.Array.data[1].rgba
+      value: 4282341759
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107470890056066883, guid: 796c86a8d7042449abbe91d33b54f3ef,
+        type: 3}
+      propertyPath: secondaryColors.Array.data[0].rgba
+      value: 4282670729
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107470890056066883, guid: 796c86a8d7042449abbe91d33b54f3ef,
+        type: 3}
+      propertyPath: secondaryColors.Array.data[1].rgba
+      value: 4282670729
       objectReference: {fileID: 0}
     - target: {fileID: 2107470890056066909, guid: 796c86a8d7042449abbe91d33b54f3ef,
         type: 3}

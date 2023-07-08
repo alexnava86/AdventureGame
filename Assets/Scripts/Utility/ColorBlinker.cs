@@ -6,7 +6,7 @@ public class ColorBlinker : MonoBehaviour
 {
     public void OnEnable()
     {
-        StartCoroutine(blink(0.075f, 8, new Color(1f, 0f, 0f, 1f))); 
+        StartCoroutine(blink(0.075f, 8, new Color(0.9f, 0f, 0f, 1f))); 
     }
 
     IEnumerator blink(float delayBetweenBlinks, int numberOfBlinks, Color blinkColor)
