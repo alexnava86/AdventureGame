@@ -1,5 +1,5 @@
 {
-    "activeFile": "AdventureWaterfall1_TEST.json",
+    "activeFile": "",
     "expandedProjectPaths": [
         "."
     ],
@@ -70,11 +70,11 @@
             "scaleInDock": 1
         },
         "AdventureWaterfall1_TEST.json": {
-            "scale": 3,
-            "selectedLayer": 0,
+            "scale": 1.5,
+            "selectedLayer": 8,
             "viewCenter": {
-                "x": 410,
-                "y": 658.5
+                "x": 496.66666666666663,
+                "y": 642.3333333333333
             }
         },
         "AdventureWaterfall1_TEST.json##Tools": {
@@ -98,11 +98,11 @@
             "scaleInDock": 1
         },
         "AdventureWaterfall1_TEST.tmx": {
-            "scale": 3,
+            "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 493.66666666666663,
-                "y": 628.8333333333333
+                "x": 493.3333333333333,
+                "y": 628.3333333333333
             }
         },
         "AdventureWaterfall1_TEST.tmx##Tools": {
@@ -144,14 +144,15 @@
             "scaleInEditor": 1
         },
         "Overworld1.tmx": {
-            "scale": 1.5,
+            "scale": 0.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 706.6666666666666,
-                "y": 837.6666666666665
+                "x": 1206.6666666666665,
+                "y": 826
             }
         },
         "Overworld1.tmx#AdventureSet": {
+            "dynamicWrapping": false,
             "scaleInDock": 1
         },
         "Overworld1.tmx#Overworld": {
@@ -172,14 +173,14 @@
     "last.imagePath": "/Users/nava/Studio/Projects/AdventureGame/Assets/Resources/Art/Items/Power Ups",
     "map.lastUsedFormat": "json",
     "openFiles": [
-        "AdventureWaterfall1_TEST.json"
     ],
     "project": "AdventureGame.tiled-project",
     "recentFiles": [
+        "AdventureWaterfall1_TEST.tmx",
+        "Overworld1.tmx",
         "AdventureWaterfall1_TEST.json",
         "AdventureWaterfall1_DAY.tmx",
         "AdventureWaterfall1_NIGHT.tmx",
-        "BentleyForest1_DAY.tmx",
-        "Overworld1.tmx"
+        "BentleyForest1_DAY.tmx"
     ]
 }
