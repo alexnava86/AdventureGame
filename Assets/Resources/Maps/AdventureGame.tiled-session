@@ -1,5 +1,5 @@
 {
-    "activeFile": "",
+    "activeFile": "cave1.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -168,14 +168,42 @@
         },
         "bentleyforest.tmx#bentleyforestmap": {
             "scaleInDock": 1
+        },
+        "cave1.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 836,
+                "y": 747
+            }
+        },
+        "cave1.tmx##Tools": {
+            "scaleInDock": 1
+        },
+        "cave1.tmx#AdventureSet": {
+            "scaleInDock": 1
+        },
+        "cave1.tmx#BlankTile": {
+            "scaleInDock": 1
+        },
+        "cave1.tmx#Items": {
+            "scaleInDock": 1
+        },
+        "cave1.tmx#Objects": {
+            "scaleInDock": 1
+        },
+        "cave1.tmx#Zelda2TheAdventureOfLink-Palace1": {
+            "scaleInDock": 1
         }
     },
     "last.imagePath": "/Users/nava/Studio/Projects/AdventureGame/Assets/Resources/Art/Items/Power Ups",
     "map.lastUsedFormat": "json",
     "openFiles": [
+        "cave1.tmx"
     ],
     "project": "AdventureGame.tiled-project",
     "recentFiles": [
+        "cave1.tmx",
         "AdventureWaterfall1_TEST.tmx",
         "Overworld1.tmx",
         "AdventureWaterfall1_TEST.json",
