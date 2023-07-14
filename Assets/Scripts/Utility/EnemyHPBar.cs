@@ -19,6 +19,7 @@ public class EnemyHPBar : MonoBehaviour
     void OnEnable()
     {
         Enemy.OnEnemyDamage += UpdateHpBar;
+        //this.transform.parent.GetComponent<Enemy>().
     }
 
     void OnDisable()
