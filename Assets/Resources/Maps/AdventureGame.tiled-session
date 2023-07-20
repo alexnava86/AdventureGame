@@ -1,5 +1,5 @@
 {
-    "activeFile": "cave1.tmx",
+    "activeFile": "AdventureWaterfall1_DAY.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -13,8 +13,8 @@
             "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 674.6666666666666,
-                "y": 869
+                "x": 403.3333333333333,
+                "y": 486.33333333333326
             }
         },
         "AdventureWaterfall1_DAY.tmx##Tools": {
@@ -178,6 +178,7 @@
             }
         },
         "cave1.tmx##Tools": {
+            "dynamicWrapping": false,
             "scaleInDock": 1
         },
         "cave1.tmx#AdventureSet": {
@@ -199,15 +200,16 @@
     "last.imagePath": "/Users/nava/Studio/Projects/AdventureGame/Assets/Resources/Art/Items/Power Ups",
     "map.lastUsedFormat": "json",
     "openFiles": [
-        "cave1.tmx"
+        "cave1.tmx",
+        "AdventureWaterfall1_DAY.tmx"
     ],
     "project": "AdventureGame.tiled-project",
     "recentFiles": [
         "cave1.tmx",
+        "AdventureWaterfall1_DAY.tmx",
         "AdventureWaterfall1_TEST.tmx",
         "Overworld1.tmx",
         "AdventureWaterfall1_TEST.json",
-        "AdventureWaterfall1_DAY.tmx",
         "AdventureWaterfall1_NIGHT.tmx",
         "BentleyForest1_DAY.tmx"
     ]

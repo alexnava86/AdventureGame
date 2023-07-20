@@ -1,4 +1,4 @@
 # Adventure Game
-'Adventure Game' is a tentatively-titled, side-scrolling Zelda II/Metroidvania inspired action-RPG. 'Adventure Game' builds upon that basic formula with modern features, graphics, game design, gameplay and scope. Explore a mysterious world as a young soldier who stumbles upon a secret, ancient power.
+'Adventure Game' is a 2D side-scrolling Zelda II: Adventure of Link/Metroidvania inspired action-RPG. 'Adventure Game' builds upon that basic formula with modern features, graphics, game design, gameplay and scope. Explore a mysterious world as a young guard who happens upon a secret, ancient power.
 
-'Adventure Game' is currently being developed by Ryan Elmore and Alex Nava using the Unity3D game engine, and currently has no scheduled release date. Other tools we use to manage the project include Aesprite, Tiled, Photoshop, Visual Studio, Discord and Github. Ryan is the creative lead, while Alex serves as the technical lead. 
+'Adventure Game' is currently being developed in Unity3 2019.428f1, and currently has no scheduled release date. Other tools we use to manage the project include Aesprite, Tiled, Photoshop, Visual Studio, Discord and Github. Ryan Elmore is the creative director, while Alex serves as the technical director. 
