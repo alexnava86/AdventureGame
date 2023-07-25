@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="128" height="112" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="5">
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="128" height="112" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="5">
  <tileset firstgid="1" name="Overworld" tilewidth="16" tileheight="16" tilecount="512" columns="32">
-  <image source="../Art/Tilesets/Overworld/overworld_tiles/overworld_tiles.png" width="512" height="256"/>
+  <image source="../../../../overworld_tiles.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="513" name="AdventureSet" tilewidth="16" tileheight="16" tilecount="512" columns="16">
-  <image source="../Art/Tilesets/Dungeons/adventuregame/adventuregame.png" width="256" height="512"/>
+  <image source="../../../../adventuregame.png" width="256" height="512"/>
  </tileset>
  <layer id="5" name="Parallax" width="128" height="112" visible="0" parallaxx="0.5" parallaxy="0.5">
   <data encoding="csv">
