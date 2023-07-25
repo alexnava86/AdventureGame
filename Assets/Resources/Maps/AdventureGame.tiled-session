@@ -1,5 +1,5 @@
 {
-    "activeFile": "cave1.tmx",
+    "activeFile": "",
     "expandedProjectPaths": [
         "."
     ],
@@ -9,12 +9,20 @@
             "dynamicWrapping": true,
             "scaleInDock": 1
         },
+        "/Users/nava/Studio/Projects/Documents/Adventure Game/Adventurer.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/nava/Studio/Projects/hero.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "AdventureWaterfall1_DAY.tmx": {
             "scale": 1.5,
-            "selectedLayer": 0,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 674.6666666666666,
-                "y": 869
+                "x": 543.3333333333333,
+                "y": 598.3333333333333
             }
         },
         "AdventureWaterfall1_DAY.tmx##Tools": {
@@ -25,6 +33,7 @@
             "scaleInDock": 1
         },
         "AdventureWaterfall1_DAY.tmx#BlankTile": {
+            "dynamicWrapping": false,
             "scaleInDock": 1
         },
         "AdventureWaterfall1_DAY.tmx#Items": {
@@ -143,6 +152,30 @@
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
+        "DrumbleVillage.json": {
+            "scale": 0.16139204545454544,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1759.690195388136,
+                "y": 641.2955465587046
+            }
+        },
+        "DrumbleVillage.json#AdventureSet": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "DrumbleVillage.tmx": {
+            "scale": 0.16139204545454544,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1747.2980109135717,
+                "y": 641.2955465587046
+            }
+        },
+        "DrumbleVillage.tmx#AdventureSet": {
+            "scaleInDock": 1
+        },
         "Overworld1.tmx": {
             "scale": 0.75,
             "selectedLayer": 0,
@@ -158,6 +191,9 @@
         "Overworld1.tmx#Overworld": {
             "scaleInDock": 1
         },
+        "Villagers.tsx": {
+            "scaleInDock": 1
+        },
         "bentleyforest.tmx": {
             "scale": 0.5,
             "selectedLayer": 0,
@@ -169,12 +205,42 @@
         "bentleyforest.tmx#bentleyforestmap": {
             "scaleInDock": 1
         },
-        "cave1.tmx": {
+        "bubble1.json": {
             "scale": 0.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 836,
-                "y": 747
+                "x": 834,
+                "y": 1163
+            }
+        },
+        "bubble1.json#AdventureSet": {
+            "scaleInDock": 1
+        },
+        "bubble1.json#Overworld": {
+            "scaleInDock": 1
+        },
+        "bubble1.tmx": {
+            "scale": 0.27,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1025.9259259259256,
+                "y": 898.148148148148
+            }
+        },
+        "bubble1.tmx#AdventureSet": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "bubble1.tmx#Overworld": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "cave1.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 730,
+                "y": 629.5
             }
         },
         "cave1.tmx##Tools": {
@@ -194,20 +260,50 @@
         },
         "cave1.tmx#Zelda2TheAdventureOfLink-Palace1": {
             "scaleInDock": 1
+        },
+        "town1W.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 444,
+                "y": 829.5
+            }
+        },
+        "town1W.tmx##Tools": {
+            "scaleInDock": 1
+        },
+        "town1W.tmx#AdventureSet": {
+            "scaleInDock": 1
+        },
+        "town1W.tmx#BlankTile": {
+            "scaleInDock": 1
+        },
+        "town1W.tmx#Items": {
+            "scaleInDock": 1
+        },
+        "town1W.tmx#Objects": {
+            "scaleInDock": 1
+        },
+        "town1W.tmx#Zelda2TheAdventureOfLink-Palace1": {
+            "scaleInDock": 1
         }
     },
-    "last.imagePath": "/Users/nava/Studio/Projects/AdventureGame/Assets/Resources/Art/Items/Power Ups",
-    "map.lastUsedFormat": "json",
+    "last.imagePath": "/Users/nava/Studio/Projects/AdventureGame/Assets/Resources/Art/Tilesets/Overworld/overworld_tiles",
+    "map.lastUsedFormat": "tmx",
     "openFiles": [
-        "cave1.tmx"
     ],
     "project": "AdventureGame.tiled-project",
     "recentFiles": [
+        "AdventureWaterfall1_DAY.tmx",
         "cave1.tmx",
+        "town1W.tmx",
+        "bubble1.json",
+        "DrumbleVillage.tmx",
+        "/Users/nava/Studio/Projects/hero.tsx",
+        "bubble1.tmx",
         "AdventureWaterfall1_TEST.tmx",
         "Overworld1.tmx",
         "AdventureWaterfall1_TEST.json",
-        "AdventureWaterfall1_DAY.tmx",
         "AdventureWaterfall1_NIGHT.tmx",
         "BentleyForest1_DAY.tmx"
     ]
