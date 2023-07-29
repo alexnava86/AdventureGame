@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4672052571193393471}
   - component: {fileID: 4672052571193393470}
   - component: {fileID: 4672052571193393467}
-  - component: {fileID: 4672052571193393409}
+  - component: {fileID: 918798758}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -85,7 +85,7 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4672052571193393466}
   m_Enabled: 1
---- !u!114 &4672052571193393409
+--- !u!114 &918798758
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,12 +94,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 4672052571193393466}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02ef9d12673d7485682c66174a8bf987, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c840fa2730be43b2b27a92d89622cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  cameraOffset: {x: 0, y: -48, z: 0}
   smoothDampTime: 0.2
-  cameraOffset: {x: 0, y: -48, z: 10}
   useFixedUpdate: 1
 --- !u!1001 &4672052570576686818
 PrefabInstance:
@@ -155,6 +155,26 @@ PrefabInstance:
     - target: {fileID: 457700, guid: 606d67c9d811e46f8a94a4a86ddc38d5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2429959840867011165, guid: 606d67c9d811e46f8a94a4a86ddc38d5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318402200426915930, guid: 606d67c9d811e46f8a94a4a86ddc38d5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650948098470948906, guid: 606d67c9d811e46f8a94a4a86ddc38d5,
+        type: 3}
+      propertyPath: m_PreserveAspect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650948099514963438, guid: 606d67c9d811e46f8a94a4a86ddc38d5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -24
       objectReference: {fileID: 0}
     - target: {fileID: 7516688377931331610, guid: 606d67c9d811e46f8a94a4a86ddc38d5,
         type: 3}
