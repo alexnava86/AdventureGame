@@ -12,6 +12,7 @@ public class CharacterController2D : MonoBehaviour
     public Transform groundCheck;
     public float speed = 96;
     public float jumpHeight = 320;
+    public Vector3 velocity;
 
     private PlayerBaseInput playerBaseInputs;
     private Rigidbody2D rb;

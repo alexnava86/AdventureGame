@@ -35,6 +35,7 @@ public abstract class AbstractItem : Interactive
 
     private void Awake()
     {
+
     }
 
     protected void OnTriggerStay2D(Collider2D collider)
