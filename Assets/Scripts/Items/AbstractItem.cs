@@ -55,7 +55,6 @@ public abstract class AbstractItem : Interactive
         if (character.Inventory.Contains(null))
         {
             character.Inventory.Insert(character.Inventory.IndexOf(null), this);
-            //Debug.Log("InventorySlot=" + character.Inventory.IndexOf(null) + " Item=" + this.GetType().ToString());
         }
         //MapManager.Instance.RemoveItemFromMap(0); //this.ObjectID; ?
         Destroy(this.gameObject);
