@@ -38,19 +38,11 @@ public abstract class AbstractItem : Interactive
 
     }
 
-    protected void OnTriggerStay2D(Collider2D collider)
+    public virtual void Use(AbstractCharacter character)
     {
-        if (collider.GetComponent<Player>() != null)
-        {
-            //if (Input.GetButtonDown("Button1"))
-            {
-                interact += AddToInventory;
-                interact(collider.GetComponent<Player>());
-            }
-        }
+        this.Character = character;
+        Destroy(this.gameObject);
     }
-
-    public abstract void Use();
 
     public virtual void AddToInventory(AbstractCharacter character)
     {
@@ -59,9 +51,13 @@ public abstract class AbstractItem : Interactive
         {
             OnRemove(0);
         }
-        //if character has room in inventory...
-        character.Inventory[character.Inventory.Length - 1] = this;
-        MapManager.Instance.RemoveItemFromMap(0);
+        //If character has room in their 'Inventory' List/Array
+        if (character.Inventory.Contains(null))
+        {
+            character.Inventory.Insert(character.Inventory.IndexOf(null), this);
+            //Debug.Log("InventorySlot=" + character.Inventory.IndexOf(null) + " Item=" + this.GetType().ToString());
+        }
+        //MapManager.Instance.RemoveItemFromMap(0); //this.ObjectID; ?
         Destroy(this.gameObject);
     }
 }

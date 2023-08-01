@@ -42,6 +42,7 @@ public class CharacterController2D : MonoBehaviour
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         direction = Direction.Right;
+        state = State.Idle;
         //facingRight = true;
 
         // listen to some events for illustration purposes

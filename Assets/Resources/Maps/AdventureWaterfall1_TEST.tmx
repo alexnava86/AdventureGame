@@ -115,22 +115,22 @@
    <image width="26" height="22" source="../Art/Items/#Placeholder/Watermelon.png"/>
   </tile>
   <tile id="5">
-   <image width="9" height="10" source="../Art/Items/Power Ups/apple_red.png"/>
+   <image width="9" height="10" source="../Art/Items/Drops/apple_red.png"/>
   </tile>
   <tile id="6">
-   <image width="9" height="10" source="../Art/Items/Power Ups/apple_yellow.png"/>
+   <image width="9" height="10" source="../Art/Items/Drops/apple_yellow.png"/>
   </tile>
   <tile id="7">
-   <image width="16" height="6" source="../Art/Items/Power Ups/carrot_orange.png"/>
+   <image width="16" height="6" source="../Art/Items/Drops/carrot_orange.png"/>
   </tile>
   <tile id="8">
-   <image width="12" height="6" source="../Art/Items/Power Ups/shrooms_blue.png"/>
+   <image width="12" height="6" source="../Art/Items/Drops/shrooms_blue.png"/>
   </tile>
   <tile id="9">
-   <image width="13" height="9" source="../Art/Items/Power Ups/steak_red.png"/>
+   <image width="13" height="9" source="../Art/Items/Drops/steak_red.png"/>
   </tile>
   <tile id="10">
-   <image width="10" height="10" source="../Art/Items/Power Ups/goldenberry.png"/>
+   <image width="14" height="11" source="../Art/Items/Drops/goldenberry.png"/>
   </tile>
  </tileset>
  <tileset firstgid="524" name="#Tools" tilewidth="33" tileheight="16" tilecount="2" columns="0" objectalignment="center">

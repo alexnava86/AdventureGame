@@ -8,15 +8,15 @@ public class PlayerSword : MonoBehaviour
     public int swordOffense;
     
     public delegate void PlayerAction<T>(T action);
-    public static event PlayerAction<Int32> OnContact;
+    public static event PlayerAction<Int32> OnWeaponContact;
 
     protected void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.GetComponent<Enemy>() != null)
         {
-            if (OnContact != null)
+            if (OnWeaponContact != null)
             {
-                OnContact(swordOffense);
+                OnWeaponContact(swordOffense);
             }
             if (collider.GetComponent<ColorBlinker>() != null)
             {

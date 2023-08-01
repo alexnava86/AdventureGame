@@ -6,7 +6,7 @@ using UnityEngine;
 public class Enemy : AbstractCharacter
 {
     public delegate void EnemyAction(int x);
-    public static event EnemyAction OnCharacterTouch;
+    public static event EnemyAction OnCharacterContact;
     public delegate void EnemyAction<T>(T action);
     public static event EnemyAction<Int32> OnEnemyDamage;
 
@@ -22,9 +22,9 @@ public class Enemy : AbstractCharacter
     {
         if (collider.GetComponent<AbstractCharacter>() != null)
         {
-            if(OnCharacterTouch != null)
+            if(OnCharacterContact != null)
             { 
-                OnCharacterTouch(1);
+                OnCharacterContact(1);
             }
             if (collider.GetComponent<ColorBlinker>() != null)
             {
@@ -35,12 +35,12 @@ public class Enemy : AbstractCharacter
 
     protected void OnEnable()
     {
-        PlayerSword.OnContact += Damage;
+        PlayerSword.OnWeaponContact += Damage;
     }
 
     protected void OnDisable()
     {
-        PlayerSword.OnContact -= Damage;
+        PlayerSword.OnWeaponContact -= Damage;
     }
 
     private void Damage(int damage)

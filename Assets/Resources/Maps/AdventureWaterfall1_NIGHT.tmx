@@ -115,7 +115,7 @@
    <image width="26" height="22" source="../Art/Items/#Placeholder/Watermelon.png"/>
   </tile>
   <tile id="5">
-   <image width="9" height="10" source="../Art/Items/Power Ups/apple_red.png"/>
+   <image width="9" height="10" source="../Art/Items/Drops/apple_red.png"/>
   </tile>
  </tileset>
  <tileset firstgid="519" name="#Tools" tilewidth="33" tileheight="16" tilecount="2" columns="0" objectalignment="center">

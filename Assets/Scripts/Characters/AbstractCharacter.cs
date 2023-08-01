@@ -1,12 +1,12 @@
 ﻿//using System.Collections;
-//using System.Collections.Generic;
+using System.Collections.Generic;
 using System;
 using UnityEngine;
 
 public class AbstractCharacter : MonoBehaviour, ITakeDamage
 {
     #region Variables
-    public AbstractItem[] Inventory = new AbstractItem[20];
+    public List<AbstractItem> Inventory = new List<AbstractItem>(new AbstractItem[20]);
     protected CSVReader data;
     #endregion
 
@@ -26,8 +26,9 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
     //public Skill[] Skills { get; set; }
     //public Spell[] Spells { get; set; }
     public enum StatusEffect { Poisoned, Silenced, Sleeping, Charmed, Hypnotized, Blinded, Confused, Paralyzed };
+    public delegate void CharacterAction<T>(T action);
+    public static event CharacterAction<Int32> OnHpUpdate;
     #endregion
-
 
     #region MonoBehaviour
     protected virtual void Start()
@@ -59,13 +60,31 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
         this.ExpToLvlUp = Convert.ToInt32(data.grid[Level, 8]);
     }
 
-    public void Damage(int damage)
+    public void Damage(int value)
     {
-        this.Hp -= damage;
+        this.Hp -= value;
         if (this.Hp <= 0) //Player Death
         {
             Destroy(this.gameObject);
         }
+    }
+    
+    public int HpUpdate(int value)
+    {
+        float hpRatio;
+        int hpPercent;
+
+        hpRatio = ((float)this.Hp / (float)this.MaxHp) * 100f;
+        hpPercent = (int)hpRatio;
+        if (OnHpUpdate != null)
+        {
+            OnHpUpdate(hpPercent);
+        }
+        if (this.Hp <= 0) //Player/Character Death
+        {
+            Destroy(this.gameObject);
+        }
+        return this.Hp;
     }
 
     public virtual void ExecuteActiveStatusEffects()

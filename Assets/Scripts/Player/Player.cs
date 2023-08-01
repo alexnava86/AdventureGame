@@ -7,6 +7,7 @@ public class Player : AbstractCharacter
 {
     public delegate void PlayerAction<T>(T action);
     public static event PlayerAction<Int32> OnPlayerDamage;
+    public static event PlayerAction<Int32> OnPlayerHeal;
 
     #region Variables
     public List<Sprite> hpBar = new List<Sprite>();
@@ -16,7 +17,7 @@ public class Player : AbstractCharacter
     #endregion
 
     #region MonoBehaviour
-    private void Start()
+    private new void Start()
     {
         base.Start();
         this.SetLevelData(1);
@@ -35,23 +36,25 @@ public class Player : AbstractCharacter
     }
     void OnEnable()
     {
-        Enemy.OnCharacterTouch += Damage;
+        Enemy.OnCharacterContact += Damage;
+        //DropItem.OnCharacterTouch += Heal;
     }
 
 
     void OnDisable()
     {
-        Enemy.OnCharacterTouch -= Damage;
+        Enemy.OnCharacterContact -= Damage;
+        //DropItem.OnCharacterContact -= Heal;
     }
     #endregion
 
     #region Methods
-    private void Damage(int damage)
+    private new void Damage(int value)
     {
-        float hpRatio;// = ((float)this.Hp / (float)this.MaxHp) * 100f;
-        int hpPercent;// = (int)hpRatio;
+        float hpRatio; // = ((float)this.Hp / (float)this.MaxHp) * 100f;
+        int hpPercent; // = (int)hpRatio;
 
-        base.Damage(damage);
+        base.Damage(value);
         hpRatio = ((float)this.Hp / (float)this.MaxHp) * 100f;
         hpPercent = (int)hpRatio;
         if (OnPlayerDamage != null)

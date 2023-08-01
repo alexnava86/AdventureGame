@@ -1225,39 +1225,39 @@
                 }, 
                 {
                  "id":5,
-                 "image":"..\/Art\/Items\/Power Ups\/apple_red.png",
+                 "image":"..\/Art\/Items\/Drops\/apple_red.png",
                  "imageheight":10,
                  "imagewidth":9
                 }, 
                 {
                  "id":6,
-                 "image":"..\/Art\/Items\/Power Ups\/apple_yellow.png",
+                 "image":"..\/Art\/Items\/Drops\/apple_yellow.png",
                  "imageheight":10,
                  "imagewidth":9
                 }, 
                 {
                  "id":7,
-                 "image":"..\/Art\/Items\/Power Ups\/carrot_orange.png",
+                 "image":"..\/Art\/Items\/Drops\/carrot_orange.png",
                  "imageheight":6,
                  "imagewidth":16
                 }, 
                 {
                  "id":8,
-                 "image":"..\/Art\/Items\/Power Ups\/shrooms_blue.png",
+                 "image":"..\/Art\/Items\/Drops\/shrooms_blue.png",
                  "imageheight":6,
                  "imagewidth":12
                 }, 
                 {
                  "id":9,
-                 "image":"..\/Art\/Items\/Power Ups\/steak_red.png",
+                 "image":"..\/Art\/Items\/Drops\/steak_red.png",
                  "imageheight":9,
                  "imagewidth":13
                 }, 
                 {
                  "id":10,
-                 "image":"..\/Art\/Items\/Power Ups\/goldenberry.png",
-                 "imageheight":10,
-                 "imagewidth":10
+                 "image":"..\/Art\/Items\/Drops\/goldenberry.png",
+                 "imageheight":11,
+                 "imagewidth":14
                 }],
          "tilewidth":26
         }, 

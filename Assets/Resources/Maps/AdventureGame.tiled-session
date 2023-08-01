@@ -17,12 +17,39 @@
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
+        "AdventureWaterfall1_DAY.json": {
+            "scale": 0.36985677083333335,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 770.5685618729098,
+                "y": 674.585460306284
+            }
+        },
+        "AdventureWaterfall1_DAY.json##Tools": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "AdventureWaterfall1_DAY.json#AdventureSet": {
+            "scaleInDock": 1
+        },
+        "AdventureWaterfall1_DAY.json#BlankTile": {
+            "scaleInDock": 1
+        },
+        "AdventureWaterfall1_DAY.json#Items": {
+            "scaleInDock": 1
+        },
+        "AdventureWaterfall1_DAY.json#Objects": {
+            "scaleInDock": 1
+        },
+        "AdventureWaterfall1_DAY.json#Zelda2TheAdventureOfLink-Palace1": {
+            "scaleInDock": 1
+        },
         "AdventureWaterfall1_DAY.tmx": {
             "scale": 1.5,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 543.3333333333333,
-                "y": 598.3333333333333
+                "x": 542.6666666666666,
+                "y": 597.6666666666666
             }
         },
         "AdventureWaterfall1_DAY.tmx##Tools": {
@@ -43,6 +70,36 @@
             "scaleInDock": 1
         },
         "AdventureWaterfall1_DAY.tmx#Zelda2TheAdventureOfLink-Palace1": {
+            "scaleInDock": 1
+        },
+        "AdventureWaterfall1_NIGHT.json": {
+            "expandedObjectLayers": [
+                11
+            ],
+            "scale": 4,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 467,
+                "y": 707.125
+            }
+        },
+        "AdventureWaterfall1_NIGHT.json##Tools": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "AdventureWaterfall1_NIGHT.json#AdventureSet": {
+            "scaleInDock": 1
+        },
+        "AdventureWaterfall1_NIGHT.json#BlankTile": {
+            "scaleInDock": 1
+        },
+        "AdventureWaterfall1_NIGHT.json#Items": {
+            "scaleInDock": 1
+        },
+        "AdventureWaterfall1_NIGHT.json#Objects": {
+            "scaleInDock": 1
+        },
+        "AdventureWaterfall1_NIGHT.json#Zelda2TheAdventureOfLink-Palace1": {
             "scaleInDock": 1
         },
         "AdventureWaterfall1_NIGHT.tmx": {
@@ -80,10 +137,10 @@
         },
         "AdventureWaterfall1_TEST.json": {
             "scale": 1.5,
-            "selectedLayer": 8,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 496.66666666666663,
-                "y": 642.3333333333333
+                "x": 491.99999999999994,
+                "y": 727.6666666666666
             }
         },
         "AdventureWaterfall1_TEST.json##Tools": {
@@ -126,6 +183,7 @@
             "scaleInDock": 1
         },
         "AdventureWaterfall1_TEST.tmx#Items": {
+            "dynamicWrapping": true,
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
@@ -289,12 +347,15 @@
         }
     },
     "last.imagePath": "/Users/nava/Studio/Projects/AdventureGame/Assets/Resources/Art/Tilesets/Overworld/overworld_tiles",
-    "map.lastUsedFormat": "tmx",
+    "map.lastUsedFormat": "json",
     "openFiles": [
     ],
     "project": "AdventureGame.tiled-project",
     "recentFiles": [
+        "AdventureWaterfall1_TEST.json",
+        "AdventureWaterfall1_NIGHT.json",
         "AdventureWaterfall1_DAY.tmx",
+        "AdventureWaterfall1_DAY.json",
         "cave1.tmx",
         "town1W.tmx",
         "bubble1.json",
@@ -302,9 +363,6 @@
         "/Users/nava/Studio/Projects/hero.tsx",
         "bubble1.tmx",
         "AdventureWaterfall1_TEST.tmx",
-        "Overworld1.tmx",
-        "AdventureWaterfall1_TEST.json",
-        "AdventureWaterfall1_NIGHT.tmx",
-        "BentleyForest1_DAY.tmx"
+        "Overworld1.tmx"
     ]
 }
