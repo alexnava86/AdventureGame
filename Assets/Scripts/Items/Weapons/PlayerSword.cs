@@ -6,9 +6,9 @@ using UnityEngine;
 public class PlayerSword : MonoBehaviour
 {
     public int swordOffense;
-    
-    public delegate void PlayerAction<T>(T action);
-    public static event PlayerAction<Int32> OnWeaponContact;
+
+    public delegate void PlayerAction<T, T2>(T param1, T2 param2);
+    public static event PlayerAction<Int32, AbstractCharacter> OnWeaponContact;
 
     protected void OnTriggerEnter2D(Collider2D collider)
     {
@@ -16,7 +16,7 @@ public class PlayerSword : MonoBehaviour
         {
             if (OnWeaponContact != null)
             {
-                OnWeaponContact(swordOffense);
+                OnWeaponContact(swordOffense, collider.GetComponent<Enemy>());
             }
             if (collider.GetComponent<ColorBlinker>() != null)
             {

@@ -24,13 +24,15 @@ public class EnemyHPBar : MonoBehaviour
     void OnDisable()
     {
         Enemy.OnEnemyDamage -= UpdateHpBar;
+
     }
-
-    void UpdateHpBar(int hpPercentage)
+    void UpdateHpBar(int hpPercentage, AbstractCharacter character)
     {
-
-        int animID = hpSprites.Length - (hpPercentage / 4);
-        //Debug.Log(hpPercentage);
-        this.GetComponent<SpriteRenderer>().sprite = hpSprites[animID];
+        if (character == this.GetComponentInParent<AbstractCharacter>())
+        {
+            int animID = hpSprites.Length - (hpPercentage / 4);
+            //Debug.Log(hpPercentage);
+            this.GetComponent<SpriteRenderer>().sprite = hpSprites[animID];
+        }
     }
 }

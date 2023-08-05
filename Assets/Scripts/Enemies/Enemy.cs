@@ -7,8 +7,8 @@ public class Enemy : AbstractCharacter
 {
     public delegate void EnemyAction(int x);
     public static event EnemyAction OnCharacterContact;
-    public delegate void EnemyAction<T>(T action);
-    public static event EnemyAction<Int32> OnEnemyDamage;
+    public delegate void EnemyAction<T, T2>(T param1, T2 param2);
+    public static event EnemyAction<Int32, AbstractCharacter> OnEnemyDamage;
 
     private void Start()
     {
@@ -22,8 +22,8 @@ public class Enemy : AbstractCharacter
     {
         if (collider.GetComponent<AbstractCharacter>() != null)
         {
-            if(OnCharacterContact != null)
-            { 
+            if (OnCharacterContact != null)
+            {
                 OnCharacterContact(1);
             }
             if (collider.GetComponent<ColorBlinker>() != null)
@@ -43,17 +43,19 @@ public class Enemy : AbstractCharacter
         PlayerSword.OnWeaponContact -= Damage;
     }
 
-    private void Damage(int damage)
+    private void Damage(int damage, AbstractCharacter sender)
     {
-        float hpRatio;// = ((float)this.Hp / (float)this.MaxHp) * 100f;
-        int hpPercent;// = (int)hpRatio;
-
-        base.Damage(damage);
-        hpRatio = ((float)this.Hp / (float)this.MaxHp) * 100f;
-        hpPercent = (int)hpRatio;
-        if (OnEnemyDamage != null)
+        if (sender == this.GetComponent<AbstractCharacter>())
         {
-            OnEnemyDamage(hpPercent);
+            float hpRatio;// = ((float)this.Hp / (float)this.MaxHp) * 100f;
+            int hpPercent;// = (int)hpRatio;
+            base.Damage(damage);
+            hpRatio = ((float)this.Hp / (float)this.MaxHp) * 100f;
+            hpPercent = (int)hpRatio;
+            if (OnEnemyDamage != null)
+            {
+                OnEnemyDamage(hpPercent, this.GetComponent<AbstractCharacter>());
+            }
         }
     }
 }
