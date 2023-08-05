@@ -35,17 +35,17 @@ public class EnemyTEST : AbstractCharacter
 
     protected void OnEnable()
     {
-        PlayerSword.OnWeaponContact += Damage;
+        PlayerSwordTEST.OnWeaponContact += Damage;
     }
 
     protected void OnDisable()
     {
-        PlayerSword.OnWeaponContact -= Damage;
+        PlayerSwordTEST.OnWeaponContact -= Damage;
     }
 
     private void Damage(int damage, AbstractCharacter sender)
     {
-        if(sender == this.AbstractCharacter)
+        if(sender == this)
         {
             float hpRatio;// = ((float)this.Hp / (float)this.MaxHp) * 100f;
             int hpPercent;// = (int)hpRatio;
