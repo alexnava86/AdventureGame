@@ -216,6 +216,8 @@ GameObject:
   m_Component:
   - component: {fileID: 823934954}
   - component: {fileID: 823934953}
+  - component: {fileID: 823934955}
+  - component: {fileID: 823934957}
   m_Layer: 0
   m_Name: OverworldPlayer
   m_TagString: Untagged
@@ -288,6 +290,87 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &823934955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823934952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9da04b3bbfada47ed9649e49010d1908, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 5
+  enduranceDepletionRate: 1
+  tilePixelSize: 16
+--- !u!114 &823934957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823934952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: e5011e309bdc045aea98e9f96d5f3f09,
+    type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ec5cf3bc-b5e5-4898-b5e8-5a1ad022b6f2
+    m_ActionName: Character/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 80f2f3a4-e288-4b9f-9caa-24f08fdb3119
+    m_ActionName: Character/Jump[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2eb0a187-8e27-484b-ac37-ac1407769349
+    m_ActionName: Character/Attack[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e2d7afe4-f9d0-45b2-993d-6f748949846f
+    m_ActionName: Character/Strafe[/Keyboard/1]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: 9da04b3bbfada47ed9649e49010d1908, type: 3}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 5c814a49-3305-4fd6-99ee-cfec5c541cfe
+    m_ActionName: Overworld/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f05c2fb3-0ed7-4b36-ba90-8019ffed85be
+    m_ActionName: UI/New action
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Overworld
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1001 &4672052569867053024
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -295,6 +378,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 918798758, guid: b27dcf90a06d244d2ad1a58fa1d30ef5, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 823934954}
+    - target: {fileID: 918798758, guid: b27dcf90a06d244d2ad1a58fa1d30ef5, type: 3}
+      propertyPath: cameraOffset.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2061132410742983953, guid: b27dcf90a06d244d2ad1a58fa1d30ef5,
         type: 3}
       propertyPath: m_IsActive

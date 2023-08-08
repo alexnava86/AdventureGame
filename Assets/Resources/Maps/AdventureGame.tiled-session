@@ -176,6 +176,7 @@
             "scaleInDock": 1
         },
         "AdventureWaterfall1_TEST.tmx#AdventureSet": {
+            "dynamicWrapping": false,
             "scaleInDock": 1
         },
         "AdventureWaterfall1_TEST.tmx#BlankTile": {
@@ -192,6 +193,7 @@
             "scaleInDock": 1
         },
         "AdventureWaterfall1_TEST.tmx#Zelda2TheAdventureOfLink-Palace1": {
+            "dynamicWrapping": false,
             "scaleInDock": 1
         },
         "BentleyForest1_DAY.tmx": {
@@ -235,11 +237,11 @@
             "scaleInDock": 1
         },
         "Overworld1.tmx": {
-            "scale": 0.75,
+            "scale": 0.25,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1206.6666666666665,
-                "y": 826
+                "x": 1132,
+                "y": 990
             }
         },
         "Overworld1.tmx#AdventureSet": {
@@ -346,8 +348,8 @@
             "scaleInDock": 1
         }
     },
-    "last.imagePath": "/Users/nava/Studio/Projects/AdventureGame/Assets/Resources/Art/Tilesets/Overworld/overworld_tiles",
-    "map.lastUsedFormat": "json",
+    "last.imagePath": "/Users/nava/Studio/Projects/AdventureGame/Assets/Resources/Art/Tilesets/Utility/Gradients",
+    "map.lastUsedFormat": "tmx",
     "openFiles": [
     ],
     "project": "AdventureGame.tiled-project",
@@ -364,5 +366,10 @@
         "bubble1.tmx",
         "AdventureWaterfall1_TEST.tmx",
         "Overworld1.tmx"
-    ]
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
 }

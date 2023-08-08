@@ -187,6 +187,77 @@ public class @PlayerBaseInput : IInputActionCollection, IDisposable
             ]
         },
         {
+            ""name"": ""Overworld"",
+            ""id"": ""79613278-9631-4742-a8f0-dd937502f437"",
+            ""actions"": [
+                {
+                    ""name"": ""Move"",
+                    ""type"": ""Button"",
+                    ""id"": ""5c814a49-3305-4fd6-99ee-cfec5c541cfe"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": ""WASD"",
+                    ""id"": ""95ec9ec5-1aac-4feb-a9f4-82e1fe4dd125"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""8414ddbf-ba8a-49c2-9e5a-37964fa383be"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""a291367d-13e5-4a41-ae89-aa481ef6b5d0"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""5034ee81-d195-4ab1-a350-973ed95bfebb"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""3617de32-fd6d-458e-8c23-decd64ca042a"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                }
+            ]
+        },
+        {
             ""name"": ""UI"",
             ""id"": ""472f872f-c1f0-4e15-b371-13a39bb8507b"",
             ""actions"": [
@@ -222,6 +293,9 @@ public class @PlayerBaseInput : IInputActionCollection, IDisposable
         m_Character_Jump = m_Character.FindAction("Jump", throwIfNotFound: true);
         m_Character_Attack = m_Character.FindAction("Attack", throwIfNotFound: true);
         m_Character_Strafe = m_Character.FindAction("Strafe", throwIfNotFound: true);
+        // Overworld
+        m_Overworld = asset.FindActionMap("Overworld", throwIfNotFound: true);
+        m_Overworld_Move = m_Overworld.FindAction("Move", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Newaction = m_UI.FindAction("New action", throwIfNotFound: true);
@@ -328,6 +402,39 @@ public class @PlayerBaseInput : IInputActionCollection, IDisposable
     }
     public CharacterActions @Character => new CharacterActions(this);
 
+    // Overworld
+    private readonly InputActionMap m_Overworld;
+    private IOverworldActions m_OverworldActionsCallbackInterface;
+    private readonly InputAction m_Overworld_Move;
+    public struct OverworldActions
+    {
+        private @PlayerBaseInput m_Wrapper;
+        public OverworldActions(@PlayerBaseInput wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Move => m_Wrapper.m_Overworld_Move;
+        public InputActionMap Get() { return m_Wrapper.m_Overworld; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(OverworldActions set) { return set.Get(); }
+        public void SetCallbacks(IOverworldActions instance)
+        {
+            if (m_Wrapper.m_OverworldActionsCallbackInterface != null)
+            {
+                @Move.started -= m_Wrapper.m_OverworldActionsCallbackInterface.OnMove;
+                @Move.performed -= m_Wrapper.m_OverworldActionsCallbackInterface.OnMove;
+                @Move.canceled -= m_Wrapper.m_OverworldActionsCallbackInterface.OnMove;
+            }
+            m_Wrapper.m_OverworldActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Move.started += instance.OnMove;
+                @Move.performed += instance.OnMove;
+                @Move.canceled += instance.OnMove;
+            }
+        }
+    }
+    public OverworldActions @Overworld => new OverworldActions(this);
+
     // UI
     private readonly InputActionMap m_UI;
     private IUIActions m_UIActionsCallbackInterface;
@@ -366,6 +473,10 @@ public class @PlayerBaseInput : IInputActionCollection, IDisposable
         void OnJump(InputAction.CallbackContext context);
         void OnAttack(InputAction.CallbackContext context);
         void OnStrafe(InputAction.CallbackContext context);
+    }
+    public interface IOverworldActions
+    {
+        void OnMove(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

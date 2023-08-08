@@ -39,6 +39,8 @@ public class CharacterController2D : MonoBehaviour
     public void Awake()
     {
         playerBaseInputs = new PlayerBaseInput();
+        playerBaseInputs.Overworld.Disable();
+        playerBaseInputs.Character.Enable();
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         direction = Direction.Right;
