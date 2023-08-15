@@ -1,10 +1,14 @@
 {
-    "activeFile": "",
+    "activeFile": "Overworld1.tmx",
     "expandedProjectPaths": [
         "."
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "/Users/nava/Studio/Projects/AdventureGame/Assets/Resources/hero.tsx": {
             "dynamicWrapping": true,
             "scaleInDock": 1
@@ -164,37 +168,40 @@
             "scaleInDock": 1
         },
         "AdventureWaterfall1_TEST.tmx": {
-            "scale": 1.5,
+            "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 493.3333333333333,
-                "y": 628.3333333333333
+                "x": 41.5,
+                "y": 52.375
             }
         },
         "AdventureWaterfall1_TEST.tmx##Tools": {
             "dynamicWrapping": true,
-            "scaleInDock": 1
+            "scaleInDock": 4
         },
         "AdventureWaterfall1_TEST.tmx#AdventureSet": {
             "dynamicWrapping": false,
-            "scaleInDock": 1
+            "scaleInDock": 4
         },
         "AdventureWaterfall1_TEST.tmx#BlankTile": {
             "dynamicWrapping": false,
-            "scaleInDock": 1
+            "scaleInDock": 4
+        },
+        "AdventureWaterfall1_TEST.tmx#Gradients": {
+            "scaleInDock": 4
         },
         "AdventureWaterfall1_TEST.tmx#Items": {
             "dynamicWrapping": true,
-            "scaleInDock": 1,
+            "scaleInDock": 4,
             "scaleInEditor": 1
         },
         "AdventureWaterfall1_TEST.tmx#Objects": {
             "dynamicWrapping": true,
-            "scaleInDock": 1
+            "scaleInDock": 4
         },
         "AdventureWaterfall1_TEST.tmx#Zelda2TheAdventureOfLink-Palace1": {
             "dynamicWrapping": false,
-            "scaleInDock": 1
+            "scaleInDock": 4
         },
         "BentleyForest1_DAY.tmx": {
             "expandedObjectLayers": [
@@ -240,8 +247,8 @@
             "scale": 0.25,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1132,
-                "y": 990
+                "x": 1128,
+                "y": 1362
             }
         },
         "Overworld1.tmx#AdventureSet": {
@@ -351,9 +358,12 @@
     "last.imagePath": "/Users/nava/Studio/Projects/AdventureGame/Assets/Resources/Art/Tilesets/Utility/Gradients",
     "map.lastUsedFormat": "tmx",
     "openFiles": [
+        "Overworld1.tmx"
     ],
     "project": "AdventureGame.tiled-project",
     "recentFiles": [
+        "Overworld1.tmx",
+        "AdventureWaterfall1_TEST.tmx",
         "AdventureWaterfall1_TEST.json",
         "AdventureWaterfall1_NIGHT.json",
         "AdventureWaterfall1_DAY.tmx",
@@ -363,9 +373,7 @@
         "bubble1.json",
         "DrumbleVillage.tmx",
         "/Users/nava/Studio/Projects/hero.tsx",
-        "bubble1.tmx",
-        "AdventureWaterfall1_TEST.tmx",
-        "Overworld1.tmx"
+        "bubble1.tmx"
     ],
     "tileset.embedInMap": true,
     "tileset.tileSize": {

@@ -1,14 +1,17 @@
-﻿using UnityEngine;
+﻿//using System.Linq;
+//using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class CharacterOverworldController : MonoBehaviour
 {
-    public float movementSpeed = 5f;
+    public float speed = 24f;
     public float enduranceDepletionRate = 1f;
-    public float tilePixelSize = 16f; // Adjust if needed
 
     private PlayerBaseInput playerBaseInputs;
     private Rigidbody2D rb;
+    private float horizontal;
+    private float vertical;
     private float currentEndurance;
 
     private void Awake()
@@ -23,19 +26,26 @@ public class CharacterOverworldController : MonoBehaviour
         ///overworldInputMap["Move"].performed += Move;
         //overworldInputMap["Interact"].started += OnInteractInput;
     }
+    private void Update()
+    {
+        rb.velocity = new Vector2(horizontal * speed, vertical * speed);
+    }
 
     public void Move(InputAction.CallbackContext context)
     {
-        Vector2 movementInput = context.ReadValue<Vector2>().normalized;
-        Debug.Log("Triggered1");
-        if (movementInput != Vector2.zero)
+        //Vector2 movementInput = context.ReadValue<Vector2>();//.normalized;
+        horizontal = context.ReadValue<Vector2>().x;
+        vertical = context.ReadValue<Vector2>().y;
+
+        /*if (movementInput != Vector2.zero)
         {
             Vector2 movement = CalculateMovement(movementInput);
             rb.MovePosition(rb.position + movement);
-            Debug.Log("Triggered2");
+
             // Deplete endurance
-            //currentEndurance -= CalculateEnduranceDepletion(movementInput);
+            currentEndurance -= CalculateEnduranceDepletion(movementInput);
         }
+        */
     }
 
     private void OnInteractInput(InputAction.CallbackContext context)
@@ -47,7 +57,7 @@ public class CharacterOverworldController : MonoBehaviour
     private Vector2 CalculateMovement(Vector2 input)
     {
         float diagonalFactor = Mathf.Abs(input.x) == 1 && Mathf.Abs(input.y) == 1 ? 0.7071f : 1f; // For diagonal movement
-        return input * movementSpeed * diagonalFactor * Time.deltaTime;
+        return input * speed * diagonalFactor * Time.deltaTime;
     }
 
     private float CalculateEnduranceDepletion(Vector2 input)

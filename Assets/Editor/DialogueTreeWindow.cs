@@ -30,6 +30,10 @@ public class DialogueTreeEditorWindow : EditorWindow
             {
                 CreateNewDialogueTree();
             }
+            if (GUILayout.Button("Add Dialogue Node"))
+            {
+                AddDialogueNode();
+            }
             return;
         }
 
@@ -59,7 +63,11 @@ public class DialogueTreeEditorWindow : EditorWindow
 
     private void SaveDialogueTree()
     {
-        //Save the dialogue tree to a scriptable object or file
+        //Save the Dialogue Tree to a scriptable object or file
+    }
+    private void AddDialogueNode()
+    {
+        //Add a Dialogue Node to the current temp dialogue tree
     }
 
     private void DrawDialogueNodes()
