@@ -144,10 +144,10 @@
                 10
             ],
             "scale": 1,
-            "selectedLayer": 10,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 308,
-                "y": 537.5
+                "x": 50,
+                "y": 15
             }
         },
         "AdventureWaterfall1_TEST.json##Tools": {
@@ -276,8 +276,8 @@
             "scale": 0.25,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1022,
-                "y": 898
+                "x": 1028,
+                "y": 900
             }
         },
         "Overworld1.tmx##Tool": {

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 02c19295bb9c64b0d9fe4ad91c39de62
+=======
+guid: 66d8b0180226b4697bbd08d990268a6f
+>>>>>>> AdventureGame-v0.0.0324-Elmore_COPY
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
