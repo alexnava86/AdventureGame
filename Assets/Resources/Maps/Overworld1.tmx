@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="128" height="112" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="4">
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="128" height="112" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="6">
  <tileset firstgid="1" name="Overworld" tilewidth="16" tileheight="16" tilecount="512" columns="32">
   <image source="../Art/Tilesets/Overworld/overworld_tiles/overworld_tiles.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="513" name="AdventureSet" tilewidth="16" tileheight="16" tilecount="512" columns="16">
   <image source="../Art/Tilesets/Dungeons/adventuregame/adventuregame.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="1025" name="#Tools" tilewidth="33" tileheight="57" tilecount="3" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="33" height="16" source="../Art/Tools/Start.png"/>
+  </tile>
+  <tile id="1">
+   <image width="22" height="16" source="../Art/Tools/End.png"/>
+  </tile>
+  <tile id="2">
+   <image width="29" height="57" source="../Art/Tools/Portal.png"/>
+  </tile>
  </tileset>
  <layer id="1" name="Tile Layer 1" width="128" height="112">
   <data encoding="csv">
@@ -357,5 +369,9 @@
  <objectgroup id="3" name="Object Layer 1" offsetx="-12" offsety="-5.2">
   <object id="2" gid="481" x="696.646" y="575.879" width="16" height="16"/>
   <object id="3" gid="481" x="527.25" y="1116.95" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup id="5" name="Interactive">
+  <object id="4" gid="1026" x="367" y="1120" width="22" height="16"/>
+  <object id="5" gid="1025" x="391" y="1136" width="33" height="32"/>
  </objectgroup>
 </map>

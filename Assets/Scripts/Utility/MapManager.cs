@@ -20,6 +20,7 @@ public class MapManager : MonoBehaviour
     private Dictionary<int, AnimatedTile> tileAnimations = new Dictionary<int, AnimatedTile>();
     private Dictionary<int, Tilemap> tilemaps = new Dictionary<int, Tilemap>();
     private Dictionary<int, GameObject> objects = new Dictionary<int, GameObject>();
+    //private Dictionary<int, GameObject> objects = new Dictionary<int, GameObject>();
     private int tileCount = 0;
     private int objectCount = 0;
     private JSONNode json = new JSONNode();
@@ -177,6 +178,8 @@ public class MapManager : MonoBehaviour
                             path = path.Remove(0, 4); // Remove the enclosing folder name "Art"...
                             path = "Prefabs/" + path; // Place "Prefabs/" before corresponding folder path
                             objects.Add((int)objectID + objectIDOffset, Resources.Load(path) as GameObject);
+                            //Debug.Log(objects[(int)objectID + objectIDOffset].GetComponent<SpriteRenderer>().name); //The sprite's name...
+                            //Debug.Log(objects[(int)objectID + objectIDOffset].GetComponent<SpriteRenderer>().sprite.rect.size.x); //The sprite's width...
                         }
                     }
                     else
@@ -285,11 +288,18 @@ public class MapManager : MonoBehaviour
                                 Color color;
                                 ColorUtility.TryParseHtmlString(tint.Trim('"'), out color);
                                 color = new Color(color.r, color.g, color.b, alpha);
-                                //width = json["layers"][layer]["objects"][i]["width"].AsInt;
-                                //height = json["layers"][layer]["objects"][i]["height"].AsInt;
+                                width = json["layers"][layer]["objects"][i]["width"].AsInt; //Gets the width of the Object instance...
+                                height = json["layers"][layer]["objects"][i]["height"].AsInt; //Gets the height of the Object instance...
                                 x = json["layers"][layer]["objects"][i]["x"].AsInt;// + (width / 2);
                                 y = json["layers"][layer]["objects"][i]["y"].AsInt * -1 + 16;// + (height / 2);
                                 currentObject = Instantiate(objects[(int)objectID], new Vector2(x, y), Quaternion.identity) as GameObject;
+                                //Debug.Log(width);
+                                //Debug.Log(height);
+                                //Debug.Log(objects[(int)objectID].GetComponent<SpriteRenderer>().sprite.texture.width);
+                                //Debug.Log(objects[(int)objectID].GetComponent<SpriteRenderer>().sprite.texture.height);
+                                //Debug.Log((float)width / (float)objects[(int)objectID].GetComponent<SpriteRenderer>().sprite.texture.width);
+                                xscale *= (float)width / (float)objects[(int)objectID].GetComponent<SpriteRenderer>().sprite.texture.width;
+                                yscale *= (float)height / (float)objects[(int)objectID].GetComponent<SpriteRenderer>().sprite.texture.height;
                                 currentObject.transform.localScale = new Vector3(xscale, yscale, 1f);
                                 currentObject.gameObject.GetComponent<SpriteRenderer>().sortingOrder = layer;
                                 currentObject.gameObject.GetComponent<SpriteRenderer>().color = color;
