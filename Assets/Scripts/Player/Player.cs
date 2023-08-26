@@ -37,6 +37,7 @@ public class Player : AbstractCharacter
     void OnEnable()
     {
         Enemy.OnCharacterContact += Damage;
+        Portal.OnPlayerSummon += MovePlayerToPortal;
         //DropItem.OnCharacterTouch += Heal;
     }
 
@@ -44,6 +45,7 @@ public class Player : AbstractCharacter
     void OnDisable()
     {
         Enemy.OnCharacterContact -= Damage;
+        Portal.OnPlayerSummon -= MovePlayerToPortal;
         //DropItem.OnCharacterContact -= Heal;
     }
     #endregion
@@ -61,6 +63,12 @@ public class Player : AbstractCharacter
         {
             OnPlayerDamage(hpPercent);
         }
+    }
+
+    private void MovePlayerToPortal(Vector3 pos)
+    {
+        //Debug.Log(pos);
+        //this.transform.position = pos;
     }
     #endregion
 

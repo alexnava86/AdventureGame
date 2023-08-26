@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 //using System.Collections;
 
 public class GameManager : MonoBehaviour
@@ -14,12 +15,16 @@ public class GameManager : MonoBehaviour
     public bool Paused { get; set; }
     public bool DevMode { get; set; }
     public bool DebugMode { get; set; }
+    public string Destination { get; set; } //Temporary until data permanence or other solution implemented...
+    public int PortalID { get; set; } //Temporary until data permanence or other solution implemented...
+    public string Direction { get; set; } //Temporary until data permanence or other solution implemented...
     public static GameManager Instance { get; private set; }
     #endregion
 
     #region MonoBehaviour
     private void Awake()
     {
+        DontDestroyOnLoad(this);
         if (!Instance)
         {
             Instance = this;
@@ -29,9 +34,13 @@ public class GameManager : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+    private void OnEnable()
+    {
+        //OverworldPortal.OnPortalEnter += 
+    }
     private void Start()
     {
-
+        
     }
     private void Update()
     {

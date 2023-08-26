@@ -278,6 +278,7 @@ public class MapManager : MonoBehaviour
                         yscale = ((objectID & flippedVertically) != 0) ? -1f : 1f;
                         rotation = json["layers"][layer]["objects"][i]["rotation"].AsFloat * -1;
                         objectID &= ~(flippedHorizontally | flippedVertically | flippedDiagonally);
+                        int propertyCount = 0;
 
                         if (objectID != 0)
                         {
@@ -293,6 +294,34 @@ public class MapManager : MonoBehaviour
                                 x = json["layers"][layer]["objects"][i]["x"].AsInt;// + (width / 2);
                                 y = json["layers"][layer]["objects"][i]["y"].AsInt * -1 + 16;// + (height / 2);
                                 currentObject = Instantiate(objects[(int)objectID], new Vector2(x, y), Quaternion.identity) as GameObject;
+                                for(int j = 0; j < json["layers"][layer]["objects"][i]["properties"][j].Count; j++) 
+                                {
+                                    try
+                                    {
+                                        switch (json["layers"][layer]["objects"][i]["properties"][j]["name"])
+                                        {
+                                            case "Destination":
+                                                //Debug.Log(json["layers"][layer]["objects"][i]["properties"][j]["value"]);
+                                                currentObject.GetComponent<OverworldPortal>().Destination = json["layers"][layer]["objects"][i]["properties"][j]["value"].ToString();
+                                                currentObject.GetComponent<Portal>().Destination = json["layers"][layer]["objects"][i]["properties"][j]["value"].ToString();
+                                                break;
+                                            case "PortalID":
+                                                Debug.Log(json["layers"][layer]["objects"][i]["properties"][j]["value"]);
+                                                currentObject.GetComponent<OverworldPortal>().PortalID = json["layers"][layer]["objects"][i]["properties"][j]["value"].AsInt;
+                                                currentObject.GetComponent<Portal>().PortalID = json["layers"][layer]["objects"][i]["properties"][j]["value"].AsInt;
+                                                break;
+                                            case "Direction":
+                                                //Debug.Log(json["layers"][layer]["objects"][i]["properties"][j]["value"]);
+                                                currentObject.GetComponent<OverworldPortal>().Direction = json["layers"][layer]["objects"][i]["properties"][j]["value"].ToString();
+                                                currentObject.GetComponent<Portal>().Direction = json["layers"][layer]["objects"][i]["properties"][j]["value"].ToString();
+                                                break;
+                                        }
+                                    }
+                                    catch
+                                    {
+                                    }
+                                    //Debug.Log(json["layers"][layer]["objects"][i]["properties"][j]["name"]);
+                                }
                                 //Debug.Log(width);
                                 //Debug.Log(height);
                                 //Debug.Log(objects[(int)objectID].GetComponent<SpriteRenderer>().sprite.texture.width);

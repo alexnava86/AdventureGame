@@ -1,6 +1,7 @@
 {
-    "activeFile": "bubble1-TEST.tmx",
+    "activeFile": "bubble1TEST.json",
     "expandedProjectPaths": [
+        "Interior Maps",
         "."
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -14,7 +15,9 @@
             "scaleInDock": 1
         },
         "/Users/nava/Studio/Projects/Documents/Adventure Game/Adventurer.tsx": {
-            "scaleInDock": 1
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "/Users/nava/Studio/Projects/hero.tsx": {
             "dynamicWrapping": true,
@@ -143,16 +146,17 @@
             "expandedObjectLayers": [
                 10
             ],
-            "scale": 1,
-            "selectedLayer": 0,
+            "scale": 2,
+            "selectedLayer": 10,
             "viewCenter": {
-                "x": 50,
-                "y": 15
+                "x": 1357.5,
+                "y": 797.25
             }
         },
         "AdventureWaterfall1_TEST.json##Tools": {
             "dynamicWrapping": true,
-            "scaleInDock": 4
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "AdventureWaterfall1_TEST.json#AdventureSet": {
             "scaleInDock": 4
@@ -163,7 +167,7 @@
         },
         "AdventureWaterfall1_TEST.json#Gradients": {
             "dynamicWrapping": false,
-            "scaleInDock": 4
+            "scaleInDock": 1
         },
         "AdventureWaterfall1_TEST.json#Items": {
             "scaleInDock": 4
@@ -175,16 +179,19 @@
             "scaleInDock": 4
         },
         "AdventureWaterfall1_TEST.tmx": {
-            "scale": 4,
-            "selectedLayer": 0,
+            "expandedObjectLayers": [
+                10
+            ],
+            "scale": 0.5,
+            "selectedLayer": 10,
             "viewCenter": {
-                "x": 41.5,
-                "y": 52.375
+                "x": 1090,
+                "y": 739
             }
         },
         "AdventureWaterfall1_TEST.tmx##Tools": {
             "dynamicWrapping": true,
-            "scaleInDock": 4
+            "scaleInDock": 1
         },
         "AdventureWaterfall1_TEST.tmx#AdventureSet": {
             "dynamicWrapping": false,
@@ -195,7 +202,7 @@
             "scaleInDock": 4
         },
         "AdventureWaterfall1_TEST.tmx#Gradients": {
-            "scaleInDock": 4
+            "scaleInDock": 1
         },
         "AdventureWaterfall1_TEST.tmx#Items": {
             "dynamicWrapping": true,
@@ -243,22 +250,77 @@
             "scale": 0.16139204545454544,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1747.2980109135717,
-                "y": 641.2955465587046
+                "x": 2277.063897201197,
+                "y": 1335.2578771343076
             }
         },
         "DrumbleVillage.tmx#AdventureSet": {
             "scaleInDock": 1
         },
-        "Overworld1.json": {
-            "expandedObjectLayers": [
-                5
-            ],
+        "Interior Maps/house1.tmx": {
             "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 244,
+                "y": 175.16666666666669
+            }
+        },
+        "Interior Maps/house1.tmx##Tools": {
+            "scaleInDock": 1
+        },
+        "Interior Maps/house1.tmx#AdventureSet": {
+            "scaleInDock": 1
+        },
+        "Interior Maps/house1.tmx#BlankTile": {
+            "scaleInDock": 1
+        },
+        "Interior Maps/house1.tmx#Items": {
+            "scaleInDock": 1
+        },
+        "Interior Maps/house1.tmx#Objects": {
+            "scaleInDock": 1
+        },
+        "Interior Maps/house1.tmx#Zelda2TheAdventureOfLink-Palace1": {
+            "scaleInDock": 1
+        },
+        "Interior Maps/house1.tmx#houseinterior": {
+            "scaleInDock": 1
+        },
+        "Interior Maps/house2.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 308,
+                "y": 293.75
+            }
+        },
+        "Interior Maps/house2.tmx##Tools": {
+            "scaleInDock": 1
+        },
+        "Interior Maps/house2.tmx#AdventureSet": {
+            "scaleInDock": 1
+        },
+        "Interior Maps/house2.tmx#BlankTile": {
+            "scaleInDock": 1
+        },
+        "Interior Maps/house2.tmx#Items": {
+            "scaleInDock": 1
+        },
+        "Interior Maps/house2.tmx#Objects": {
+            "scaleInDock": 1
+        },
+        "Interior Maps/house2.tmx#Zelda2TheAdventureOfLink-Palace1": {
+            "scaleInDock": 1
+        },
+        "Interior Maps/house2.tmx#houseinterior": {
+            "scaleInDock": 1
+        },
+        "Overworld1.json": {
+            "scale": 0.33,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 399.66666666666663,
-                "y": 1145.1666666666665
+                "x": 783.3333333333334,
+                "y": 1143.9393939393938
             }
         },
         "Overworld1.json##Tools": {
@@ -270,14 +332,16 @@
             "scaleInDock": 1
         },
         "Overworld1.json#Overworld": {
-            "scaleInDock": 1
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "Overworld1.tmx": {
-            "scale": 0.25,
+            "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1028,
-                "y": 900
+                "x": 796,
+                "y": 995.5
             }
         },
         "Overworld1.tmx##Tool": {
@@ -296,6 +360,7 @@
             "scaleInDock": 1
         },
         "Villagers.tsx": {
+            "dynamicWrapping": true,
             "scaleInDock": 1
         },
         "bentleyforest.tmx": {
@@ -309,12 +374,37 @@
         "bentleyforest.tmx#bentleyforestmap": {
             "scaleInDock": 1
         },
-        "bubble1-TEST.tmx": {
+        "bubble1-TEST.json": {
+            "expandedObjectLayers": [
+                8
+            ],
             "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 316.5,
+                "y": 593.75
+            }
+        },
+        "bubble1-TEST.json##Tools": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "bubble1-TEST.json#AdventureSet": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "bubble1-TEST.json#Overworld": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "bubble1-TEST.tmx": {
+            "scale": 1.5,
             "selectedLayer": 6,
             "viewCenter": {
-                "x": 452,
-                "y": 1141.75
+                "x": 378.66666666666663,
+                "y": 1171.6666666666665
             }
         },
         "bubble1-TEST.tmx##Tools": {
@@ -340,7 +430,9 @@
             }
         },
         "bubble1.json#AdventureSet": {
-            "scaleInDock": 1
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "bubble1.json#Overworld": {
             "scaleInDock": 1
@@ -361,6 +453,52 @@
         "bubble1.tmx#Overworld": {
             "scaleInDock": 1,
             "scaleInEditor": 1
+        },
+        "bubble1TEST.json": {
+            "expandedObjectLayers": [
+                8
+            ],
+            "scale": 3,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 452.3333333333333,
+                "y": 1208.1666666666665
+            }
+        },
+        "bubble1TEST.json##Tools": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "bubble1TEST.json#AdventureSet": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "bubble1TEST.json#Overworld": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "bubble1TEST.tmx": {
+            "expandedObjectLayers": [
+                8
+            ],
+            "scale": 3,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 484.66666666666663,
+                "y": 1173.5
+            }
+        },
+        "bubble1TEST.tmx##Tools": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "bubble1TEST.tmx#AdventureSet": {
+            "scaleInDock": 1
+        },
+        "bubble1TEST.tmx#Overworld": {
+            "scaleInDock": 1
         },
         "cave1.tmx": {
             "scale": 1,
@@ -389,18 +527,23 @@
             "scaleInDock": 1
         },
         "town1W.tmx": {
-            "scale": 1,
+            "scale": 0.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 444,
-                "y": 829.5
+                "x": 2542,
+                "y": 167
             }
         },
         "town1W.tmx##Tools": {
             "scaleInDock": 1
         },
         "town1W.tmx#AdventureSet": {
+            "dynamicWrapping": false,
             "scaleInDock": 1
+        },
+        "town1W.tmx#Adventurer": {
+            "dynamicWrapping": true,
+            "scaleInEditor": 1
         },
         "town1W.tmx#BlankTile": {
             "scaleInDock": 1
@@ -413,30 +556,33 @@
         },
         "town1W.tmx#Zelda2TheAdventureOfLink-Palace1": {
             "scaleInDock": 1
+        },
+        "town1W.tmx#townsfolk": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
         }
     },
     "last.imagePath": "/Users/nava/Studio/Projects/AdventureGame/Assets/Resources/Art/Tools",
     "map.lastUsedFormat": "tmx",
     "openFiles": [
         "AdventureWaterfall1_TEST.json",
-        "Overworld1.tmx",
-        "bubble1-TEST.tmx"
+        "bubble1TEST.json"
     ],
     "project": "AdventureGame.tiled-project",
-    "property.type": "int",
+    "property.type": "string",
     "recentFiles": [
         "AdventureWaterfall1_TEST.json",
-        "Overworld1.tmx",
-        "bubble1-TEST.tmx",
-        "Overworld1.json",
         "AdventureWaterfall1_TEST.tmx",
-        "AdventureWaterfall1_NIGHT.json",
-        "AdventureWaterfall1_DAY.tmx",
-        "AdventureWaterfall1_DAY.json",
-        "cave1.tmx",
+        "Overworld1.tmx",
+        "bubble1TEST.tmx",
+        "bubble1TEST.json",
+        "Overworld1.json",
         "town1W.tmx",
+        "bubble1-TEST.tmx",
         "bubble1.json",
-        "DrumbleVillage.tmx"
+        "DrumbleVillage.tmx",
+        "/Users/nava/Studio/Projects/Documents/Adventure Game/Adventurer.tsx",
+        "bubble1-TEST.json"
     ],
     "tileset.embedInMap": true,
     "tileset.tileSize": {
