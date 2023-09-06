@@ -1,7 +1,6 @@
 {
-    "activeFile": "bubble1TEST.json",
+    "activeFile": "AdventureWaterfall1_TEST.tmx",
     "expandedProjectPaths": [
-        "Interior Maps",
         "."
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -149,8 +148,8 @@
             "scale": 2,
             "selectedLayer": 10,
             "viewCenter": {
-                "x": 1357.5,
-                "y": 797.25
+                "x": 498.5,
+                "y": 498.75
             }
         },
         "AdventureWaterfall1_TEST.json##Tools": {
@@ -182,11 +181,11 @@
             "expandedObjectLayers": [
                 10
             ],
-            "scale": 0.5,
+            "scale": 1.5,
             "selectedLayer": 10,
             "viewCenter": {
-                "x": 1090,
-                "y": 739
+                "x": 399.3333333333333,
+                "y": 628.3333333333333
             }
         },
         "AdventureWaterfall1_TEST.tmx##Tools": {
@@ -215,6 +214,39 @@
         },
         "AdventureWaterfall1_TEST.tmx#Zelda2TheAdventureOfLink-Palace1": {
             "dynamicWrapping": false,
+            "scaleInDock": 4
+        },
+        "AdventureWaterfall1_TEST2.json": {
+            "expandedObjectLayers": [
+                10
+            ],
+            "scale": 1.5,
+            "selectedLayer": 10,
+            "viewCenter": {
+                "x": 355.33333333333337,
+                "y": 599.6666666666666
+            }
+        },
+        "AdventureWaterfall1_TEST2.json##Tools": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "AdventureWaterfall1_TEST2.json#AdventureSet": {
+            "scaleInDock": 4
+        },
+        "AdventureWaterfall1_TEST2.json#BlankTile": {
+            "scaleInDock": 4
+        },
+        "AdventureWaterfall1_TEST2.json#Gradients": {
+            "scaleInDock": 1
+        },
+        "AdventureWaterfall1_TEST2.json#Items": {
+            "scaleInDock": 4
+        },
+        "AdventureWaterfall1_TEST2.json#Objects": {
+            "scaleInDock": 4
+        },
+        "AdventureWaterfall1_TEST2.json#Zelda2TheAdventureOfLink-Palace1": {
             "scaleInDock": 4
         },
         "BentleyForest1_DAY.tmx": {
@@ -261,8 +293,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 244,
-                "y": 175.16666666666669
+                "x": 243.66666666666666,
+                "y": 174.83333333333331
             }
         },
         "Interior Maps/house1.tmx##Tools": {
@@ -290,8 +322,8 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 308,
-                "y": 293.75
+                "x": 307.5,
+                "y": 293.25
             }
         },
         "Interior Maps/house2.tmx##Tools": {
@@ -483,11 +515,11 @@
             "expandedObjectLayers": [
                 8
             ],
-            "scale": 3,
+            "scale": 1.5,
             "selectedLayer": 5,
             "viewCenter": {
-                "x": 484.66666666666663,
-                "y": 1173.5
+                "x": 480.66666666666663,
+                "y": 1141
             }
         },
         "bubble1TEST.tmx##Tools": {
@@ -563,26 +595,25 @@
         }
     },
     "last.imagePath": "/Users/nava/Studio/Projects/AdventureGame/Assets/Resources/Art/Tools",
-    "map.lastUsedFormat": "tmx",
+    "map.lastUsedFormat": "json",
     "openFiles": [
-        "AdventureWaterfall1_TEST.json",
-        "bubble1TEST.json"
+        "AdventureWaterfall1_TEST.tmx"
     ],
     "project": "AdventureGame.tiled-project",
     "property.type": "string",
     "recentFiles": [
-        "AdventureWaterfall1_TEST.json",
         "AdventureWaterfall1_TEST.tmx",
-        "Overworld1.tmx",
+        "Interior Maps/house1.tmx",
+        "Interior Maps/house2.tmx",
         "bubble1TEST.tmx",
+        "AdventureWaterfall1_TEST.json",
+        "Overworld1.tmx",
         "bubble1TEST.json",
         "Overworld1.json",
         "town1W.tmx",
         "bubble1-TEST.tmx",
         "bubble1.json",
-        "DrumbleVillage.tmx",
-        "/Users/nava/Studio/Projects/Documents/Adventure Game/Adventurer.tsx",
-        "bubble1-TEST.json"
+        "DrumbleVillage.tmx"
     ],
     "tileset.embedInMap": true,
     "tileset.tileSize": {

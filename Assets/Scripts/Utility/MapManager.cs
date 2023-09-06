@@ -301,7 +301,7 @@ public class MapManager : MonoBehaviour
                                         switch (json["layers"][layer]["objects"][i]["properties"][j]["name"])
                                         {
                                             case "Destination":
-                                                //Debug.Log(json["layers"][layer]["objects"][i]["properties"][j]["value"]);
+                                                Debug.Log(json["layers"][layer]["objects"][i]["properties"][j]["value"]);
                                                 currentObject.GetComponent<OverworldPortal>().Destination = json["layers"][layer]["objects"][i]["properties"][j]["value"].ToString();
                                                 currentObject.GetComponent<Portal>().Destination = json["layers"][layer]["objects"][i]["properties"][j]["value"].ToString();
                                                 break;
@@ -311,7 +311,7 @@ public class MapManager : MonoBehaviour
                                                 currentObject.GetComponent<Portal>().PortalID = json["layers"][layer]["objects"][i]["properties"][j]["value"].AsInt;
                                                 break;
                                             case "Direction":
-                                                //Debug.Log(json["layers"][layer]["objects"][i]["properties"][j]["value"]);
+                                                Debug.Log(json["layers"][layer]["objects"][i]["properties"][j]["value"]);
                                                 currentObject.GetComponent<OverworldPortal>().Direction = json["layers"][layer]["objects"][i]["properties"][j]["value"].ToString();
                                                 currentObject.GetComponent<Portal>().Direction = json["layers"][layer]["objects"][i]["properties"][j]["value"].ToString();
                                                 break;

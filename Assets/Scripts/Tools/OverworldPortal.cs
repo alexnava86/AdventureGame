@@ -22,7 +22,8 @@ public class OverworldPortal : MonoBehaviour
             GameManager.Instance.Destination = this.Destination; //Temporary until data permanence or other solution implemented...
             GameManager.Instance.PortalID = this.PortalID; //Temporary until data permanence or other solution implemented...
             GameManager.Instance.Direction = this.Direction; //Temporary until data permanence or other solution implemented...
-            SceneManager.LoadScene(Destination.Trim('"')); 
+            SceneManager.LoadScene(Destination.Trim('"'));
+            Debug.Log(this.PortalID);
         }
         /*
         try

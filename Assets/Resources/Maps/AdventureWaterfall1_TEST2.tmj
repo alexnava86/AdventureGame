@@ -1102,7 +1102,7 @@
                         {
                          "name":"Destination",
                          "type":"string",
-                         "value":"AdventureWaterfall1_TEST2"
+                         "value":""
                         }, 
                         {
                          "name":"Direction",
@@ -1130,7 +1130,7 @@
                         {
                          "name":"Destination",
                          "type":"string",
-                         "value":"bubble1TEST"
+                         "value":""
                         }, 
                         {
                          "name":"Direction",
