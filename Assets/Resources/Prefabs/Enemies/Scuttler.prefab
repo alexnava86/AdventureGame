@@ -98,7 +98,7 @@ Animator:
   m_GameObject: {fileID: 4042540650696090503}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a2d0b3c79bfac408fbc4c5efa951fefd, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3e1b0c51a03c444de9c460e8f49900aa, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -132,8 +132,8 @@ MonoBehaviour:
     rgba: 4291721130
   - serializedVersion: 2
     rgba: 4292968634
-  primaryHue: -128
-  primarySaturation: 0.23
+  primaryHue: 0
+  primarySaturation: 0
   primaryBrightness: 0
   secondaryColors:
   - serializedVersion: 2
@@ -144,8 +144,8 @@ MonoBehaviour:
     rgba: 4282604953
   - serializedVersion: 2
     rgba: 44796
-  secondaryHue: 78
-  secondarySaturation: 0.18
+  secondaryHue: 0
+  secondarySaturation: 0
   secondaryBrightness: 0
   accentColors: []
   accentHue: 0
