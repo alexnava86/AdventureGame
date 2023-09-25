@@ -311,7 +311,7 @@ public class MapManager : MonoBehaviour
                                                 currentObject.GetComponent<Portal>().PortalID = json["layers"][layer]["objects"][i]["properties"][j]["value"].AsInt;
                                                 break;
                                             case "Direction":
-                                                Debug.Log(json["layers"][layer]["objects"][i]["properties"][j]["value"]);
+                                                //Debug.Log(json["layers"][layer]["objects"][i]["properties"][j]["value"]);
                                                 currentObject.GetComponent<OverworldPortal>().Direction = json["layers"][layer]["objects"][i]["properties"][j]["value"].ToString();
                                                 currentObject.GetComponent<Portal>().Direction = json["layers"][layer]["objects"][i]["properties"][j]["value"].ToString();
                                                 break;

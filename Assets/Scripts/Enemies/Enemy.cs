@@ -20,7 +20,7 @@ public class Enemy : AbstractCharacter
     }
     protected void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.GetComponent<AbstractCharacter>() != null)
+        if (collider.GetComponent<Player>() != null)
         {
             if (OnCharacterContact != null)
             {
@@ -32,12 +32,10 @@ public class Enemy : AbstractCharacter
             }
         }
     }
-
     protected void OnEnable()
     {
         PlayerSword.OnWeaponContact += Damage;
     }
-
     protected void OnDisable()
     {
         PlayerSword.OnWeaponContact -= Damage;

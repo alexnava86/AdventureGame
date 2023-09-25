@@ -1,5 +1,6 @@
 ﻿//using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System;
 using UnityEngine;
 
@@ -58,6 +59,21 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
         this.MagicAttack = Convert.ToInt32(data.grid[Level, 6]);
         this.MagicDefense = Convert.ToInt32(data.grid[Level, 7]);
         this.ExpToLvlUp = Convert.ToInt32(data.grid[Level, 8]);
+    }
+
+    public void SetAnim(string animName)
+    {
+        if (this.GetComponent<Animator>() != null)
+        {
+            Animator anim = this.GetComponent<Animator>();
+            IEnumerable<string> state = from s in anim.parameters where s.name != animName select s.name;
+
+            foreach (string s in state)
+            {
+                anim.SetBool(s, false);
+            }
+            anim.SetBool(animName, true);
+        }
     }
 
     public void Damage(int value)

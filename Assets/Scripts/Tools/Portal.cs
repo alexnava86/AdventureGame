@@ -34,22 +34,22 @@ public class Portal : MonoBehaviour
     }
     private void Start()
     {
-        Debug.Log(GameManager.Instance.Destination);
+        //Debug.Log(GameManager.Instance.Destination);
         //Temporary until data permanence or other solution implemented...
         if (GameManager.Instance.Destination != "")
         {
-            //Debug.Log("SSSSSHITTTTT!!!!");
+            //Debug.Log("TEST_0");
             if (GameManager.Instance.PortalID == this.PortalID)
             {
                 //Debug.Log(GameManager.Instance.Destination);
-                Debug.Log("HITTTTT!!!!");
+                //Debug.Log("TEST_1");
                 //OnPlayerSummon(this.transform.position);
             }
 
             if (OnPlayerSummon != null && GameManager.Instance.PortalID == this.PortalID)
             {
                 //Debug.Log(GameManager.Instance.Destination);
-                //Debug.Log("HITTTTT!!!!");
+                //Debug.Log("TEST_2");
                 OnPlayerSummon(this.transform.position);
             }
         }

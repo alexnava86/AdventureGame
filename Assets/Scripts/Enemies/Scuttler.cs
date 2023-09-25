@@ -4,8 +4,5 @@ using UnityEngine;
 
 public class Scuttler : Enemy
 {
-    private void OnEnable()
-    {
-        
-    }
+
 }
