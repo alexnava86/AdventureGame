@@ -301,12 +301,12 @@ public class MapManager : MonoBehaviour
                                         switch (json["layers"][layer]["objects"][i]["properties"][j]["name"])
                                         {
                                             case "Destination":
-                                                Debug.Log(json["layers"][layer]["objects"][i]["properties"][j]["value"]);
+                                                //Debug.Log(json["layers"][layer]["objects"][i]["properties"][j]["value"]);
                                                 currentObject.GetComponent<OverworldPortal>().Destination = json["layers"][layer]["objects"][i]["properties"][j]["value"].ToString();
                                                 currentObject.GetComponent<Portal>().Destination = json["layers"][layer]["objects"][i]["properties"][j]["value"].ToString();
                                                 break;
                                             case "PortalID":
-                                                Debug.Log(json["layers"][layer]["objects"][i]["properties"][j]["value"]);
+                                                //Debug.Log(json["layers"][layer]["objects"][i]["properties"][j]["value"]);
                                                 currentObject.GetComponent<OverworldPortal>().PortalID = json["layers"][layer]["objects"][i]["properties"][j]["value"].AsInt;
                                                 currentObject.GetComponent<Portal>().PortalID = json["layers"][layer]["objects"][i]["properties"][j]["value"].AsInt;
                                                 break;

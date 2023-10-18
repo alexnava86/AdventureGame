@@ -13,6 +13,8 @@ public class Patrol : MonoBehaviour
     private int seconds;
     private float horizontal;
     private float vertical;
+    [SerializeField]
+    private bool startLeft = true;
     private bool walkingLeft = false;
     private bool walkingRight = false;
     private bool holdPosition = false;
@@ -26,7 +28,14 @@ public class Patrol : MonoBehaviour
         //timer.StartTimer(new TimeSpan(0, 0, minutes, seconds, 0));
         character = GetComponent<AbstractCharacter>();
         rb = GetComponent<Rigidbody2D>();
-        StartCoroutine(PatrolRight(new TimeSpan(0, 0, minutes, seconds, 0)));
+        if (startLeft)
+        {
+            StartCoroutine(PatrolLeft(new TimeSpan(0, 0, minutes, seconds, 0)));
+        }
+        else
+        {
+            StartCoroutine(PatrolRight(new TimeSpan(0, 0, minutes, seconds, 0)));
+        }
     }
     private void Update()
     {

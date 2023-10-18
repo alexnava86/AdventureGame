@@ -974,18 +974,6 @@
          "objects":[
                 {
                  "class":"",
-                 "gid":524,
-                 "height":16,
-                 "id":1,
-                 "name":"",
-                 "rotation":0,
-                 "visible":true,
-                 "width":33,
-                 "x":417,
-                 "y":664
-                }, 
-                {
-                 "class":"",
                  "gid":525,
                  "height":16,
                  "id":4,
@@ -1094,34 +1082,6 @@
                 }, 
                 {
                  "class":"",
-                 "gid":2147484175,
-                 "height":57,
-                 "id":43,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"Destination",
-                         "type":"string",
-                         "value":"AdventureWaterfall1_TEST2"
-                        }, 
-                        {
-                         "name":"Direction",
-                         "type":"string",
-                         "value":""
-                        }, 
-                        {
-                         "name":"PortalID",
-                         "type":"int",
-                         "value":0
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":29,
-                 "x":272,
-                 "y":640
-                }, 
-                {
-                 "class":"",
                  "gid":527,
                  "height":57,
                  "id":45,
@@ -1130,7 +1090,7 @@
                         {
                          "name":"Destination",
                          "type":"string",
-                         "value":"bubble1TEST"
+                         "value":""
                         }, 
                         {
                          "name":"Direction",
