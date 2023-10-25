@@ -185,7 +185,7 @@
             "selectedLayer": 10,
             "viewCenter": {
                 "x": 399.3333333333333,
-                "y": 628.3333333333333
+                "y": 627.6666666666666
             }
         },
         "AdventureWaterfall1_TEST.tmx##Tools": {
@@ -201,6 +201,7 @@
             "scaleInDock": 4
         },
         "AdventureWaterfall1_TEST.tmx#Gradients": {
+            "dynamicWrapping": false,
             "scaleInDock": 1
         },
         "AdventureWaterfall1_TEST.tmx#Items": {
