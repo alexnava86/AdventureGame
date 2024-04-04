@@ -16,6 +16,7 @@ public class Portal : MonoBehaviour
     {
         //DontDestroyOnLoad(this);
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         try
@@ -32,6 +33,7 @@ public class Portal : MonoBehaviour
 
         }
     }
+
     private void Start()
     {
         //Debug.Log(GameManager.Instance.Destination);
@@ -54,14 +56,17 @@ public class Portal : MonoBehaviour
             }
         }
     }
+
     void OnEnable()
     {
         //OverworldPortal.OnPortalEnter += WarpPlayerToPortal;
     }
+
     private void OnDisable()
     {
         //OverworldPortal.OnPortalEnter -= WarpPlayerToPortal;
     }
+
     private void WarpPlayerToPortal(int portalID)
     {
         Debug.Log("Portal ID: " + portalID);

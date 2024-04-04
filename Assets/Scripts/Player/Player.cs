@@ -25,20 +25,24 @@ public class Player : AbstractCharacter
         this.Mp = this.MaxMp;
         this.Endurance = this.MaxEndurance;
     }
+
     private void Update()
     {
 
     }
+
     public void FixedUpdate()
     {
 
     }
+
     void OnEnable()
     {
         Enemy.OnCharacterContact += Damage;
         Portal.OnPlayerSummon += MovePlayerToPortal;
         //DropItem.OnCharacterTouch += Heal;
     }
+
     void OnDisable()
     {
         Enemy.OnCharacterContact -= Damage;
@@ -61,6 +65,7 @@ public class Player : AbstractCharacter
             OnPlayerDamage(hpPercent);
         }
     }
+
     private void MovePlayerToPortal(Vector3 pos)
     {
         //Debug.Log(pos);

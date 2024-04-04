@@ -37,10 +37,12 @@ public class Patrol : MonoBehaviour
             StartCoroutine(PatrolRight(new TimeSpan(0, 0, minutes, seconds, 0)));
         }
     }
+
     private void Update()
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
     }
+
     private void LateUpdate()
     {
         //this.transform.position = new Vector2(Mathf.Round(this.transform.position.x), Mathf.Round(this.transform.position.y));
@@ -64,6 +66,7 @@ public class Patrol : MonoBehaviour
         StartCoroutine(HoldPosition(timeSpan));
         yield return null;
     }
+
     private IEnumerator PatrolRight(TimeSpan timeSpan)
     {
         walkingRight = true;
@@ -81,6 +84,7 @@ public class Patrol : MonoBehaviour
         StartCoroutine(HoldPosition(timeSpan));
         yield return null;
     }
+
     private IEnumerator HoldPosition(TimeSpan timeSpan)
     {
         holdPosition = true;

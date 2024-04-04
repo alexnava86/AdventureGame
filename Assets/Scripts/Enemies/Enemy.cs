@@ -18,6 +18,7 @@ public class Enemy : AbstractCharacter
         this.Mp = this.MaxMp;
         this.Endurance = this.MaxEndurance;
     }
+
     protected void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.GetComponent<Player>() != null)
@@ -32,10 +33,12 @@ public class Enemy : AbstractCharacter
             }
         }
     }
+
     protected void OnEnable()
     {
         PlayerSword.OnWeaponContact += Damage;
     }
+
     protected void OnDisable()
     {
         PlayerSword.OnWeaponContact -= Damage;

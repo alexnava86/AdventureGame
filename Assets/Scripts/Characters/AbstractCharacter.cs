@@ -27,8 +27,11 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
     //public Skill[] Skills { get; set; }
     //public Spell[] Spells { get; set; }
     public enum StatusEffect { Poisoned, Silenced, Sleeping, Charmed, Hypnotized, Blinded, Confused, Paralyzed };
+    public delegate void CharacterAction();
     public delegate void CharacterAction<T>(T action);
     public static event CharacterAction<Int32> OnHpUpdate;
+    public static event CharacterAction OnDeath;
+
     #endregion
 
     #region MonoBehaviour
@@ -81,7 +84,8 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
         this.Hp -= value;
         if (this.Hp <= 0) //Player Death
         {
-            Destroy(this.gameObject);
+            OnDeath();
+            //Destroy(this.gameObject);
         }
     }
     
@@ -96,9 +100,10 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
         {
             OnHpUpdate(hpPercent);
         }
-        if (this.Hp <= 0) //Player/Character Death
+        //if (this.Hp <= 0) //Player/Character Death
         {
-            Destroy(this.gameObject);
+            //OnDeath();
+            //Destroy(this.gameObject);
         }
         return this.Hp;
     }

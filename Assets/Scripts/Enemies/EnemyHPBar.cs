@@ -6,7 +6,6 @@ public class EnemyHPBar : MonoBehaviour
 {
     [SerializeField]
     private Sprite[] hpSprites;
-    [SerializeField]
 
     void Start()
     {
@@ -24,8 +23,8 @@ public class EnemyHPBar : MonoBehaviour
     void OnDisable()
     {
         Enemy.OnEnemyDamage -= UpdateHpBar;
-
     }
+
     void UpdateHpBar(int hpPercentage, AbstractCharacter character)
     {
         if (character == this.GetComponentInParent<AbstractCharacter>())
