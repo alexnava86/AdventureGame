@@ -88,7 +88,7 @@ SpriteRenderer:
   m_Size: {x: 14, y: 30}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
 --- !u!95 &8043507468499480752
@@ -293,6 +293,7 @@ MonoBehaviour:
   groundCheck: {fileID: 2045566106}
   speed: 96
   jumpHeight: 320
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!114 &2006459579
 MonoBehaviour:
   m_ObjectHideFlags: 0
