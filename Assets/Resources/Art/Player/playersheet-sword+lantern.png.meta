@@ -1,0 +1,2120 @@
+fileFormatVersion: 2
+guid: 0ef1ba7990d41430f94ef760b06b2070
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3340633781089066444
+    second: playersheet-sword+lantern_0
+  - first:
+      213: -1531624297480030385
+    second: playersheet-sword+lantern_1
+  - first:
+      213: -6733636472248019867
+    second: playersheet-sword+lantern_2
+  - first:
+      213: 6230275601406773661
+    second: playersheet-sword+lantern_3
+  - first:
+      213: 7585804719932501890
+    second: playersheet-sword+lantern_4
+  - first:
+      213: 3717258814268712995
+    second: playersheet-sword+lantern_5
+  - first:
+      213: -6038148613492050820
+    second: playersheet-sword+lantern_6
+  - first:
+      213: -3463482521306882649
+    second: playersheet-sword+lantern_7
+  - first:
+      213: 5415670836767232813
+    second: playersheet-sword+lantern_8
+  - first:
+      213: -8122023117039426624
+    second: playersheet-sword+lantern_9
+  - first:
+      213: -1748847655335750217
+    second: playersheet-sword+lantern_10
+  - first:
+      213: -7510321667243245315
+    second: playersheet-sword+lantern_11
+  - first:
+      213: 724872627848840604
+    second: playersheet-sword+lantern_12
+  - first:
+      213: 1981432278855966989
+    second: playersheet-sword+lantern_13
+  - first:
+      213: 8791069628597314978
+    second: playersheet-sword+lantern_14
+  - first:
+      213: 5544738222003524642
+    second: playersheet-sword+lantern_15
+  - first:
+      213: 7288109501247053059
+    second: playersheet-sword+lantern_16
+  - first:
+      213: 6082574717940351582
+    second: playersheet-sword+lantern_17
+  - first:
+      213: -6558446512146738657
+    second: playersheet-sword+lantern_18
+  - first:
+      213: 5071941391724933951
+    second: playersheet-sword+lantern_19
+  - first:
+      213: -6065820158815653405
+    second: playersheet-sword+lantern_20
+  - first:
+      213: -1181506859040329388
+    second: playersheet-sword+lantern_21
+  - first:
+      213: 4234598979113287897
+    second: playersheet-sword+lantern_22
+  - first:
+      213: -795573651727303598
+    second: playersheet-sword+lantern_23
+  - first:
+      213: 990301186695184992
+    second: playersheet-sword+lantern_24
+  - first:
+      213: 256283768093306881
+    second: playersheet-sword+lantern_25
+  - first:
+      213: -8689154743785629647
+    second: playersheet-sword+lantern_26
+  - first:
+      213: 1307346631787008758
+    second: playersheet-sword+lantern_27
+  - first:
+      213: -8633463595101955014
+    second: playersheet-sword+lantern_28
+  - first:
+      213: 2561405228846884190
+    second: playersheet-sword+lantern_29
+  - first:
+      213: -1473127070575533521
+    second: playersheet-sword+lantern_30
+  - first:
+      213: 8399856251728369602
+    second: playersheet-sword+lantern_31
+  - first:
+      213: 8114763890053964262
+    second: playersheet-sword+lantern_32
+  - first:
+      213: -3919244088838707025
+    second: playersheet-sword+lantern_33
+  - first:
+      213: -3440400329832215805
+    second: playersheet-sword+lantern_34
+  - first:
+      213: 6488599416086772288
+    second: playersheet-sword+lantern_35
+  - first:
+      213: 3188662458389952067
+    second: playersheet-sword+lantern_36
+  - first:
+      213: 7016977335386249661
+    second: playersheet-sword+lantern_37
+  - first:
+      213: 3811801978479625696
+    second: playersheet-sword+lantern_38
+  - first:
+      213: -6983684654620596743
+    second: playersheet-sword+lantern_39
+  - first:
+      213: 985583585914336351
+    second: playersheet-sword+lantern_40
+  - first:
+      213: 3771146900664823342
+    second: playersheet-sword+lantern_41
+  - first:
+      213: 5451921050195340809
+    second: playersheet-sword+lantern_42
+  - first:
+      213: -3315559085017585563
+    second: playersheet-sword+lantern_43
+  - first:
+      213: 8171402099985592776
+    second: playersheet-sword+lantern_44
+  - first:
+      213: 183895510070330324
+    second: playersheet-sword+lantern_45
+  - first:
+      213: -4577813062444786204
+    second: playersheet-sword+lantern_46
+  - first:
+      213: 8386589161566814003
+    second: playersheet-sword+lantern_47
+  - first:
+      213: 5472566116620491373
+    second: playersheet-sword+lantern_48
+  - first:
+      213: -5922700965757168631
+    second: playersheet-sword+lantern_49
+  - first:
+      213: 1682498085184502154
+    second: playersheet-sword+lantern_50
+  - first:
+      213: 4798886526489815770
+    second: playersheet-sword+lantern_51
+  - first:
+      213: -2794581695081006237
+    second: playersheet-sword+lantern_52
+  - first:
+      213: -4988541256997748306
+    second: playersheet-sword+lantern_53
+  - first:
+      213: 4830219217275768106
+    second: playersheet-sword+lantern_54
+  - first:
+      213: -2228024117244920081
+    second: playersheet-sword+lantern_55
+  - first:
+      213: 2949440750969497524
+    second: playersheet-sword+lantern_56
+  - first:
+      213: -7302641706841534793
+    second: playersheet-sword+lantern_57
+  - first:
+      213: -7879718806753930243
+    second: playersheet-sword+lantern_58
+  - first:
+      213: 3272810427697171266
+    second: playersheet-sword+lantern_59
+  - first:
+      213: -8171534632131202035
+    second: playersheet-sword+lantern_60
+  - first:
+      213: -671417254255039435
+    second: playersheet-sword+lantern_61
+  - first:
+      213: 2617517603734418090
+    second: playersheet-sword+lantern_62
+  - first:
+      213: -4362771713388285296
+    second: playersheet-sword+lantern_63
+  - first:
+      213: -8317155411098676410
+    second: playersheet-sword+lantern_64
+  - first:
+      213: -5221656081782924100
+    second: playersheet-sword+lantern_65
+  - first:
+      213: 1492344773719669753
+    second: playersheet-sword+lantern_66
+  - first:
+      213: -1942577532921384340
+    second: playersheet-sword+lantern_67
+  - first:
+      213: -2644198955080733583
+    second: playersheet-sword+lantern_68
+  - first:
+      213: -1827479528628273293
+    second: playersheet-sword+lantern_69
+  - first:
+      213: 4430995801780552852
+    second: playersheet-sword+lantern_70
+  - first:
+      213: -5739306344855658832
+    second: playersheet-sword+lantern_71
+  - first:
+      213: 5906046769019212249
+    second: playersheet-sword+lantern_72
+  - first:
+      213: -1321821298574845201
+    second: playersheet-sword+lantern_73
+  - first:
+      213: -8421254497629023328
+    second: playersheet-sword+lantern_74
+  - first:
+      213: 3178534243520135320
+    second: playersheet-sword+lantern_75
+  - first:
+      213: -2157101192117730841
+    second: playersheet-sword+lantern_76
+  - first:
+      213: -4823934932935294083
+    second: playersheet-sword+lantern_77
+  - first:
+      213: 5316113827310499915
+    second: playersheet-sword+lantern_78
+  - first:
+      213: 8273974643202969453
+    second: playersheet-sword+lantern_79
+  - first:
+      213: -8063746665260155863
+    second: playersheet-sword+lantern_80
+  - first:
+      213: 8118743336958574763
+    second: playersheet-sword+lantern_81
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 352
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4322489864fa3a1d0800000000000000
+      internalID: -3340633781089066444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 352
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47785bf0d39ebae0800000000000000
+      internalID: -1531624297480030385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 352
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564da090e415d82a0800000000000000
+      internalID: -6733636472248019867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 352
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9942aa66a2667650800000000000000
+      internalID: 6230275601406773661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 352
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fee039331364960800000000000000
+      internalID: 7585804719932501890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 352
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3282daa523b569330800000000000000
+      internalID: 3717258814268712995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 352
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74f9c7d3df243ca0800000000000000
+      internalID: -6038148613492050820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 352
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad9ab74ffc3fefc0800000000000000
+      internalID: -3463482521306882649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 320
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2314fdbee3582b40800000000000000
+      internalID: 5415670836767232813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 320
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3aa53e107c84f80800000000000000
+      internalID: -8122023117039426624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_10
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 320
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b51071c258dab7e0800000000000000
+      internalID: -1748847655335750217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_11
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 320
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df00c0b2c3af5c790800000000000000
+      internalID: -7510321667243245315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_12
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 320
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95855280d34f0a00800000000000000
+      internalID: 724872627848840604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_13
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 288
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01e3b7d8267f7b10800000000000000
+      internalID: 1981432278855966989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_14
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 320
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5a4480047200a70800000000000000
+      internalID: 8791069628597314978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_15
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 320
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2241d0f190ed2fc40800000000000000
+      internalID: 5544738222003524642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_16
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 288
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ddaf13af0942560800000000000000
+      internalID: 7288109501247053059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_17
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 288
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e524b96aa75a96450800000000000000
+      internalID: 6082574717940351582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_18
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 288
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12181535a7bbf4a0800000000000000
+      internalID: -6558446512146738657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_19
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 288
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f337d5fc2d7236640800000000000000
+      internalID: 5071941391724933951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_20
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 288
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1b36224b0e1dba0800000000000000
+      internalID: -6065820158815653405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_21
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 288
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451b63785c17a9fe0800000000000000
+      internalID: -1181506859040329388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_22
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 256
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0874ce55154ca30800000000000000
+      internalID: 4234598979113287897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 256
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c32289afd85f4f0800000000000000
+      internalID: -795573651727303598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0624d95bea14ebd00800000000000000
+      internalID: 990301186695184992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_25
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 256
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10076eeaab08e8300800000000000000
+      internalID: 256283768093306881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_26
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 256
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138d1423ccbe96780800000000000000
+      internalID: -8689154743785629647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_27
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 256
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2d7f1c5d0a42210800000000000000
+      internalID: 1307346631787008758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_28
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 256
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c5ea03a96cf2880800000000000000
+      internalID: -8633463595101955014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_29
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 256
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e552f371c70fb8320800000000000000
+      internalID: 2561405228846884190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_30
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f226559fbb66e8be0800000000000000
+      internalID: -1473127070575533521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c71d90b1c8429470800000000000000
+      internalID: 8399856251728369602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_32
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e165de93ce6d9070800000000000000
+      internalID: 8114763890053964262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_33
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa828b8244c0c99c0800000000000000
+      internalID: -3919244088838707025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_34
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 224
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bc637c02e3140d0800000000000000
+      internalID: -3440400329832215805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_35
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 224
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ab8a57ac22c0a50800000000000000
+      internalID: 6488599416086772288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_36
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 224
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346f4f49c97604c20800000000000000
+      internalID: 3188662458389952067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_37
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db91aa085bf416160800000000000000
+      internalID: 7016977335386249661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_38
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 193
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5c86124bd36e430800000000000000
+      internalID: 3811801978479625696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_39
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 193
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f52ef9cec7f41f90800000000000000
+      internalID: -6983684654620596743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5431eeac0f7dad00800000000000000
+      internalID: 985583585914336351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e21f1302ec55430800000000000000
+      internalID: 3771146900664823342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e2e544f4d19ab40800000000000000
+      internalID: 5451921050195340809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56825b92494ccf1d0800000000000000
+      internalID: -3315559085017585563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1b58e7ae6a66170800000000000000
+      internalID: 8171402099985592776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d30889fdf35d8200800000000000000
+      internalID: 183895510070330324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edd5d426475870c0800000000000000
+      internalID: -4577813062444786204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fb45c8866236470800000000000000
+      internalID: 8386589161566814003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_48
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ad00f53e572fb40800000000000000
+      internalID: 5472566116620491373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9045e29f9d65ecda0800000000000000
+      internalID: -5922700965757168631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8972be181f695710800000000000000
+      internalID: 1682498085184502154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_51
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada65d8ced1199240800000000000000
+      internalID: 4798886526489815770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b33e031c6a739d0800000000000000
+      internalID: -2794581695081006237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_53
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1c44d382425cab0800000000000000
+      internalID: -4988541256997748306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_54
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dccf859c2680340800000000000000
+      internalID: 4830219217275768106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feefc94bed77411e0800000000000000
+      internalID: -2228024117244920081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_56
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b729977cb48ee820800000000000000
+      internalID: 2949440750969497524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_57
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 96
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be02c50f0ec7aa90800000000000000
+      internalID: -7302641706841534793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df397796e7d95a290800000000000000
+      internalID: -7879718806753930243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b85107ebb5b6d20800000000000000
+      internalID: 3272810427697171266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_60
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 96
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d047406fb80e89e80800000000000000
+      internalID: -8171534632131202035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_61
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 96
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c6f088095aea6f0800000000000000
+      internalID: -671417254255039435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_62
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2fbe3746a435420800000000000000
+      internalID: 2617517603734418090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0927e5bdd325473c0800000000000000
+      internalID: -4362771713388285296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_64
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 64
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643deb34837839c80800000000000000
+      internalID: -8317155411098676410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_65
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 64
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc121a8573f887b0800000000000000
+      internalID: -5221656081782924100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbb8f73aafd5b410800000000000000
+      internalID: 1492344773719669753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_67
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62f099a6049a05e0800000000000000
+      internalID: -1942577532921384340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_68
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c24f65f0bed4bd0800000000000000
+      internalID: -2644198955080733583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_69
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f30d51d0d73a6e0800000000000000
+      internalID: -1827479528628273293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_70
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494806e843f0e7d30800000000000000
+      internalID: 4430995801780552852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be9bb99943e950b0800000000000000
+      internalID: -5739306344855658832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_72
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1db3eae3e76f150800000000000000
+      internalID: 5906046769019212249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea96e14882f7ade0800000000000000
+      internalID: -1321821298574845201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_74
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a359a1f6a1b12b80800000000000000
+      internalID: -8421254497629023328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_75
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890ce6bcd0c6c1c20800000000000000
+      internalID: 3178534243520135320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_76
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1404305ef6012e0800000000000000
+      internalID: -2157101192117730841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_77
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d734bce9cb0fd0db0800000000000000
+      internalID: -4823934932935294083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_78
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4872662c51a6c940800000000000000
+      internalID: 5316113827310499915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fc3b0c91013d270800000000000000
+      internalID: 8273974643202969453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_80
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c7d6aa121d71090800000000000000
+      internalID: -8063746665260155863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheet-sword+lantern_81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba04cfdcc029ba070800000000000000
+      internalID: 8118743336958574763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
