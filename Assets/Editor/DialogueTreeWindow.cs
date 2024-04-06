@@ -18,7 +18,7 @@ public class DialogueTreeEditorWindow : EditorWindow
 
     private void OnEnable()
     {
-        LoadDialogueTree(); //Load the dialogue tree from a scriptable object or file
+        //LoadDialogueTree(); //Load the dialogue tree from a scriptable object or file, may not be called here
     }
 
     private void OnGUI()
@@ -30,8 +30,34 @@ public class DialogueTreeEditorWindow : EditorWindow
             {
                 CreateNewDialogueTree();
             }
+            if (GUILayout.Button("Save Dialogue Tree"))
+            {
+                GUI.enabled = false; //Button disabled becuse there is no Dialogue Tree loaded...
+                //SaveDialogueTree();
+                //2.) GUI.TextField(...);
+                //3.) GUI.enabled = true;
+            }
+            if (GUILayout.Button("Load Dialogue Tree"))
+            {
+                LoadDialogueTree();
+            }
+            return;
+        }
+        else if(tempTree != null || dialogueTree != null)
+        {
+            if (GUILayout.Button("Create New Dialogue Tree"))
+            {
+                //Add 'Save changes to "untitled" dialogue tree?'. Use filename instead of Untitled if already exists.
+                CreateNewDialogueTree();
+            }
+            if (GUILayout.Button("Save Dialogue Tree"))
+            {
+                //Add 'Save changes to "untitled" dialogue tree?'. Use filename instead of Untitled if already exists. 
+                SaveDialogueTree();
+            }
             if (GUILayout.Button("Add Dialogue Node"))
             {
+                
                 AddDialogueNode();
             }
             return;
@@ -52,7 +78,7 @@ public class DialogueTreeEditorWindow : EditorWindow
     private void CreateNewDialogueTree()
     {
         tempTree = new DialogueTree();
-        SaveDialogueTree(); //Save the dialogue tree to a scriptable object or file
+        //SaveDialogueTree(); //Save the dialogue tree to a scriptable object or file, may not be called here
     }
 
     private void LoadDialogueTree()
@@ -68,6 +94,7 @@ public class DialogueTreeEditorWindow : EditorWindow
     private void AddDialogueNode()
     {
         //Add a Dialogue Node to the current temp dialogue tree
+        DrawDialogueNodes();
     }
 
     private void DrawDialogueNodes()
