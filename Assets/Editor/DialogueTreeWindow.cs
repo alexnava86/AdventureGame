@@ -20,7 +20,10 @@ public class DialogueTreeEditorWindow : EditorWindow
     {
         //LoadDialogueTree(); //Load the dialogue tree from a scriptable object or file, may not be called here
     }
+    private void OnInspectorGUI()
+    {
 
+    }
     private void OnGUI()
     {
         //GUILayout.Label("Dialogue Tree Editor", EditorStyles.boldLabel);
@@ -29,17 +32,19 @@ public class DialogueTreeEditorWindow : EditorWindow
             if (GUILayout.Button("Create New Dialogue Tree"))
             {
                 CreateNewDialogueTree();
+                Debug.Log("Dialogue Tree Created.");
             }
+            GUI.enabled = false; //Button disabled becuse there is no Dialogue Tree loaded...
             if (GUILayout.Button("Save Dialogue Tree"))
             {
-                GUI.enabled = false; //Button disabled becuse there is no Dialogue Tree loaded...
                 //SaveDialogueTree();
-                //2.) GUI.TextField(...);
-                //3.) GUI.enabled = true;
+                Debug.Log("Dialogue Tree Saved.");
             }
+            GUI.enabled = true;
             if (GUILayout.Button("Load Dialogue Tree"))
             {
-                LoadDialogueTree();
+                //LoadDialogueTree();
+                Debug.Log("Dialogue Tree Loaded.");
             }
             return;
         }
@@ -49,16 +54,24 @@ public class DialogueTreeEditorWindow : EditorWindow
             {
                 //Add 'Save changes to "untitled" dialogue tree?'. Use filename instead of Untitled if already exists.
                 CreateNewDialogueTree();
+                Debug.Log("Dialogue Tree Created.");
             }
             if (GUILayout.Button("Save Dialogue Tree"))
             {
                 //Add 'Save changes to "untitled" dialogue tree?'. Use filename instead of Untitled if already exists. 
                 SaveDialogueTree();
+                Debug.Log("Dialogue Tree Saved.");
+            }
+            if (GUILayout.Button("Load Dialogue Tree"))
+            {
+                //LoadDialogueTree();
+                Debug.Log("Dialogue Tree Loaded.");
             }
             if (GUILayout.Button("Add Dialogue Node"))
             {
                 
                 AddDialogueNode();
+                Debug.Log("Dialogue Node Added.");
             }
             return;
         }
