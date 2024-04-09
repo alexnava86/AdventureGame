@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
+using SimpleJSON;
 
 public class DialogueTreeEditorWindow : EditorWindow
 {
-    ///*
-    private DialogueTree tempTree;
-    private DialogueTree dialogueTree;
-    private DialogueNode selectedNode;
+    ///*json = JSON.Parse(mapFile.text);
+    private DialogueTree tempTree; //the Dialogue tree which is currently being edited
+    private DialogueTree dialogueTree; //most recently saved version of working Dialogue tree
+    private DialogueNode selectedNode; //the node most recently selected by clicking the mouse on the node, or the
 
     [MenuItem("Window/Dialogue Tree Editor")]
     public static void ShowWindow()
@@ -16,13 +17,13 @@ public class DialogueTreeEditorWindow : EditorWindow
         GetWindow<DialogueTreeEditorWindow>("Dialogue Tree Editor");
     }
 
-    private void OnEnable()
+    private void OnSelectionChange()
     {
-        //LoadDialogueTree(); //Load the dialogue tree from a scriptable object or file, may not be called here
-    }
-    private void OnInspectorGUI()
-    {
-
+        //if (Selection.activeGameObject.GetComponent<AbstractCharacter>() != null)
+        {
+            //Add 'Save changes to "untitled" dialogue tree?'. Use filename instead of Untitled if already exists.
+            //LoadDialogueTree(); //Load the dialogue tree of the currently selected character from a scriptable object or file, may not be called here
+        }
     }
     private void OnGUI()
     {
@@ -48,7 +49,7 @@ public class DialogueTreeEditorWindow : EditorWindow
             }
             return;
         }
-        else if(tempTree != null || dialogueTree != null)
+        else if(tempTree != null)
         {
             if (GUILayout.Button("Create New Dialogue Tree"))
             {
@@ -56,22 +57,34 @@ public class DialogueTreeEditorWindow : EditorWindow
                 CreateNewDialogueTree();
                 Debug.Log("Dialogue Tree Created.");
             }
+            if (GUILayout.Button("Discard Changes"))
+            {
+                //Add 'Save changes to "untitled" dialogue tree?'. Use filename instead of Untitled if already exists. 
+                tempTree = null;
+                Debug.Log("Dialogue Tree Discarded.");
+            }
             if (GUILayout.Button("Save Dialogue Tree"))
             {
                 //Add 'Save changes to "untitled" dialogue tree?'. Use filename instead of Untitled if already exists. 
-                SaveDialogueTree();
+                //SaveDialogueTree();
                 Debug.Log("Dialogue Tree Saved.");
             }
             if (GUILayout.Button("Load Dialogue Tree"))
             {
+                //Add 'Save changes to "untitled" dialogue tree?'. Use filename instead of Untitled if already exists. 
                 //LoadDialogueTree();
                 Debug.Log("Dialogue Tree Loaded.");
             }
             if (GUILayout.Button("Add Dialogue Node"))
             {
-                
-                AddDialogueNode();
+                //tempTree.AddDialogueNode();
                 Debug.Log("Dialogue Node Added.");
+            }
+            GUI.enabled = false; //Button disabled becuse there is no Dialogue Node selected...
+            if (GUILayout.Button("Remove Dialogue Node"))
+            {
+                //tempTree.RemoveDialogueNode();
+                Debug.Log("Dialogue node deleted.");
             }
             return;
         }
@@ -79,12 +92,13 @@ public class DialogueTreeEditorWindow : EditorWindow
         EditorGUILayout.Space();
 
         //Draw nodes and connections here
-        DrawDialogueNodes();
+        //DrawDialogueNodes();
         HandleNodeEvents();
 
         if (GUI.changed)
         {
-            SaveDialogueTree(); //Save the dialogue tree to a scriptable object or file
+            //tempTree.SaveDialogueTree(); //Save the dialogue tree to a scriptable object or file
+
         }
     }
 
@@ -94,20 +108,20 @@ public class DialogueTreeEditorWindow : EditorWindow
         //SaveDialogueTree(); //Save the dialogue tree to a scriptable object or file, may not be called here
     }
 
-    private void LoadDialogueTree()
+    private void LoadDialogueTree(DialogueTree tree)
     {
         //Load the dialogue tree from a scriptable object or file
-        //Set dialogueTree and selectedNode accordingly
+        //Set dialogueTree
+        //tempTree = tree;
     }
 
     private void SaveDialogueTree()
     {
         //Save the Dialogue Tree to a scriptable object or file
     }
-    private void AddDialogueNode()
+    private void ConfirmChangesDialog()
     {
-        //Add a Dialogue Node to the current temp dialogue tree
-        DrawDialogueNodes();
+
     }
 
     private void DrawDialogueNodes()
