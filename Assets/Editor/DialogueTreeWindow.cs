@@ -77,7 +77,7 @@ public class DialogueTreeEditorWindow : EditorWindow
             }
             if (GUILayout.Button("Add Dialogue Node"))
             {
-                //tempTree.AddDialogueNode();
+                tempTree.AddDialogueNode();
                 Debug.Log("Dialogue Node Added.");
             }
             GUI.enabled = false; //Button disabled becuse there is no Dialogue Node selected...
