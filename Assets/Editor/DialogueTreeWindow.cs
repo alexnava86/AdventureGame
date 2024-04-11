@@ -10,6 +10,7 @@ public class DialogueTreeEditorWindow : EditorWindow
     private DialogueTree tempTree; //the Dialogue tree which is currently being edited
     private DialogueTree dialogueTree; //most recently saved version of working Dialogue tree
     private DialogueNode selectedNode; //the node most recently selected by clicking the mouse on the node, or the
+    private GUIStyle currentStyle = null;
 
     [MenuItem("Window/Dialogue Tree Editor")]
     public static void ShowWindow()
@@ -25,6 +26,7 @@ public class DialogueTreeEditorWindow : EditorWindow
             //LoadDialogueTree(); //Load the dialogue tree of the currently selected character from a scriptable object or file, may not be called here
         }
     }
+
     private void OnGUI()
     {
         //GUILayout.Label("Dialogue Tree Editor", EditorStyles.boldLabel);
@@ -77,7 +79,8 @@ public class DialogueTreeEditorWindow : EditorWindow
             }
             if (GUILayout.Button("Add Dialogue Node"))
             {
-                tempTree.AddDialogueNode();
+                tempTree.AddDialogueNode("TEST");
+                //DrawDialogueNodes();
                 Debug.Log("Dialogue Node Added.");
             }
             GUI.enabled = false; //Button disabled becuse there is no Dialogue Node selected...
@@ -86,19 +89,16 @@ public class DialogueTreeEditorWindow : EditorWindow
                 //tempTree.RemoveDialogueNode();
                 Debug.Log("Dialogue node deleted.");
             }
-            return;
         }
-
         EditorGUILayout.Space();
 
         //Draw nodes and connections here
-        //DrawDialogueNodes();
         HandleNodeEvents();
+        DrawDialogueNodes();
 
         if (GUI.changed)
         {
             //tempTree.SaveDialogueTree(); //Save the dialogue tree to a scriptable object or file
-
         }
     }
 
@@ -119,6 +119,7 @@ public class DialogueTreeEditorWindow : EditorWindow
     {
         //Save the Dialogue Tree to a scriptable object or file
     }
+
     private void ConfirmChangesDialog()
     {
 
@@ -126,28 +127,95 @@ public class DialogueTreeEditorWindow : EditorWindow
 
     private void DrawDialogueNodes()
     {
-        foreach (DialogueNode node in tempTree.dialogueNodes)
+        if (tempTree != null)
         {
-            Rect nodeRect = new Rect(node.NodePosition, new Vector2(150, 50));
-            GUI.Box(nodeRect, node.DialogueText);
-
-            node.NodePosition = nodeRect.position; //Update node position after dragging/resizing
-
-            if (selectedNode == node && Event.current.type == EventType.Repaint)
+            
+            foreach (DialogueNode node in tempTree.dialogueNodes)
             {
-                EditorGUI.FocusTextInControl("NodeTextField");
-            }
-        }
+                Rect nodeRect = new Rect(new Vector2(100, 50), new Vector2(100, 50));
+                // Set the background color with full opacity
+                Color backgroundColor = new Color(1.0f, 0f, 0f, 1.0f); // Red color with full opacity
+                GUI.backgroundColor = backgroundColor;
+                //InitStyles();
 
-        //Draw connections between nodes
-        foreach (DialogueNode node in tempTree.dialogueNodes)
+                // Draw the box with the specified background color
+                GUI.Box(nodeRect, GUIContent.none);//node.DialogueText, EditorStyles.textField);//currentStyle); //EditorStyles.textArea);
+
+                // Reset background color
+                GUI.backgroundColor = Color.white;
+
+                // Draw the text inside the box
+                GUIStyle style = GUI.skin.box;
+                style.alignment = TextAnchor.MiddleCenter; // Center the text
+                GUI.Box(nodeRect, node.DialogueText, style);
+
+                // Update node position after dragging/resizing
+                node.NodePosition = nodeRect.position;
+            }
+            // Draw connections between nodes
+            foreach (DialogueNode node in tempTree.dialogueNodes)
+            {
+                //foreach (string childID in node.ChildrenNodeIDs)
+                {
+                    //DialogueNode childNode = dialogueTree.GetNodeByID(childID);
+                    //DrawNodeConnection(node.Position + new Vector2(75, 50), childNode.Position);
+                }
+            }
+            
+
+            /*
+            // Create a custom GUIStyle with fully opaque background color
+            GUIStyle boxStyle = new GUIStyle(GUI.skin.box);
+            boxStyle.normal.background = MakeTex(2, 2, new Color(1.0f, 0.0f, 0.0f, 1.0f)); // Red color with full opacity
+
+            foreach (DialogueNode node in tempTree.dialogueNodes)
+            {
+                Rect nodeRect = new Rect(new Vector2(100, 50), new Vector2(100, 50));
+
+                // Draw the box with the custom GUIStyle
+                GUI.Box(nodeRect, node.DialogueText, boxStyle);
+
+                // Update node position after dragging/resizing
+                node.NodePosition = nodeRect.position;
+            }
+
+            // Draw connections between nodes
+            // ...
+            */
+        }
+    }
+
+    private void InitStyles()
+    {
+        if (currentStyle == null)
         {
-            //foreach (string childID in node.ChildrenNodeIDs)
-            {
-                //DialogueNode childNode = dialogueTree.GetNodeByID(childID);
-                //DrawNodeConnection(node.Position + new Vector2(75, 50), childNode.Position);
-            }
+            currentStyle = new GUIStyle(GUI.skin.box);
+            currentStyle.normal.background = Texture2D.whiteTexture;//MakeTex(2, 2, new Color(1f, 1f, 1f, 0.5f));
         }
+    }
+
+    private Texture2D MakeTex(int width, int height, Color color)
+    {
+        /*
+        Color[] pix = new Color[width * height];
+        for (int i = 0; i < pix.Length; ++i)
+        {
+            pix[i] = color;
+        }
+        Texture2D result = new Texture2D(width, height);
+        result.SetPixels(pix);
+        result.Apply();
+        return result;
+        */
+        Color[] pixels = new Color[width * height];
+        for (int i = 0; i < pixels.Length; i++)
+        {
+            pixels[i] = color;
+        }
+        Texture2D result = new Texture2D(width, height);
+        result.SetPixels(pixels);
+        result.Apply();
+        return result;
     }
 
     private void DrawNodeConnection(Vector2 start, Vector2 end)
