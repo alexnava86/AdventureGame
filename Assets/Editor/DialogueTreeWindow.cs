@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using SimpleJSON;
+using UnityEngine.Rendering;
 
 public class DialogueTreeEditorWindow : EditorWindow
 {
@@ -134,20 +135,40 @@ public class DialogueTreeEditorWindow : EditorWindow
             {
                 Rect nodeRect = new Rect(new Vector2(100, 50), new Vector2(100, 50));
                 // Set the background color with full opacity
-                Color backgroundColor = new Color(1.0f, 0f, 0f, 1.0f); // Red color with full opacity
+                Color backgroundColor = new Color(1.0f, 0.0f, 0.0f, 1.0f); // Red color with full opacity
                 GUI.backgroundColor = backgroundColor;
                 //InitStyles();
 
+                //Draw the text inside the box
+                GUIStyle style = GUI.skin.box;
+                //Debug.Log(GUI.skin.box.normal);
+                style.alignment = TextAnchor.MiddleCenter; // Center the text
+                GUI.Box(nodeRect, node.DialogueText, style);
+
+                /*
+                GUIStyle boxStyle = GUI.skin.box;
+                // Get the normal background texture of the GUIStyle
+                Texture2D backgroundTexture = (Texture2D)boxStyle.normal.background;
+
+                // Get the material used by the GUIStyle
+                Material material = boxStyle.normal.background != null ? boxStyle.normal.background.material : null;
+
+                // Get the current graphics settings (blending mode)
+                BlendMode blendMode = GUI.blendMaterial == null ? BlendMode.Alpha : BlendMode.PremultipliedAlpha;
+
+                // Log information about the texture, material, and blending mode
+                Debug.Log("Texture: " + backgroundTexture.name);
+                Debug.Log("Material: " + (material != null ? material.name : "None"));
+                Debug.Log("Blending Mode: " + blendMode.ToString());
+                */
+
                 // Draw the box with the specified background color
-                GUI.Box(nodeRect, GUIContent.none);//node.DialogueText, EditorStyles.textField);//currentStyle); //EditorStyles.textArea);
+                //GUI.Box(nodeRect, GUIContent.none);//node.DialogueText, EditorStyles.textField);//currentStyle); //EditorStyles.textArea);
+                //GUI.Box(nodeRect, node.DialogueText, style); //, EditorStyles.miniButton);
 
                 // Reset background color
                 GUI.backgroundColor = Color.white;
 
-                // Draw the text inside the box
-                GUIStyle style = GUI.skin.box;
-                style.alignment = TextAnchor.MiddleCenter; // Center the text
-                GUI.Box(nodeRect, node.DialogueText, style);
 
                 // Update node position after dragging/resizing
                 node.NodePosition = nodeRect.position;
