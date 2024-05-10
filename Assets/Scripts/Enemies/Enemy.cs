@@ -36,21 +36,21 @@ public class Enemy : AbstractCharacter
 
     protected void OnEnable()
     {
-        PlayerSword.OnWeaponContact += Damage;
+        PlayerSword.OnWeaponContact += TakeDamage;
     }
 
     protected void OnDisable()
     {
-        PlayerSword.OnWeaponContact -= Damage;
+        PlayerSword.OnWeaponContact -= TakeDamage;
     }
 
-    private void Damage(int damage, AbstractCharacter sender)
+    private void TakeDamage(int damage, AbstractCharacter sender)
     {
         if (sender == this.GetComponent<AbstractCharacter>())
         {
             float hpRatio;// = ((float)this.Hp / (float)this.MaxHp) * 100f;
             int hpPercent;// = (int)hpRatio;
-            base.Damage(damage);
+            base.TakeDamage(damage);
             hpRatio = ((float)this.Hp / (float)this.MaxHp) * 100f;
             hpPercent = (int)hpRatio;
             if (OnEnemyDamage != null)

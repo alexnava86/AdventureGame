@@ -21,7 +21,7 @@ public class CharacterController2D : MonoBehaviour
     private float vertical;
     private bool facingRight;
     private bool ducking;
-    private enum State { Walking, Running, Idle, Ducking, Jumping, Attacking };
+    private enum State { Idle, Walking, Running, Ducking, Sneaking, Attacking, Jumping };
     private enum Direction { Left, Right };
     private State state;
     private Direction direction;
@@ -96,39 +96,65 @@ public class CharacterController2D : MonoBehaviour
     {
         horizontal = context.ReadValue<Vector2>().x;
         vertical = context.ReadValue<Vector2>().y;
-        if (horizontal > 0f)
+
+        if (vertical >= 0)
         {
-            SetAnim("WalkRight");
-            //facingRight = true;
-            direction = Direction.Right;
-            state = State.Walking;
-        }
-        else if (horizontal < 0f)
-        {
-            SetAnim("WalkLeft");
-            //facingRight = false;
-            direction = Direction.Left;
-            state = State.Walking;
-        }
-        if (vertical < 0f && direction != Direction.Right) //facingRight != true)
-        {
-            SetAnim("DuckLeft");
-            state = State.Ducking;
-        }
-        else if (vertical < 0f)
-        {
-            SetAnim("DuckRight");
-            state = State.Ducking;
+            if (horizontal > 0f && state != State.Ducking)
+            {
+                SetAnim("WalkRight");
+                direction = Direction.Right;
+                state = State.Walking;
+            }
+            else if (horizontal < 0f && state != State.Ducking)
+            {
+                SetAnim("WalkLeft");
+                direction = Direction.Left;
+                state = State.Walking;
+            }
         }
 
-        if (context.canceled && direction != Direction.Right) //facingRight != true)
+        if (vertical < 0f && horizontal == 0f)
+        {
+            if (direction != Direction.Right)
+            {
+                SetAnim("DuckLeft");
+                direction = Direction.Left;
+                state = State.Ducking;
+            }
+            else
+            {
+                SetAnim("DuckRight");
+                direction = Direction.Right;
+                state = State.Ducking;
+            }
+        }
+
+        if (vertical < 0f)
+        {
+            if (horizontal < 0f)
+            {
+                SetAnim("SneakLeft");
+                direction = Direction.Left;
+                state = State.Sneaking;
+            }
+            else if(horizontal > 0f)
+            {
+                SetAnim("SneakRight");
+                direction = Direction.Right;
+                state = State.Sneaking;
+            }
+        }
+
+        if (context.canceled && direction != Direction.Right)
         {
             SetAnim("IdleLeft");
+            direction = Direction.Left;
             state = State.Idle;
         }
-        else if (context.canceled && direction == Direction.Right) //facingRight == true)
+        else if (context.canceled && direction != Direction.Left)
         {
             SetAnim("IdleRight");
+            direction = Direction.Right;
             state = State.Idle;
         }
     }
@@ -141,10 +167,12 @@ public class CharacterController2D : MonoBehaviour
             if (direction != Direction.Right)
             {
                 SetAnim("JumpLeft");
+                direction = Direction.Left;
             }
             if (direction != Direction.Left)
             {
                 SetAnim("JumpRight");
+                direction = Direction.Right;
             }
         }
 
@@ -157,7 +185,7 @@ public class CharacterController2D : MonoBehaviour
     public void Attack(InputAction.CallbackContext context)
     {
         Animator anim = this.GetComponent<Animator>();
-        if (context.started && direction != Direction.Right) //facingRight != true)//(context.started)
+        if (context.started && direction != Direction.Right)
         {
             if (state != State.Ducking)
             {
@@ -168,7 +196,7 @@ public class CharacterController2D : MonoBehaviour
                 SetAnim("DuckAttackLeft");
             }
         }
-        else if (context.started && direction == Direction.Right) //facingRight == true)//(context.started)
+        else if (context.started && direction == Direction.Right)
         {
             if (state != State.Ducking)
             {
@@ -180,7 +208,7 @@ public class CharacterController2D : MonoBehaviour
             }
         }
 
-        if (context.canceled && direction != Direction.Right) //facingRight != true)
+        if (context.canceled && direction != Direction.Right)
         {
             if (state != State.Ducking)
             {
@@ -225,10 +253,12 @@ public class CharacterController2D : MonoBehaviour
             Animator anim = this.GetComponent<Animator>();
             IEnumerable<string> state = from s in anim.parameters where s.name != animName select s.name;
 
+            
             foreach (string s in state)
             {
                 anim.SetBool(s, false);
             }
+            //anim.SetTrigger(animName);
             anim.SetBool(animName, true);
         }
     }

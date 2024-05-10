@@ -38,26 +38,26 @@ public class Player : AbstractCharacter
 
     void OnEnable()
     {
-        Enemy.OnCharacterContact += Damage;
+        Enemy.OnCharacterContact += TakeDamage;
         Portal.OnPlayerSummon += MovePlayerToPortal;
         //DropItem.OnCharacterTouch += Heal;
     }
 
     void OnDisable()
     {
-        Enemy.OnCharacterContact -= Damage;
+        Enemy.OnCharacterContact -= TakeDamage;
         Portal.OnPlayerSummon -= MovePlayerToPortal;
         //DropItem.OnCharacterContact -= Heal;
     }
     #endregion
 
     #region Methods
-    private new void Damage(int value)
+    private new void TakeDamage(int value)
     {
-        float hpRatio; // = ((float)this.Hp / (float)this.MaxHp) * 100f;
+        float hpRatio; // = ((float)this.Hp/(float)this.MaxHp) * 100f;
         int hpPercent; // = (int)hpRatio;
 
-        base.Damage(value);
+        base.TakeDamage(value);
         hpRatio = ((float)this.Hp / (float)this.MaxHp) * 100f;
         hpPercent = (int)hpRatio;
         if (OnPlayerDamage != null)

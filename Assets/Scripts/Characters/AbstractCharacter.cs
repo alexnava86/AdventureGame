@@ -30,7 +30,7 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
     public delegate void CharacterAction();
     public delegate void CharacterAction<T>(T action);
     public static event CharacterAction<Int32> OnHpUpdate;
-    public static event CharacterAction OnDeath;
+    public static event CharacterAction<AbstractCharacter> OnDeath;
 
     #endregion
 
@@ -79,13 +79,13 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
         }
     }
 
-    public void Damage(int value)
+    public void TakeDamage(int value)
     {
         this.Hp -= value;
         if (this.Hp <= 0) //Player Death
         {
-            OnDeath();
-            //Destroy(this.gameObject);
+            OnDeath(this);
+            Destroy(this.gameObject);
         }
     }
     
@@ -100,10 +100,10 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
         {
             OnHpUpdate(hpPercent);
         }
-        //if (this.Hp <= 0) //Player/Character Death
+        if (this.Hp <= 0) //Player/Character Death
         {
-            //OnDeath();
-            //Destroy(this.gameObject);
+            //OnDeath(this);
+            Destroy(this.gameObject);
         }
         return this.Hp;
     }

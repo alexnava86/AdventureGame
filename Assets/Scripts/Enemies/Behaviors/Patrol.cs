@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Patrol : MonoBehaviour
 {
+    //Behaviour Script that can be attached to Enemies, NPCs, etc., to walk left/right for a period of time and hold position before reverting direction
     [SerializeField]
     private float speed = 0f;
     [SerializeField]
@@ -20,12 +21,9 @@ public class Patrol : MonoBehaviour
     private bool holdPosition = false;
     private AbstractCharacter character;
     private Rigidbody2D rb;
-    //private Timer timer;
 
     private void OnEnable()
     {
-        //Timer timer = this.gameObject.AddComponent<Timer>();
-        //timer.StartTimer(new TimeSpan(0, 0, minutes, seconds, 0));
         character = GetComponent<AbstractCharacter>();
         rb = GetComponent<Rigidbody2D>();
         if (startLeft)
@@ -54,7 +52,7 @@ public class Patrol : MonoBehaviour
         horizontal = -1f;
         Timer timer = this.gameObject.AddComponent<Timer>();
 
-        timer.StartTimer(timeSpan); //Rounds to the nearest 1/100 second (instead of 1/1000, possible framerate limitation)
+        timer.StartTimer(timeSpan); //Rounds to the nearest 1/100 second (instead of 1/1000, possible framerate limitation?)
         character.SetAnim("WalkLeft");
         
         while (timer.Finished != true)
@@ -73,7 +71,7 @@ public class Patrol : MonoBehaviour
         horizontal = 1f;
         Timer timer = this.gameObject.AddComponent<Timer>();
 
-        timer.StartTimer(new TimeSpan(0, 0, minutes, seconds, 0)); //Rounds to the nearest 1/100 second (instead of 1/1000, framerate limitation)
+        timer.StartTimer(new TimeSpan(0, 0, minutes, seconds, 0)); //Rounds to the nearest 1/100 second (instead of 1/1000, possible framerate limitation?)
         character.SetAnim("WalkRight");
         while (timer.Finished != true)
         {

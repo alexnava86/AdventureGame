@@ -19,15 +19,18 @@ public class SpawnEnemy : MonoBehaviour
 
     private void Start()
     {
-        enemyPrefab = Resources.Load("Prefabs/Enemies/Scuttler") as GameObject;
+        //enemyPrefab = Resources.Load("Prefabs/Enemies/Scuttler") as GameObject;
     }
 
-    private void InstantiateClones()
+    private void InstantiateClones(AbstractCharacter sender)
     {
         //isRespawning = true;
-        Instantiate(enemyPrefab, new Vector2(this.transform.position.x - 32f, this.transform.position.y), Quaternion.identity);
-        Instantiate(enemyPrefab, new Vector2(this.transform.position.x + 32f, this.transform.position.y), Quaternion.identity);
-        Destroy(this.gameObject);
+        if (sender == this.GetComponent<AbstractCharacter>())
+        {
+            Instantiate(enemyPrefab, new Vector2(this.transform.position.x - 32f, this.transform.position.y + 32), Quaternion.identity);
+            Instantiate(enemyPrefab, new Vector2(this.transform.position.x + 32f, this.transform.position.y + 32), Quaternion.identity);
+            //Destroy(this.gameObject);
+        }
     }
 
     /*

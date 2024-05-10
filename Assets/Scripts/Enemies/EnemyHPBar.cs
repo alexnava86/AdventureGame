@@ -9,6 +9,7 @@ public class EnemyHPBar : MonoBehaviour
 
     void Start()
     {
+        //Note: Revise this later to set the SortingLayer / SortingLayerOrder on the same layer as UI?
         if (this.GetComponent<SpriteRenderer>() != null && MapManager.Instance.map != null)
         {
             this.GetComponent<SpriteRenderer>().sortingOrder = MapManager.Instance.groundLayerID;
@@ -18,6 +19,7 @@ public class EnemyHPBar : MonoBehaviour
     void OnEnable()
     {
         Enemy.OnEnemyDamage += UpdateHpBar;
+        //Enemy.OnDeath += DestroyHPBar;
     }
 
     void OnDisable()
@@ -29,9 +31,14 @@ public class EnemyHPBar : MonoBehaviour
     {
         if (character == this.GetComponentInParent<AbstractCharacter>())
         {
-            int animID = hpSprites.Length - (hpPercentage / 4);
             //Debug.Log(hpPercentage);
+            int animID = hpSprites.Length - (hpPercentage / 4);
+            Debug.Log(animID);
             this.GetComponent<SpriteRenderer>().sprite = hpSprites[animID];
         }
+    }
+    void DestroyHPBar(AbstractCharacter character)
+    {
+        Destroy(this.gameObject);
     }
 }

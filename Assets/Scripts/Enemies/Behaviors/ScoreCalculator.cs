@@ -24,10 +24,14 @@ public class ScoreCalculator : MonoBehaviour
         Enemy.OnDeath -= Calculate;
     }
 
-    private void Calculate()
+    private void Calculate(AbstractCharacter enemy)
     {
-        scoreValue = Convert.ToInt32(scoreValueText.text.ToString());
-        scoreValue++;
-        scoreValueText.text = String.Format("{0:000}", scoreValue);
+        if (enemy == this.GetComponentInParent<AbstractCharacter>())
+        {
+            scoreValue = Convert.ToInt32(scoreValueText.text.ToString());
+            scoreValue++;
+            //Debug.Log(scoreValue);
+            scoreValueText.text = String.Format("{0:000}", scoreValue);
+        }
     }
  }

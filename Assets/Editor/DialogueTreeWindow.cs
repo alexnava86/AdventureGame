@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using SimpleJSON;
 using UnityEngine.Rendering;
+using cherrydev;
 
 public class DialogueTreeEditorWindow : EditorWindow
 {
@@ -12,6 +13,12 @@ public class DialogueTreeEditorWindow : EditorWindow
     private DialogueTree dialogueTree; //most recently saved version of working Dialogue tree
     private DialogueNode selectedNode; //the node most recently selected by clicking the mouse on the node, or the
     private GUIStyle currentStyle = null;
+
+    private Vector2 graphOffset;
+    private Vector2 graphDrag;
+
+    private const float gridLargeLineSpacing = 100f;
+    private const float gridSmallLineSpacing = 25;
 
     [MenuItem("Window/Dialogue Tree Editor")]
     public static void ShowWindow()
@@ -31,6 +38,10 @@ public class DialogueTreeEditorWindow : EditorWindow
     private void OnGUI()
     {
         //GUILayout.Label("Dialogue Tree Editor", EditorStyles.boldLabel);
+        //DrawNodeConnection();
+        DrawGridBackground(gridSmallLineSpacing, 0.2f, Color.gray);
+        DrawGridBackground(gridLargeLineSpacing, 0.2f, Color.gray);
+
         if (tempTree == null)
         {
             if (GUILayout.Button("Create New Dialogue Tree"))
@@ -124,6 +135,30 @@ public class DialogueTreeEditorWindow : EditorWindow
     private void ConfirmChangesDialog()
     {
 
+    }
+
+    private void DrawGridBackground(float gridSize, float gridOpacity, Color color)
+    {
+        int verticalLineCount = Mathf.CeilToInt((position.width + gridSize) / gridSize);
+        int horizontalLineCount = Mathf.CeilToInt((position.height + gridSize) / gridSize);
+
+        Handles.color = new Color(color.r, color.g, color.b, gridOpacity);
+
+        graphOffset += graphDrag * 0.5f;
+
+        Vector3 gridOffset = new Vector3(graphOffset.x % gridSize, graphOffset.y % gridSize, 0);
+
+        for (int i = 0; i < verticalLineCount; i++)
+        {
+            Handles.DrawLine(new Vector3(gridSize * i, -gridSize, 0) + gridOffset, new Vector3(gridSize * i, position.height + gridSize, 0f) + gridOffset);
+        }
+
+        for (int j = 0; j < horizontalLineCount; j++)
+        {
+            Handles.DrawLine(new Vector3(-gridSize, gridSize * j, 0) + gridOffset, new Vector3(position.width + gridSize, gridSize * j, 0f) + gridOffset);
+        }
+
+        Handles.color = Color.white;
     }
 
     private void DrawDialogueNodes()
@@ -244,6 +279,50 @@ public class DialogueTreeEditorWindow : EditorWindow
         Handles.color = Color.white;
         Handles.DrawLine(start, end);
     }
+
+    /*
+    private void DrawNodeConnection()
+    {
+        if (currentNodeGraph.nodesList == null)
+        {
+            return;
+        }
+
+        foreach (Node node in currentNodeGraph.nodesList)
+        {
+            Node parentNode = null;
+            Node childNode = null;
+
+            if (node.GetType() == typeof(AnswerNode))
+            {
+                AnswerNode answerNode = (AnswerNode)node;
+
+                for (int i = 0; i < answerNode.childSentenceNodes.Count; i++)
+                {
+                    if (answerNode.childSentenceNodes[i] != null)
+                    {
+                        parentNode = node;
+                        childNode = answerNode.childSentenceNodes[i];
+
+                        DrawConnectionLine(parentNode, childNode);
+                    }
+                }
+            }
+            else if (node.GetType() == typeof(SentenceNode))
+            {
+                SentenceNode sentenceNode = (SentenceNode)node;
+
+                if (sentenceNode.childNode != null)
+                {
+                    parentNode = node;
+                    childNode = sentenceNode.childNode;
+
+                    DrawConnectionLine(parentNode, childNode);
+                }
+            }
+        }
+    }
+    */
 
     private void HandleNodeEvents()
     {
