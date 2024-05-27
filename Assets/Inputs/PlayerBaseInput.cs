@@ -49,6 +49,14 @@ public class @PlayerBaseInput : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Pause"",
+                    ""type"": ""Button"",
+                    ""id"": ""58667b22-e20c-47a5-a44f-0bb38cae9e63"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -183,6 +191,28 @@ public class @PlayerBaseInput : IInputActionCollection, IDisposable
                     ""action"": ""Strafe"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""acb963b5-a629-44eb-97ca-7f12e5ed5f48"",
+                    ""path"": ""<Gamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b061909e-7177-4149-9b76-8c02a73bbb89"",
+                    ""path"": ""<Keyboard>/enter"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -262,7 +292,7 @@ public class @PlayerBaseInput : IInputActionCollection, IDisposable
             ""id"": ""472f872f-c1f0-4e15-b371-13a39bb8507b"",
             ""actions"": [
                 {
-                    ""name"": ""New action"",
+                    ""name"": ""Unpause"",
                     ""type"": ""Button"",
                     ""id"": ""f05c2fb3-0ed7-4b36-ba90-8019ffed85be"",
                     ""expectedControlType"": ""Button"",
@@ -273,12 +303,23 @@ public class @PlayerBaseInput : IInputActionCollection, IDisposable
             ""bindings"": [
                 {
                     ""name"": """",
-                    ""id"": ""1d7e160f-7d1e-40d0-8951-ee6bfed68d7d"",
-                    ""path"": """",
+                    ""id"": ""7217a417-e80e-441c-b3b5-034a08a3d146"",
+                    ""path"": ""<Gamepad>/start"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""New action"",
+                    ""action"": ""Unpause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1d7e160f-7d1e-40d0-8951-ee6bfed68d7d"",
+                    ""path"": ""<Keyboard>/enter"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Unpause"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -293,12 +334,13 @@ public class @PlayerBaseInput : IInputActionCollection, IDisposable
         m_Character_Jump = m_Character.FindAction("Jump", throwIfNotFound: true);
         m_Character_Attack = m_Character.FindAction("Attack", throwIfNotFound: true);
         m_Character_Strafe = m_Character.FindAction("Strafe", throwIfNotFound: true);
+        m_Character_Pause = m_Character.FindAction("Pause", throwIfNotFound: true);
         // Overworld
         m_Overworld = asset.FindActionMap("Overworld", throwIfNotFound: true);
         m_Overworld_Move = m_Overworld.FindAction("Move", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
-        m_UI_Newaction = m_UI.FindAction("New action", throwIfNotFound: true);
+        m_UI_Unpause = m_UI.FindAction("Unpause", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -352,6 +394,7 @@ public class @PlayerBaseInput : IInputActionCollection, IDisposable
     private readonly InputAction m_Character_Jump;
     private readonly InputAction m_Character_Attack;
     private readonly InputAction m_Character_Strafe;
+    private readonly InputAction m_Character_Pause;
     public struct CharacterActions
     {
         private @PlayerBaseInput m_Wrapper;
@@ -360,6 +403,7 @@ public class @PlayerBaseInput : IInputActionCollection, IDisposable
         public InputAction @Jump => m_Wrapper.m_Character_Jump;
         public InputAction @Attack => m_Wrapper.m_Character_Attack;
         public InputAction @Strafe => m_Wrapper.m_Character_Strafe;
+        public InputAction @Pause => m_Wrapper.m_Character_Pause;
         public InputActionMap Get() { return m_Wrapper.m_Character; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -381,6 +425,9 @@ public class @PlayerBaseInput : IInputActionCollection, IDisposable
                 @Strafe.started -= m_Wrapper.m_CharacterActionsCallbackInterface.OnStrafe;
                 @Strafe.performed -= m_Wrapper.m_CharacterActionsCallbackInterface.OnStrafe;
                 @Strafe.canceled -= m_Wrapper.m_CharacterActionsCallbackInterface.OnStrafe;
+                @Pause.started -= m_Wrapper.m_CharacterActionsCallbackInterface.OnPause;
+                @Pause.performed -= m_Wrapper.m_CharacterActionsCallbackInterface.OnPause;
+                @Pause.canceled -= m_Wrapper.m_CharacterActionsCallbackInterface.OnPause;
             }
             m_Wrapper.m_CharacterActionsCallbackInterface = instance;
             if (instance != null)
@@ -397,6 +444,9 @@ public class @PlayerBaseInput : IInputActionCollection, IDisposable
                 @Strafe.started += instance.OnStrafe;
                 @Strafe.performed += instance.OnStrafe;
                 @Strafe.canceled += instance.OnStrafe;
+                @Pause.started += instance.OnPause;
+                @Pause.performed += instance.OnPause;
+                @Pause.canceled += instance.OnPause;
             }
         }
     }
@@ -438,12 +488,12 @@ public class @PlayerBaseInput : IInputActionCollection, IDisposable
     // UI
     private readonly InputActionMap m_UI;
     private IUIActions m_UIActionsCallbackInterface;
-    private readonly InputAction m_UI_Newaction;
+    private readonly InputAction m_UI_Unpause;
     public struct UIActions
     {
         private @PlayerBaseInput m_Wrapper;
         public UIActions(@PlayerBaseInput wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Newaction => m_Wrapper.m_UI_Newaction;
+        public InputAction @Unpause => m_Wrapper.m_UI_Unpause;
         public InputActionMap Get() { return m_Wrapper.m_UI; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -453,16 +503,16 @@ public class @PlayerBaseInput : IInputActionCollection, IDisposable
         {
             if (m_Wrapper.m_UIActionsCallbackInterface != null)
             {
-                @Newaction.started -= m_Wrapper.m_UIActionsCallbackInterface.OnNewaction;
-                @Newaction.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnNewaction;
-                @Newaction.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnNewaction;
+                @Unpause.started -= m_Wrapper.m_UIActionsCallbackInterface.OnUnpause;
+                @Unpause.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnUnpause;
+                @Unpause.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnUnpause;
             }
             m_Wrapper.m_UIActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @Newaction.started += instance.OnNewaction;
-                @Newaction.performed += instance.OnNewaction;
-                @Newaction.canceled += instance.OnNewaction;
+                @Unpause.started += instance.OnUnpause;
+                @Unpause.performed += instance.OnUnpause;
+                @Unpause.canceled += instance.OnUnpause;
             }
         }
     }
@@ -473,6 +523,7 @@ public class @PlayerBaseInput : IInputActionCollection, IDisposable
         void OnJump(InputAction.CallbackContext context);
         void OnAttack(InputAction.CallbackContext context);
         void OnStrafe(InputAction.CallbackContext context);
+        void OnPause(InputAction.CallbackContext context);
     }
     public interface IOverworldActions
     {
@@ -480,6 +531,6 @@ public class @PlayerBaseInput : IInputActionCollection, IDisposable
     }
     public interface IUIActions
     {
-        void OnNewaction(InputAction.CallbackContext context);
+        void OnUnpause(InputAction.CallbackContext context);
     }
 }
