@@ -36,6 +36,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "58667b22-e20c-47a5-a44f-0bb38cae9e63",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -170,6 +178,28 @@
                     "action": "Strafe",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "acb963b5-a629-44eb-97ca-7f12e5ed5f48",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b061909e-7177-4149-9b76-8c02a73bbb89",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -249,7 +279,7 @@
             "id": "472f872f-c1f0-4e15-b371-13a39bb8507b",
             "actions": [
                 {
-                    "name": "New action",
+                    "name": "Unpause",
                     "type": "Button",
                     "id": "f05c2fb3-0ed7-4b36-ba90-8019ffed85be",
                     "expectedControlType": "Button",
@@ -260,12 +290,23 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "1d7e160f-7d1e-40d0-8951-ee6bfed68d7d",
-                    "path": "",
+                    "id": "7217a417-e80e-441c-b3b5-034a08a3d146",
+                    "path": "<Gamepad>/start",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "Unpause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1d7e160f-7d1e-40d0-8951-ee6bfed68d7d",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Unpause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
