@@ -19,8 +19,8 @@ public class CharacterController2D : MonoBehaviour
     private Animator animator;
     private float horizontal;
     private float vertical;
-    private bool facingRight;
-    private bool ducking;
+    //private bool facingRight;
+    //private bool ducking;
     private enum State { Idle, Walking, Running, Ducking, Sneaking, Attacking, Jumping };
     private enum Direction { Left, Right };
     private State state;
@@ -62,11 +62,11 @@ public class CharacterController2D : MonoBehaviour
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
 
-        if (!facingRight && horizontal > 0)
+        //if (!facingRight && horizontal > 0)
         {
             //FlipAxis();
         }
-        if (facingRight && horizontal < 0)
+        //if (facingRight && horizontal < 0)
         {
             //FlipAxis();
         }
@@ -86,7 +86,7 @@ public class CharacterController2D : MonoBehaviour
 
     private void FlipAxis()
     {
-        facingRight = !facingRight;
+        //facingRight = !facingRight;
         Vector3 localScale = this.transform.localScale;
         localScale.x *= -1f;
         this.transform.localScale = localScale;
@@ -99,13 +99,13 @@ public class CharacterController2D : MonoBehaviour
 
         if (vertical >= 0)
         {
-            if (horizontal > 0f && state != State.Ducking)
+            if (horizontal > 0f)
             {
                 SetAnim("WalkRight");
                 direction = Direction.Right;
                 state = State.Walking;
             }
-            else if (horizontal < 0f && state != State.Ducking)
+            else if (horizontal < 0f)
             {
                 SetAnim("WalkLeft");
                 direction = Direction.Left;
@@ -159,29 +159,6 @@ public class CharacterController2D : MonoBehaviour
         }
     }
 
-    public void Jump(InputAction.CallbackContext context)
-    {
-        if (context.performed && IsGrounded())
-        {
-            rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
-            if (direction != Direction.Right)
-            {
-                SetAnim("JumpLeft");
-                direction = Direction.Left;
-            }
-            if (direction != Direction.Left)
-            {
-                SetAnim("JumpRight");
-                direction = Direction.Right;
-            }
-        }
-
-        if (context.canceled && rb.velocity.y > 0f)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
-        }
-    }
-
     public void Attack(InputAction.CallbackContext context)
     {
         Animator anim = this.GetComponent<Animator>();
@@ -196,7 +173,7 @@ public class CharacterController2D : MonoBehaviour
                 SetAnim("DuckAttackLeft");
             }
         }
-        else if (context.started && direction == Direction.Right)
+        else if (context.started && direction != Direction.Left)
         {
             if (state != State.Ducking)
             {
@@ -226,7 +203,7 @@ public class CharacterController2D : MonoBehaviour
                 SetAnim("DuckLeft");
             }
         }
-        if (context.canceled && direction == Direction.Right) //facingRight == true)
+        if (context.canceled && direction != Direction.Left) //facingRight == true)
         {
             if (state != State.Ducking)
             {
@@ -246,6 +223,30 @@ public class CharacterController2D : MonoBehaviour
         }
     }
 
+    public void Jump(InputAction.CallbackContext context)
+    {
+        if (context.started && IsGrounded())
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
+            if (direction != Direction.Right)
+            {
+                SetAnim("JumpLeft");
+
+                direction = Direction.Left;
+            }
+            if (direction != Direction.Left)
+            {
+                SetAnim("JumpRight");
+                direction = Direction.Right;
+            }
+        }
+
+        if (context.canceled && rb.velocity.y > 0f)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+        }
+    }
+
     public void SetAnim(string animName)
     {
         if (this.GetComponent<Animator>() != null)
@@ -253,15 +254,15 @@ public class CharacterController2D : MonoBehaviour
             Animator anim = this.GetComponent<Animator>();
             IEnumerable<string> state = from s in anim.parameters where s.name != animName select s.name;
 
-            
             foreach (string s in state)
             {
                 anim.SetBool(s, false);
             }
-            //anim.SetTrigger(animName);
             anim.SetBool(animName, true);
         }
     }
+
+    //public static Ena
     /*
     private PlayerBaseInput playerBaseInputs;
     private InputAction movement;
