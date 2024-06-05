@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
+//using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 //using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
     #region Variables
+    //public static Canvas 
     private static GameObject dialogue;
     private static bool dialogueSkip;
     private static bool dialogueOverflow;
@@ -67,11 +69,13 @@ public class GameManager : MonoBehaviour
     }
     public void PauseGame()
     {
-        //Time.timeScale = 0;
+        this.gameObject.transform.GetChild(1).gameObject.SetActive(true);
+        Time.timeScale = 0;
     }
     public void UnpauseGame()
     {
-        //Time.timeScale = 1;
+        this.gameObject.transform.GetChild(1).gameObject.SetActive(false);
+        Time.timeScale = 1;
     }
     public void OpenMenu()
     {
