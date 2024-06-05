@@ -33,7 +33,7 @@ public class EnemyHPBar : MonoBehaviour
         {
             //Debug.Log(hpPercentage);
             int animID = hpSprites.Length - (hpPercentage / 4);
-            Debug.Log(animID);
+            //Debug.Log(animID);
             this.GetComponent<SpriteRenderer>().sprite = hpSprites[animID];
         }
     }
