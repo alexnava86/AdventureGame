@@ -28,6 +28,7 @@ public class SpawnEnemy : MonoBehaviour
         if (sender == this.GetComponent<AbstractCharacter>())
         {
             Instantiate(enemyPrefab, new Vector2(this.transform.position.x - 32f, this.transform.position.y + 32), Quaternion.identity);
+            //enemyPrefab.gameObject.
             Instantiate(enemyPrefab, new Vector2(this.transform.position.x + 32f, this.transform.position.y + 32), Quaternion.identity);
             //Destroy(this.gameObject);
         }
