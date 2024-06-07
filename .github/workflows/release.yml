@@ -1,0 +1,33 @@
+name: Sync to Azure 'release' Branch
+
+on:
+  push:
+    branches:
+      - release
+
+jobs:
+  sync:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITPAT }}
+
+    - name: Add Azure remote
+      run: git remote add azure ${{ secrets.AZURE_REPO_URL }}
+    
+    - name: Configure Git
+      run: |
+        git config user.email "alex.nava.developer@outlook.com"
+        git config user.name "Alex Nava"
+  
+    - name: Fetch latest changes from Azure
+      run: git fetch azure release
+
+    - name: Merge 'develop' branch into Azure 'release' branch
+      run: |
+        git checkout azure/release
+        git merge ${{ github.ref }}
+        git push azure release
