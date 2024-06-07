@@ -1,19 +1,47 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
 trigger:
-- AdventureGame-v0.0.0325-MASTER
+- main
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: 'windows-latest'
+
+variables:
+  buildConfiguration: 'Release'
+  unityVersion: '2019.4.28f1'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '5.x.x'
+    installationPath: $(Agent.ToolsDirectory)/dotnet
+
+- task: DownloadSecureFile@1
+  inputs:
+    secureFile: 'UnityHubSetup.exe'
+
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.x'
+    addToPath: true
 
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+    mkdir unity
+    Start-Process -FilePath $(Agent.TempDirectory)\UnityHubSetup.exe -ArgumentList "/S /D=$(Agent.ToolsDirectory)\unity" -Wait
+    $(Agent.ToolsDirectory)\unity\UnityHub.exe install -i $(unityVersion) --cm "$(Agent.ToolsDirectory)\unity"
+  displayName: 'Install Unity'
+
+- script: |
+    $(Agent.ToolsDirectory)\unity\UnityHub\Editor\$(unityVersion)\Editor\Unity.exe -quit -batchmode -logFile -projectPath $(Build.SourcesDirectory) -buildTarget StandaloneWindows64 -buildTargetPlatform Win64 -executeMethod BuildScript.Build
+  displayName: 'Build Unity Project'
+
+- task: CopyFiles@2
+  inputs:
+    sourceFolder: '$(Build.SourcesDirectory)\Builds'
+    contents: '**'
+    targetFolder: '$(Build.ArtifactStagingDirectory)'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
