@@ -1,0 +1,33 @@
+name: Sync to Azure 'main' Branch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITPAT }}
+        
+    - name: Add Azure remote
+      run: git remote add azure ${{ secrets.AZURE_REPO_URL }}
+    
+    - name: Configure Git
+      run: |
+        git config user.email "alex.nava.developer@outlook.com"
+        git config user.name "Alex Nava"
+
+    - name: Fetch latest changes from Azure
+      run: git fetch azure main
+
+    - name: Merge 'main' branch into Azure 'main' branch
+      run: |
+        git checkout azure/main
+        git merge ${{ github.ref }}
+        git push azure main
