@@ -2,11 +2,11 @@ trigger:
 - main
 
 pool:
-  vmImage: 'windows-latest'
+  vmImage: 'ubuntu-latest'
 
 variables:
   buildConfiguration: 'Release'
-  unityVersion: '2019.4.28f1'
+  unityImage: 'gableroux/unity3d:2019.4.28f1'
 
 steps:
 - task: UseDotNet@2
@@ -15,30 +15,30 @@ steps:
     version: '5.x.x'
     installationPath: $(Agent.ToolsDirectory)/dotnet
 
-- task: DownloadSecureFile@1
-  inputs:
-    secureFile: 'UnityHubSetup.exe'
-
 - task: UsePythonVersion@0
   inputs:
     versionSpec: '3.x'
     addToPath: true
 
 - script: |
-    mkdir unity
-    Start-Process -FilePath $(Agent.TempDirectory)\UnityHubSetup.exe -ArgumentList "/S /D=$(Agent.ToolsDirectory)\unity" -Wait
-    $(Agent.ToolsDirectory)\unity\UnityHub.exe install -i $(unityVersion) --cm "$(Agent.ToolsDirectory)\unity"
-  displayName: 'Install Unity'
+    echo "Pulling Unity Docker Image"
+    docker pull $(unityImage)
+  displayName: 'Pull Unity Docker Image'
 
 - script: |
-    $(Agent.ToolsDirectory)\unity\UnityHub\Editor\$(unityVersion)\Editor\Unity.exe -quit -batchmode -logFile -projectPath $(Build.SourcesDirectory) -buildTarget StandaloneWindows64 -buildTargetPlatform Win64 -executeMethod BuildScript.Build
-  displayName: 'Build Unity Project'
-
-- task: CopyFiles@2
-  inputs:
-    sourceFolder: '$(Build.SourcesDirectory)\Builds'
-    contents: '**'
-    targetFolder: '$(Build.ArtifactStagingDirectory)'
+    echo "Running Unity Build in Docker"
+    docker run --rm \
+      -v $(Build.SourcesDirectory):/project \
+      -v $(Build.ArtifactStagingDirectory):/project/Builds \
+      -w /project \
+      $(unityImage) \
+      /opt/Unity/Editor/Unity \
+      -quit -batchmode -nographics \
+      -logFile /dev/stdout \
+      -projectPath /project \
+      -buildTarget StandaloneWindows64 \
+      -executeMethod BuildScript.Build
+  displayName: 'Build Unity Project with Docker'
 
 - task: PublishBuildArtifacts@1
   inputs:
