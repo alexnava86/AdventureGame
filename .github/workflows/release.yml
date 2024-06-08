@@ -26,7 +26,7 @@ jobs:
     - name: Fetch latest changes from Azure
       run: git fetch azure release
 
-    - name: Merge 'develop' branch into Azure 'release' branch
+    - name: Merge 'release' branch into Azure 'release' branch
       run: |
         git checkout azure/release
         git merge ${{ github.ref }}
