@@ -26,6 +26,12 @@ steps:
   displayName: 'Pull Unity Docker Image'
 
 - script: |
+    echo "Checking environment variables"
+    echo "UNITY_USERNAME: $(UNITY_USERNAME)"
+    echo "UNITY_PASSWORD: $(UNITY_PASSWORD)"
+  displayName: 'Check Environment Variables'
+  
+- script: |
     echo "Activating Unity License"
     docker run --rm \
       -e UNITY_EMAIL=$(UNITY_EMAIL) \
