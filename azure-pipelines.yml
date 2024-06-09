@@ -29,17 +29,6 @@ steps:
   displayName: 'Pull Unity Docker Image'
 
 - script: |
-    echo "Checking environment variables"
-    echo "UNITY_EMAIL: $UNITY_EMAIL"
-    echo "UNITY_PASSWORD: $UNITY_PASSWORD"
-  displayName: 'Check Environment Variables'
-
-- script: |
-    echo "Printing all environment variables"
-    printenv
-  displayName: 'Print All Environment Variables'
-
-- script: |
     echo "Activating Unity License"
     docker run --rm \
       -e UNITY_EMAIL=$UNITY_EMAIL \
@@ -48,7 +37,7 @@ steps:
       $(unityImage) \
       /opt/unity/Editor/Unity \
       -quit -batchmode -nographics -logFile - \
-      -username $(UNITY_USERNAME) -password $(UNITY_PASSWORD) -serial ''
+      -username "$UNITY_EMAIL" -password "$UNITY_PASSWORD" -serial ''
   displayName: 'Activate Unity License'
 
 - script: |
