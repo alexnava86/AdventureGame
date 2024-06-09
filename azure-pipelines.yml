@@ -14,6 +14,12 @@ steps:
     packageType: 'sdk'
     version: '5.x'
     installationPath: $(Agent.ToolsDirectory)/dotnet
+steps:
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '5.x'
+    installationPath: $(Agent.ToolsDirectory)/dotnet
 
 - task: UsePythonVersion@0
   inputs:
@@ -24,6 +30,18 @@ steps:
     echo "Pulling Unity Docker Image"
     docker pull $(unityImage)
   displayName: 'Pull Unity Docker Image'
+
+- script: |
+    echo "Activating Unity License"
+    docker run --rm \
+      -e UNITY_EMAIL=$(UNITY_EMAIL) \
+      -e UNITY_PASSWORD=$(UNITY_PASSWORD) \
+      -e UNITY_SERIAL='' \
+      $(unityImage) \
+      /opt/unity/Editor/Unity \
+      -quit -batchmode -nographics -logFile - \
+      -username "$UNITY_USERNAME" -password "$UNITY_PASSWORD" -serial ''
+  displayName: 'Activate Unity License'
 
 - script: |
     echo "Running Unity Build in Docker"
