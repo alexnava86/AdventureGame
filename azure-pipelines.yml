@@ -14,12 +14,6 @@ steps:
     packageType: 'sdk'
     version: '5.x'
     installationPath: $(Agent.ToolsDirectory)/dotnet
-steps:
-- task: UseDotNet@2
-  inputs:
-    packageType: 'sdk'
-    version: '5.x'
-    installationPath: $(Agent.ToolsDirectory)/dotnet
 
 - task: UsePythonVersion@0
   inputs:
