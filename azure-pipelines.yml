@@ -34,7 +34,7 @@ steps:
       $(unityImage) \
       /opt/unity/Editor/Unity \
       -quit -batchmode -nographics -logFile - \
-      -username "$UNITY_USERNAME" -password "$UNITY_PASSWORD" -serial ''
+      -username $(UNITY_USERNAME) -password $(UNITY_PASSWORD) -serial ''
   displayName: 'Activate Unity License'
 
 - script: |
