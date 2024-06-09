@@ -6,7 +6,7 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
-  unityImage: 'unityci/editor:ubuntu-2018.4.28f1-mac-mono-3.1.0'
+  unityImage: 'unityci/editor:ubuntu-2018.4.28f1-windows-mono-3.1.0'
 
 steps:
 - task: UseDotNet@2
@@ -32,7 +32,7 @@ steps:
       -v $(Build.ArtifactStagingDirectory):/project/Builds \
       -w /project \
       $(unityImage) \
-      /opt/Unity/Editor/Unity \
+      /opt/unity/Editor/Unity \
       -quit -batchmode -nographics \
       -logFile /dev/stdout \
       -projectPath /project \
