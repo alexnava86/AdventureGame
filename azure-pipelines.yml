@@ -27,8 +27,8 @@ steps:
 
 - script: |
     echo "Checking environment variables"
-    echo "UNITY_USERNAME: $(UNITY_USERNAME)"
-    echo "UNITY_PASSWORD: $(UNITY_PASSWORD)"
+    echo "UNITY_EMAIL: $UNITY_EMAIL"
+    echo "UNITY_PASSWORD: $UNITY_PASSWORD"
   displayName: 'Check Environment Variables'
   
 - script: |
