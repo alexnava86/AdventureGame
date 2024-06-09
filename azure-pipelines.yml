@@ -30,7 +30,12 @@ steps:
     echo "UNITY_EMAIL: $UNITY_EMAIL"
     echo "UNITY_PASSWORD: $UNITY_PASSWORD"
   displayName: 'Check Environment Variables'
-  
+
+- script: |
+    echo "Printing all environment variables"
+    printenv
+  displayName: 'Print All Environment Variables'
+
 - script: |
     echo "Activating Unity License"
     docker run --rm \
