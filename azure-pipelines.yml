@@ -43,8 +43,8 @@ steps:
     echo "Activating Unity License"
     docker run --rm \
       -v $(Agent.TempDirectory)/Unity_v2019.4.28f1.ulf:/root/.local/share/unity3d/Unity/Unity_v2019.4.28f1.ulf \
-      -e UNITY_EMAIL=$(UNITY_EMAIL) \
-      -e UNITY_PASSWORD=$(UNITY_PASSWORD) \
+      -e UNITY_EMAIL=$UNITY_EMAIL \
+      -e UNITY_PASSWORD=$UNITY_PASSWORD \
       -e UNITY_SERIAL='' \
       $(unityImage) \
       /opt/unity/Editor/Unity \
