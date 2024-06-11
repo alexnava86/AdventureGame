@@ -23,6 +23,11 @@ steps:
     versionSpec: '3.x'
     addToPath: true
 
+- task: DownloadSecureFile@1
+  inputs:
+    secureFile: 'Unity_v2019.4.28f1.ulf'
+  displayName: 'Download Unity License File'
+
 - script: |
     echo "Pulling Unity Docker Image"
     docker pull $(unityImage)
@@ -31,13 +36,13 @@ steps:
 - script: |
     echo "Activating Unity License"
     docker run --rm \
-      -e UNITY_USERNAME=$UNITY_USERNAME \
+      -e UNITY_EMAIL=$UNITY_EMAIL \
       -e UNITY_PASSWORD=$UNITY_PASSWORD \
       -e UNITY_SERIAL='' \
       $(unityImage) \
       /opt/unity/Editor/Unity \
       -quit -batchmode -nographics -logFile - \
-      -username "$UNITY_USERNAME" -password "$UNITY_PASSWORD" -serial ''
+      -email "$UNITY_EMAIL" -password "$UNITY_PASSWORD" -serial ''
   displayName: 'Activate Unity License'
 
 - script: |
