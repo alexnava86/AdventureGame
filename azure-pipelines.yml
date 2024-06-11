@@ -23,19 +23,23 @@ steps:
     versionSpec: '3.x'
     addToPath: true
 
-# Download the Unity license file
+- script: |
+    echo "Verifying Environment Variables"
+    echo "UNITY_EMAIL: $UNITY_EMAIL"
+    echo "UNITY_USERNAME: $UNITY_USERNAME"
+    echo "UNITY_PASSWORD: $UNITY_PASSWORD"
+  displayName: 'Verify Environment Variables'
+
 - task: DownloadSecureFile@1
   inputs:
     secureFile: 'Unity_lic.ulf'
   displayName: 'Download Unity License File'
 
-# Pull the Unity Docker image
 - script: |
     echo "Pulling Unity Docker Image"
     docker pull $(unityImage)
   displayName: 'Pull Unity Docker Image'
 
-# Activate Unity license
 - script: |
     echo "Activating Unity License"
     docker run --rm \
@@ -48,7 +52,6 @@ steps:
       -quit -batchmode -nographics -logFile -
   displayName: 'Activate Unity License'
 
-# Build the Unity project
 - script: |
     echo "Running Unity Build in Docker"
     docker run --rm \
@@ -64,7 +67,6 @@ steps:
       -executeMethod BuildScript.Build
   displayName: 'Build Unity Project with Docker'
 
-# Publish the build artifacts
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
