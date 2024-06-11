@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'ubuntu-latest' 
+  vmImage: 'ubuntu-latest'
 
 variables:
 - name: buildConfiguration
@@ -23,26 +23,36 @@ steps:
     versionSpec: '3.x'
     addToPath: true
 
+# Download the Unity license file
 - task: DownloadSecureFile@1
-  inputs: 
-    secureFile: 'Unity_v2019.4.28f1.ulf'
+  inputs:
+    secureFile: 'Unity_lic.ulf'
   displayName: 'Download Unity License File'
 
+# Verify the secure file content
 - script: |
-    echo "Listing downloaded files"
-    ls -al $(Agent.TempDirectory)
-    cat $(Agent.TempDirectory)/Unity_v2019.4.28f1.ulf
-  displayName: 'Verify Downloaded File'
+    echo "Verifying License File"
+    cat $(Agent.TempDirectory)/Unity_lic.ulf
+  displayName: 'Verify License File'
 
+# Verify environment variables are set correctly
+- script: |
+    echo "Verifying Environment Variables"
+    echo "UNITY_EMAIL: $UNITY_EMAIL"
+    echo "UNITY_PASSWORD: $UNITY_PASSWORD"
+  displayName: 'Verify Environment Variables'
+
+# Pull the Unity Docker image
 - script: |
     echo "Pulling Unity Docker Image"
     docker pull $(unityImage)
   displayName: 'Pull Unity Docker Image'
 
+# Activate Unity license
 - script: |
     echo "Activating Unity License"
     docker run --rm \
-      -v $(Agent.TempDirectory)/Unity_v2019.4.28f1.ulf:/root/.local/share/unity3d/Unity/Unity_v2019.4.28f1.ulf \
+      -v $(Agent.TempDirectory)/Unity_lic.ulf:/root/.local/share/unity3d/Unity/Unity_lic.ulf \
       -e UNITY_EMAIL=$UNITY_EMAIL \
       -e UNITY_PASSWORD=$UNITY_PASSWORD \
       -e UNITY_SERIAL='' \
@@ -50,7 +60,8 @@ steps:
       /opt/unity/Editor/Unity \
       -quit -batchmode -nographics -logFile -
   displayName: 'Activate Unity License'
-  
+
+# Build the Unity project
 - script: |
     echo "Running Unity Build in Docker"
     docker run --rm \
@@ -66,6 +77,7 @@ steps:
       -executeMethod BuildScript.Build
   displayName: 'Build Unity Project with Docker'
 
+# Publish the build artifacts
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
