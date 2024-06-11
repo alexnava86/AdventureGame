@@ -24,9 +24,15 @@ steps:
     addToPath: true
 
 - task: DownloadSecureFile@1
-  inputs:
+  inputs: 
     secureFile: 'Unity_v2019.4.28f1.ulf'
   displayName: 'Download Unity License File'
+
+- script: |
+    echo "Listing downloaded files"
+    ls -al $(Agent.TempDirectory)
+    cat $(Agent.TempDirectory)/Unity_v2019.4.28f1.ulf
+  displayName: 'Verify Downloaded File'
 
 - script: |
     echo "Pulling Unity Docker Image"
@@ -36,7 +42,7 @@ steps:
 - script: |
     echo "Activating Unity License"
     docker run --rm \
-      -v $(Agent.TempDirectory)/Unity_lic.ulf:/root/.local/share/unity3d/Unity/Unity_lic.ulf \
+      -v $(Agent.TempDirectory)/Unity_lic.ulf:/root/.local/share/unity3d/Unity/Unity_v2019.4.28f1.ulf \
       -e UNITY_EMAIL=$(UNITY_EMAIL) \
       -e UNITY_PASSWORD=$(UNITY_PASSWORD) \
       -e UNITY_SERIAL='' \
