@@ -23,13 +23,6 @@ steps:
     versionSpec: '3.x'
     addToPath: true
 
-- script: |
-    echo "Verifying Environment Variables"
-    echo "UNITY_EMAIL: $UNITY_EMAIL"
-    echo "UNITY_USERNAME: $UNITY_USERNAME"
-    echo "UNITY_PASSWORD: $UNITY_PASSWORD"
-  displayName: 'Verify Environment Variables'
-
 - task: DownloadSecureFile@1
   inputs:
     secureFile: 'Unity_lic.ulf'
