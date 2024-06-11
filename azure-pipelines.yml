@@ -29,19 +29,6 @@ steps:
     secureFile: 'Unity_lic.ulf'
   displayName: 'Download Unity License File'
 
-# Verify the secure file content
-- script: |
-    echo "Verifying License File"
-    cat $(Agent.TempDirectory)/Unity_lic.ulf
-  displayName: 'Verify License File'
-
-# Verify environment variables are set correctly
-- script: |
-    echo "Verifying Environment Variables"
-    echo "UNITY_EMAIL: $(UNITY_EMAIL)"
-    echo "UNITY_PASSWORD: $(UNITY_PASSWORD)"
-  displayName: 'Verify Environment Variables'
-
 # Pull the Unity Docker image
 - script: |
     echo "Pulling Unity Docker Image"
