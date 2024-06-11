@@ -38,8 +38,8 @@ steps:
 # Verify environment variables are set correctly
 - script: |
     echo "Verifying Environment Variables"
-    echo "UNITY_EMAIL: $UNITY_EMAIL"
-    echo "UNITY_PASSWORD: $UNITY_PASSWORD"
+    echo "UNITY_EMAIL: $(UNITY_EMAIL)"
+    echo "UNITY_PASSWORD: $(UNITY_PASSWORD)"
   displayName: 'Verify Environment Variables'
 
 # Pull the Unity Docker image
