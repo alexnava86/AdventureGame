@@ -36,15 +36,15 @@ steps:
 - script: |
     echo "Activating Unity License"
     docker run --rm \
-      -e UNITY_EMAIL=$UNITY_EMAIL \
-      -e UNITY_PASSWORD=$UNITY_PASSWORD \
+      -v $(Agent.TempDirectory)/Unity_lic.ulf:/root/.local/share/unity3d/Unity/Unity_lic.ulf \
+      -e UNITY_EMAIL=$(UNITY_EMAIL) \
+      -e UNITY_PASSWORD=$(UNITY_PASSWORD) \
       -e UNITY_SERIAL='' \
       $(unityImage) \
       /opt/unity/Editor/Unity \
-      -quit -batchmode -nographics -logFile - \
-      -email "$UNITY_EMAIL" -password "$UNITY_PASSWORD" -serial ''
+      -quit -batchmode -nographics -logFile -
   displayName: 'Activate Unity License'
-
+  
 - script: |
     echo "Running Unity Build in Docker"
     docker run --rm \
