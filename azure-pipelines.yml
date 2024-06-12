@@ -29,6 +29,13 @@ steps:
   displayName: 'Download Unity License File'
 
 - script: |
+    echo "Verifying Environment Variables"
+    echo "UNITY_EMAIL: $UNITY_EMAIL"
+    echo "UNITY_USERNAME: $UNITY_USERNAME"
+    echo "UNITY_PASSWORD: $UNITY_PASSWORD"
+  displayName: 'Verify Environment Variables'
+
+- script: |
     echo "Pulling Unity Docker Image"
     docker pull $(unityImage)
   displayName: 'Pull Unity Docker Image'
