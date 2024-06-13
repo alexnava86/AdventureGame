@@ -68,7 +68,7 @@ steps:
       -logFile /dev/stdout \
       -projectPath /project \
       -buildTarget StandaloneWindows64 \
-      -executeMethod BuildScript.Build
+      -executeMethod BuildScript.BuildWindows
   displayName: 'Build Unity Project with Docker'
 
 - task: PublishBuildArtifacts@1
