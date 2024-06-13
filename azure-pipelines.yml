@@ -71,8 +71,13 @@ steps:
       -executeMethod BuildScript.BuildWindows
   displayName: 'Build Unity Project with Docker'
 
+- script: |
+    echo "Checking if build was created"
+    ls -la $(Build.ArtifactStagingDirectory)/Builds/Windows
+  displayName: 'Check Build Output'
+
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/Builds/Windows'
     ArtifactName: 'drop'
     publishLocation: 'Container'
