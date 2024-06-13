@@ -52,12 +52,16 @@ steps:
       -quit -batchmode -nographics -logFile -
   displayName: 'Activate Unity License'
 
+# Build the Unity project
 - script: |
     echo "Running Unity Build in Docker"
     docker run --rm \
       -v $(Build.SourcesDirectory):/project \
       -v $(Build.ArtifactStagingDirectory):/project/Builds \
+      -v $(Agent.TempDirectory)/Unity_lic.ulf:/root/.local/share/unity3d/Unity/Unity_lic.ulf \
       -w /project \
+      -e UNITY_USERNAME=$UNITY_USERNAME \
+      -e UNITY_PASSWORD=$UNITY_PASSWORD \
       $(unityImage) \
       /opt/unity/Editor/Unity \
       -quit -batchmode -nographics \
