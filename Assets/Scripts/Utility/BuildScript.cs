@@ -7,7 +7,8 @@ using System.IO.Compression;
 
 public class BuildScript
 {
-    
+    public string[] buildScenes;
+
     public static void BuildAll()
     {
         BuildWindows();
@@ -32,8 +33,9 @@ public class BuildScript
 
     public static void BuildWindows()
     {
-        string[] scenes = GetScenes().ToArray();
-        string path = "Builds/Windows/adventuregame-" + DateTime.Now.ToShortDateString() + ".exe";
+        //string[] scenes = GetScenes().ToArray();
+        string[] scenes = {"Assets/Scenes/AdventureWaterfall1_TEST.unity"}; //TEST
+        string path = "/project/Builds/Windows/adventuregame-" + DateTime.Now.ToShortDateString() + ".exe";
         BuildPipeline.BuildPlayer(scenes, path, BuildTarget.StandaloneWindows64, BuildOptions.None);
         Debug.Log("Windows Build completed successfully.");
     }
@@ -41,7 +43,7 @@ public class BuildScript
     public static void BuildMacOS()
     {
         string[] scenes = GetScenes().ToArray();
-        string path = "Builds/MacOS/adventuregame-" + DateTime.Now.ToShortDateString() + ".app";
+        string path = "/project/Builds/MacOS/adventuregame-" + DateTime.Now.ToShortDateString() + ".app";
         BuildPipeline.BuildPlayer(scenes, path, BuildTarget.StandaloneOSX, BuildOptions.None);
         Debug.Log("macOS Build completed successfully.");
     }
