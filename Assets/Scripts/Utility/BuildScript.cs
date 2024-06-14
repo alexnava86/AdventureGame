@@ -35,9 +35,15 @@ public class BuildScript
     {
         //string[] scenes = GetScenes().ToArray();
         string[] scenes = {"Assets/Scenes/AdventureWaterfall1_TEST.unity"}; //TEST
-        string path = "/project/Builds/Windows/adventuregame-" + DateTime.Now.ToShortDateString() + ".exe";
+        string buildDir = "/project/Builds/Windows";
+        string path = buildDir + "/adventuregame-" + DateTime.Now.ToString("yyyyMMdd-HHmm") + ".exe";
+
+        if (!Directory.Exists(buildDir))
+        {
+            Directory.CreateDirectory(buildDir);
+        }
         BuildPipeline.BuildPlayer(scenes, path, BuildTarget.StandaloneWindows64, BuildOptions.None);
-        Debug.Log("Windows Build completed successfully.");
+        Debug.Log("Windows Build completed successfully. Build path: " + path);
     }
 
     public static void BuildMacOS()
