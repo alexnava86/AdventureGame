@@ -52,7 +52,6 @@ steps:
       -quit -batchmode -nographics -logFile -
   displayName: 'Activate Unity License'
 
-# Build the Unity project
 - script: |
     echo "Running Unity Build in Docker"
     docker run --rm \
@@ -63,12 +62,13 @@ steps:
       -e UNITY_USERNAME=$UNITY_USERNAME \
       -e UNITY_PASSWORD=$UNITY_PASSWORD \
       $(unityImage) \
-      /opt/unity/Editor/Unity \
-      -quit -batchmode -nographics \
-      -logFile /dev/stdout \
-      -projectPath /project \
-      -buildTarget StandaloneWindows64 \
-      -executeMethod BuildScript.BuildWindows
+      /bin/bash -c "\
+      echo 'Starting build...'; \
+      ls -la /project/Builds; \
+      /opt/unity/Editor/Unity -quit -batchmode -nographics -logFile /project/Builds/buildlog.txt -projectPath /project -buildTarget StandaloneWindows64 -executeMethod BuildScript.BuildWindows; \
+      echo 'Listing build directory contents after build:'; \
+      ls -la /project/Builds/Windows; \
+      cp /project/Builds/buildlog.txt /project/Builds/Windows/"
   displayName: 'Build Unity Project with Docker'
 
 - script: |
@@ -80,4 +80,10 @@ steps:
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)/Builds/Windows'
     ArtifactName: 'drop'
+    publishLocation: 'Container'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/Windows/buildlog.txt'
+    ArtifactName: 'buildlog'
     publishLocation: 'Container'
