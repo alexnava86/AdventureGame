@@ -37,10 +37,18 @@ public class BuildScript
         string[] scenes = {"Assets/Scenes/AdventureWaterfall1_TEST.unity"}; //TEST
         string buildDir = "/project/Builds/Windows";
         string path = buildDir + "/adventuregame-" + DateTime.Now.ToString("yyyyMMdd-HHmm") + ".exe";
+        
+        Debug.Log("Build directory: " + buildDir);
+        Debug.Log("Build path: " + path);
 
         if (!Directory.Exists(buildDir))
         {
+            Debug.Log("Build directory does not exist. Creating directory...");
             Directory.CreateDirectory(buildDir);
+        }
+        else
+        {
+            Debug.Log("Build directory already exists.");
         }
         BuildPipeline.BuildPlayer(scenes, path, BuildTarget.StandaloneWindows64, BuildOptions.None);
         Debug.Log("Windows Build completed successfully. Build path: " + path);
