@@ -52,6 +52,7 @@ steps:
       -quit -batchmode -nographics -logFile -
   displayName: 'Activate Unity License'
 
+# Build the Unity project
 - script: |
     echo "Running Unity Build in Docker"
     docker run --rm \
@@ -78,7 +79,7 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)/Builds/Windows'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/Windows'
     ArtifactName: 'drop'
     publishLocation: 'Container'
 
