@@ -66,6 +66,7 @@ steps:
       /bin/bash -c "\
       echo 'Starting build...'; \
       ls -la /project/Builds; \
+      mkdir -p /project/Builds/Windows; \   # Ensure the Windows directory is created
       /opt/unity/Editor/Unity -quit -batchmode -nographics -logFile /project/Builds/buildlog.txt -projectPath /project -buildTarget StandaloneWindows64 -executeMethod BuildScript.BuildWindows; \
       echo 'Listing build directory contents after build:'; \
       ls -la /project/Builds/Windows; \
