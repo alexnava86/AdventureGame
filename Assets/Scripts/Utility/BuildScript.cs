@@ -33,11 +33,11 @@ public class BuildScript
 
     public static void BuildWindows()
     {
-        //string[] scenes = GetScenes().ToArray();
-        string[] scenes = {"Assets/Scenes/AdventureWaterfall1_TEST.unity"}; //TEST
+        // string[] scenes = GetScenes().ToArray();
+        string[] scenes = { "Assets/Scenes/AdventureWaterfall1_TEST.unity" }; // TEST
         string buildDir = "/project/Builds/Windows";
         string path = buildDir + "/adventuregame-" + DateTime.Now.ToString("yyyyMMdd-HHmm") + ".exe";
-        
+
         Debug.Log("Build directory: " + buildDir);
         Debug.Log("Build path: " + path);
 
@@ -50,6 +50,7 @@ public class BuildScript
         {
             Debug.Log("Build directory already exists.");
         }
+
         BuildPipeline.BuildPlayer(scenes, path, BuildTarget.StandaloneWindows64, BuildOptions.None);
         Debug.Log("Windows Build completed successfully. Build path: " + path);
     }
