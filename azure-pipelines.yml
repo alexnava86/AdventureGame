@@ -23,11 +23,6 @@ steps:
     versionSpec: '3.x'
     addToPath: true
 
-- task: DownloadSecureFile@1
-  inputs:
-    secureFile: 'Unity_lic.ulf'
-  displayName: 'Download Unity License File'
-
 - script: |
     echo "Verifying Environment Variables"
     echo "UNITY_EMAIL: $UNITY_EMAIL"
@@ -48,44 +43,10 @@ steps:
       /opt/unity/Editor/Unity \
       -batchmode -nographics -logFile /dev/stdout \
       -createManualActivationFile
+
+    echo "Listing project directory to verify .alf file"
+    ls -la $(Build.SourcesDirectory)
   displayName: 'Generate Unity .alf File'
-
-- script: |
-    echo "Activating Unity License"
-    docker run --rm \
-      -v $(Agent.TempDirectory)/Unity_lic.ulf:/root/.local/share/unity3d/Unity/Unity_lic.ulf \
-      -e UNITY_EMAIL=$UNITY_EMAIL \
-      -e UNITY_PASSWORD=$UNITY_PASSWORD \
-      -e UNITY_SERIAL='' \
-      $(unityImage) \
-      /opt/unity/Editor/Unity \
-      -quit -batchmode -nographics -logFile -
-  displayName: 'Activate Unity License'
-
-- script: |
-    echo "Running Unity Build in Docker"
-    docker run --rm \
-      -v $(Build.SourcesDirectory):/project \
-      -v $(Build.ArtifactStagingDirectory):/project/Builds \
-      -v $(Agent.TempDirectory)/Unity_lic.ulf:/root/.local/share/unity3d/Unity/Unity_lic.ulf \
-      -w /project \
-      -e UNITY_USERNAME=$UNITY_USERNAME \
-      -e UNITY_PASSWORD=$UNITY_PASSWORD \
-      $(unityImage) \
-      /bin/bash -c "\
-      echo 'Starting build...'; \
-      ls -la /project/Builds; \
-      mkdir -p /project/Builds/Windows; \   # Ensure the Windows directory is created
-      /opt/unity/Editor/Unity -quit -batchmode -nographics -logFile /project/Builds/buildlog.txt -projectPath /project -buildTarget StandaloneWindows64 -executeMethod BuildScript.BuildWindows; \
-      echo 'Listing build directory contents after build:'; \
-      ls -la /project/Builds/Windows; \
-      cp /project/Builds/buildlog.txt /project/Builds/Windows/"
-  displayName: 'Build Unity Project with Docker'
-
-- script: |
-    echo "Checking if build was created"
-    ls -la $(Build.ArtifactStagingDirectory)/Windows
-  displayName: 'Check Build Output'
 
 - task: PublishBuildArtifacts@1
   inputs:
@@ -93,9 +54,3 @@ steps:
     ArtifactName: 'alfFile'
     publishLocation: 'Container'
   displayName: 'Publish Unity .alf File'
-
-- task: PublishBuildArtifacts@1
-  inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)/Windows/buildlog.txt'
-    ArtifactName: 'buildlog'
-    publishLocation: 'Container'
