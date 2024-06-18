@@ -47,7 +47,7 @@ steps:
       -w /project \
       $(unityImage) \
       /opt/unity/Editor/Unity \
-      -batchmode -createManualActivationFile -logFile /dev/stdout
+      -batchmode -nographics -createManualActivationFile -logFile /dev/stdout
   displayName: 'Generate Unity .alf File'
 
 - script: |
