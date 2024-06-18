@@ -46,14 +46,18 @@ steps:
       -v $(Build.SourcesDirectory):/project \
       -w /project \
       $(unityImage) \
-      /opt/unity/Editor/Unity \
-      -batchmode -nographics -createManualActivationFile -logFile /dev/stdout
-    ls -la /project
+      /bin/bash -c "\
+      echo 'Initial directory listing:'; \
+      ls -la /project; \
+      /opt/unity/Editor/Unity -batchmode -nographics -createManualActivationFile -logFile /dev/stdout; \
+      echo 'Directory listing after generating .alf file:'; \
+      ls -la /project; \
+      "
   displayName: 'Generate Unity .alf File'
 
 - script: |
     echo "Checking if .alf file exists"
-    if [ -f /home/vsts/work/1/s/Unity_v2019.4.28f1.alf ]; then
+    if [ -f $(Build.SourcesDirectory)/Unity_v2019.4.28f1.alf ]; then
       echo ".alf file exists"
     else
       echo ".alf file does not exist"
