@@ -8,7 +8,7 @@ variables:
 - name: buildConfiguration
   value: 'Release'
 - name: unityImage
-  value: 'unityci/editor:ubuntu-2019.4.28f1-windows-mono-3.1.0'
+  value: 'unityci/editor.4.28f1-windows-mono-3.1.0'
 - group: Secrets
 
 steps:
@@ -41,33 +41,44 @@ steps:
   displayName: 'Pull Unity Docker Image'
 
 - script: |
-    echo "Generating Unity .alf File"
-    docker run --rm \
-      -v $(Build.SourcesDirectory):/project \
-      -w /project \
-      $(unityImage) \
-      /bin/bash -c "\
-      echo 'Initial directory listing:'; \
-      ls -la /project; \
-      /opt/unity/Editor/Unity -batchmode -nographics -createManualActivationFile -logFile /dev/stdout; \
-      echo 'Directory listing after generating .alf file:'; \
-      ls -la /project; \
-      "
-  displayName: 'Generate Unity .alf File'
+    echo "Activating Unity License"
+    docker run --rm
+      -v $(Agent.TempDirectory)/Unity_lic.ulf:/root/.local/share/unity3d/Unity/Unity_lic.ulf
+      -e UNITY_EMAIL=$UNITY_EMAIL
+      -e UNITY_PASSWORD=$UNITY_PASSWORD
+      -e UNITY_SERIAL=''
+      $(unityImage)
+      /opt/unity/Editor/Unity
+      -quit -batchmode -nographics -logFile -
+  displayName: 'Activate Unity License'
 
 - script: |
-    echo "Checking if .alf file exists"
-    if [ -f $(Build.SourcesDirectory)/Unity_v2019.4.28f1.alf ]; then
-      echo ".alf file exists"
-    else
-      echo ".alf file does not exist"
-      exit 1
-    fi
-  displayName: 'Check .alf File Existence'
+    echo "Running Unity Build in Docker"
+    docker run --rm
+      -v $(Build.SourcesDirectory):/project
+      -v $(Build.ArtifactStagingDirectory):/project/Builds
+      -v $(Agent.TempDirectory)/Unity_lic.ulf:/root/.local/share/unity3d/Unity/Unity_lic.ulf
+      -w /project
+      -e UNITY_USERNAME=$UNITY_USERNAME
+      -e UNITY_PASSWORD=$UNITY_PASSWORD
+      $(unityImage)
+      /bin/bash -c "
+      echo 'Starting build...';
+      ls -la /project/Builds;
+      mkdir -p /project/Builds/Windows; \ # Ensure the Windows directory is created
+      /opt/unity/Editor/Unity -quit -batchmode -nographics -logFile /project/Builds/buildlog.txt -projectPath /project -buildTarget StandaloneWindows64 -executeMethod BuildScript.BuildWindows;
+      echo 'Listing build directory contents after build:';
+      ls -la /project/Builds/Windows;
+      cp /project/Builds/buildlog.txt /project/Builds/Windows/"
+  displayName: 'Build Unity Project with Docker'
+
+- script: |
+    echo "Checking if build was created"
+    ls -la $(Build.ArtifactStagingDirectory)/Windows
+  displayName: 'Check Build Output'
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.SourcesDirectory)/Unity_v2019.4.28f1.alf'
-    ArtifactName: 'unity-alf-file'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/Windows/buildlog.txt'
+    ArtifactName: 'buildlog'
     publishLocation: 'Container'
-  displayName: 'Publish Unity .alf File'
