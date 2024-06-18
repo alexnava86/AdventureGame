@@ -25,7 +25,7 @@ steps:
 
 - task: DownloadSecureFile@1
   inputs:
-    secureFile: 'Unity_lic-Docker.ulf'
+    secureFile: 'Unity_lic.ulf'
   displayName: 'Download Unity License File'
 
 # - task: DownloadSecureFile@1
