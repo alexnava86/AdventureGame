@@ -48,15 +48,12 @@ steps:
       $(unityImage) \
       /opt/unity/Editor/Unity \
       -batchmode -nographics -createManualActivationFile -logFile /dev/stdout
+    ls -la /project
   displayName: 'Generate Unity .alf File'
 
 - script: |
-    echo "Listing directory contents to find .alf file"
-    ls -la /project
-  displayName: 'List Directory Contents'
-
-- script: |
-    if [ -f /project/Unity_v2019.x.alf ]; then
+    echo "Checking if .alf file exists"
+    if [ -f /home/vsts/work/1/s/Unity_v2019.4.28f1.alf ]; then
       echo ".alf file exists"
     else
       echo ".alf file does not exist"
