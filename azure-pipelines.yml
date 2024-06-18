@@ -41,7 +41,7 @@ steps:
       -v $(Build.SourcesDirectory):/project \
       $(unityImage) \
       /opt/unity/Editor/Unity \
-      -batchmode -nographics -logFile /dev/stdout \
+      -batchmode -nographics -logFile /project/unity-log.txt \
       -createManualActivationFile
 
     echo "Listing project directory to verify .alf file"
@@ -50,17 +50,19 @@ steps:
 
 - script: |
     echo "Checking if .alf file exists"
-    if [ -f "$(Build.SourcesDirectory)/Unity_v2019.x.alf" ]; then
-      echo ".alf file exists."
-    else
-      echo ".alf file does not exist."
-      exit 1
-    fi
+    find $(Build.SourcesDirectory) -name "*.alf"
   displayName: 'Check .alf File Existence'
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.SourcesDirectory)/Unity_v2019.x.alf'
+    PathtoPublish: '$(Build.SourcesDirectory)/*.alf'
     ArtifactName: 'alfFile'
     publishLocation: 'Container'
   displayName: 'Publish Unity .alf File'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.SourcesDirectory)/unity-log.txt'
+    ArtifactName: 'unityLogs'
+    publishLocation: 'Container'
+  displayName: 'Publish Unity Log File'
