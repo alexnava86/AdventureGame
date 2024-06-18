@@ -48,7 +48,7 @@ steps:
 - script: |
     echo "Activating Unity License"
     docker run --rm \
-      -v $(Agent.TempDirectory)/Unity_lic-Docker.ulf:/root/.local/share/unity3d/Unity/Unity_lic-Docker.ulf \
+      -v $(Agent.TempDirectory)/Unity_lic.ulf:/root/.local/share/unity3d/Unity/Unity_lic.ulf \
       -e UNITY_EMAIL=$UNITY_EMAIL \
       -e UNITY_PASSWORD=$UNITY_PASSWORD \
       -e UNITY_SERIAL='' \
@@ -71,7 +71,7 @@ steps:
     docker run --rm \
       -v $(Build.SourcesDirectory):/project \
       -v $(Build.ArtifactStagingDirectory):/project/Builds \
-      -v $(Agent.TempDirectory)/Unity_lic-Docker.ulf:/root/.local/share/unity3d/Unity/Unity_lic-Docker.ulf \
+      -v $(Agent.TempDirectory)/Unity_lic.ulf:/root/.local/share/unity3d/Unity/Unity_lic.ulf \
       -w /project \
       -e UNITY_USERNAME=$UNITY_USERNAME \
       -e UNITY_PASSWORD=$UNITY_PASSWORD \
