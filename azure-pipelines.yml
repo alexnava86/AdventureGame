@@ -48,6 +48,16 @@ steps:
     ls -la $(Build.SourcesDirectory)
   displayName: 'Generate Unity .alf File'
 
+- script: |
+    echo "Checking if .alf file exists"
+    if [ -f "$(Build.SourcesDirectory)/Unity_v2019.x.alf" ]; then
+      echo ".alf file exists."
+    else
+      echo ".alf file does not exist."
+      exit 1
+    fi
+  displayName: 'Check .alf File Existence'
+
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.SourcesDirectory)/Unity_v2019.x.alf'
