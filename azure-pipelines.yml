@@ -67,7 +67,7 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.SourcesDirectory)/*.alf'
+    PathtoPublish: '$(Build.SourcesDirectory)/Unity_v2019.4.28f1.alf'
     ArtifactName: 'unity-alf-file'
     publishLocation: 'Container'
   displayName: 'Publish Unity .alf File'
