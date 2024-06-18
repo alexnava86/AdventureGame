@@ -23,85 +23,85 @@ steps:
     versionSpec: '3.x'
     addToPath: true
 
-# - task: DownloadSecureFile@1
-#   inputs:
-#     secureFile: 'Unity_lic.ulf'
-#   displayName: 'Download Unity License File'
-
 - task: DownloadSecureFile@1
   inputs:
-    secureFile: 'Unity_v2019.4.28f1.alf'
+    secureFile: 'Unity_lic-Docker.ulf'
   displayName: 'Download Unity License File'
 
-- script: |
-    echo "Verifying Environment Variables"
-    echo "UNITY_EMAIL: $UNITY_EMAIL"
-    echo "UNITY_USERNAME: $UNITY_USERNAME"
-    echo "UNITY_PASSWORD: $UNITY_PASSWORD"
-  displayName: 'Verify Environment Variables'
+# - task: DownloadSecureFile@1
+#   inputs:
+#     secureFile: 'Unity_v2019.4.28f1.alf'
+#   displayName: 'Download Unity License File'
+
+# - script: |
+#     echo "Verifying Environment Variables"
+#     echo "UNITY_EMAIL: $UNITY_EMAIL"
+#     echo "UNITY_USERNAME: $UNITY_USERNAME"
+#     echo "UNITY_PASSWORD: $UNITY_PASSWORD"
+#   displayName: 'Verify Environment Variables'
 
 - script: |
     echo "Pulling Unity Docker Image"
     docker pull $(unityImage)
   displayName: 'Pull Unity Docker Image'
 
-# - script: |
-#     echo "Activating Unity License"
-#     docker run --rm \
-#       -v $(Agent.TempDirectory)/Unity_lic.ulf:/root/.local/share/unity3d/Unity/Unity_lic.ulf \
-#       -e UNITY_EMAIL=$UNITY_EMAIL \
-#       -e UNITY_PASSWORD=$UNITY_PASSWORD \
-#       -e UNITY_SERIAL='' \
-#       $(unityImage) \
-#       /opt/unity/Editor/Unity \
-#       -quit -batchmode -nographics -logFile -
-#   displayName: 'Activate Unity License'
-
 - script: |
     echo "Activating Unity License"
     docker run --rm \
-      -v $(Agent.TempDirectory)/Unity_v2019.4.28f1.alf:/root/.local/share/unity3d/Unity/Unity_v2019.4.28f1.alf \
+      -v $(Agent.TempDirectory)/Unity_lic.ulf:/root/.local/share/unity3d/Unity/Unity_lic.ulf \
+      -e UNITY_EMAIL=$UNITY_EMAIL \
+      -e UNITY_PASSWORD=$UNITY_PASSWORD \
+      -e UNITY_SERIAL='' \
       $(unityImage) \
       /opt/unity/Editor/Unity \
       -quit -batchmode -nographics -logFile -
   displayName: 'Activate Unity License'
 
 # - script: |
-#     echo "Running Unity Build in Docker"
+#     echo "Activating Unity License"
 #     docker run --rm \
-#       -v $(Build.SourcesDirectory):/project \
-#       -v $(Build.ArtifactStagingDirectory):/project/Builds \
-#       -v $(Agent.TempDirectory)/Unity_lic.ulf:/root/.local/share/unity3d/Unity/Unity_lic.ulf \
-#       -w /project \
-#       -e UNITY_USERNAME=$UNITY_USERNAME \
-#       -e UNITY_PASSWORD=$UNITY_PASSWORD \
+#       -v $(Agent.TempDirectory)/Unity_v2019.4.28f1.alf:/root/.local/share/unity3d/Unity/Unity_v2019.4.28f1.alf \
 #       $(unityImage) \
-#       /bin/bash -c "\
-#       echo 'Starting build...'; \
-#       ls -la /project/Builds; \
-#       mkdir -p /project/Builds/Windows; \   # Ensure the Windows directory is created
-#       /opt/unity/Editor/Unity -quit -batchmode -nographics -logFile /project/Builds/buildlog.txt -projectPath /project -buildTarget StandaloneWindows64 -executeMethod BuildScript.BuildWindows; \
-#       echo 'Listing build directory contents after build:'; \
-#       ls -la /project/Builds/Windows; \
-#       cp /project/Builds/buildlog.txt /project/Builds/Windows/"
-#   displayName: 'Build Unity Project with Docker'
+#       /opt/unity/Editor/Unity \
+#       -quit -batchmode -nographics -logFile -
+#   displayName: 'Activate Unity License'
 
 - script: |
     echo "Running Unity Build in Docker"
     docker run --rm \
       -v $(Build.SourcesDirectory):/project \
       -v $(Build.ArtifactStagingDirectory):/project/Builds \
+      -v $(Agent.TempDirectory)/Unity_lic.ulf:/root/.local/share/unity3d/Unity/Unity_lic.ulf \
       -w /project \
+      -e UNITY_USERNAME=$UNITY_USERNAME \
+      -e UNITY_PASSWORD=$UNITY_PASSWORD \
       $(unityImage) \
       /bin/bash -c "\
       echo 'Starting build...'; \
       ls -la /project/Builds; \
-      mkdir -p /project/Builds/Windows; \
+      mkdir -p /project/Builds/Windows; \   # Ensure the Windows directory is created
       /opt/unity/Editor/Unity -quit -batchmode -nographics -logFile /project/Builds/buildlog.txt -projectPath /project -buildTarget StandaloneWindows64 -executeMethod BuildScript.BuildWindows; \
       echo 'Listing build directory contents after build:'; \
       ls -la /project/Builds/Windows; \
       cp /project/Builds/buildlog.txt /project/Builds/Windows/"
   displayName: 'Build Unity Project with Docker'
+
+# - script: |
+#     echo "Running Unity Build in Docker"
+#     docker run --rm \
+#       -v $(Build.SourcesDirectory):/project \
+#       -v $(Build.ArtifactStagingDirectory):/project/Builds \
+#       -w /project \
+#       $(unityImage) \
+#       /bin/bash -c "\
+#       echo 'Starting build...'; \
+#       ls -la /project/Builds; \
+#       mkdir -p /project/Builds/Windows; \
+#       /opt/unity/Editor/Unity -quit -batchmode -nographics -logFile /project/Builds/buildlog.txt -projectPath /project -buildTarget StandaloneWindows64 -executeMethod BuildScript.BuildWindows; \
+#       echo 'Listing build directory contents after build:'; \
+#       ls -la /project/Builds/Windows; \
+#       cp /project/Builds/buildlog.txt /project/Builds/Windows/"
+#   displayName: 'Build Unity Project with Docker'
 
 - script: |
     echo "Checking if build was created"
