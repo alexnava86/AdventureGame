@@ -41,6 +41,16 @@ steps:
   displayName: 'Pull Unity Docker Image'
 
 - script: |
+    echo "Generating Unity .alf File"
+    docker run --rm \
+      -v $(Build.SourcesDirectory):/project \
+      $(unityImage) \
+      /opt/unity/Editor/Unity \
+      -batchmode -nographics -logFile /dev/stdout \
+      -createManualActivationFile
+  displayName: 'Generate Unity .alf File'
+
+- script: |
     echo "Activating Unity License"
     docker run --rm \
       -v $(Agent.TempDirectory)/Unity_lic.ulf:/root/.local/share/unity3d/Unity/Unity_lic.ulf \
@@ -76,6 +86,13 @@ steps:
     echo "Checking if build was created"
     ls -la $(Build.ArtifactStagingDirectory)/Windows
   displayName: 'Check Build Output'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.SourcesDirectory)/Unity_v2019.x.alf'
+    ArtifactName: 'alfFile'
+    publishLocation: 'Container'
+  displayName: 'Publish Unity .alf File'
 
 - task: PublishBuildArtifacts@1
   inputs:
