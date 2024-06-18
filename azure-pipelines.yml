@@ -23,6 +23,11 @@ steps:
     versionSpec: '3.x'
     addToPath: true
 
+- task: DownloadSecureFile@1
+  inputs:
+    secureFile: 'Unity_lic.ulf'
+  displayName: 'Download Unity License File'
+
 - script: |
     echo "Verifying Environment Variables"
     echo "UNITY_EMAIL: $UNITY_EMAIL"
@@ -39,30 +44,29 @@ steps:
     echo "Generating Unity .alf File"
     docker run --rm \
       -v $(Build.SourcesDirectory):/project \
+      -w /project \
       $(unityImage) \
       /opt/unity/Editor/Unity \
-      -batchmode -nographics -logFile /project/unity-log.txt \
-      -createManualActivationFile
-
-    echo "Listing project directory to verify .alf file"
-    ls -la $(Build.SourcesDirectory)
+      -batchmode -createManualActivationFile -logFile /dev/stdout
   displayName: 'Generate Unity .alf File'
 
 - script: |
-    echo "Checking if .alf file exists"
-    find $(Build.SourcesDirectory) -name "*.alf"
+    echo "Listing directory contents to find .alf file"
+    ls -la /project
+  displayName: 'List Directory Contents'
+
+- script: |
+    if [ -f /project/Unity_v2019.x.alf ]; then
+      echo ".alf file exists"
+    else
+      echo ".alf file does not exist"
+      exit 1
+    fi
   displayName: 'Check .alf File Existence'
 
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.SourcesDirectory)/*.alf'
-    ArtifactName: 'alfFile'
+    ArtifactName: 'unity-alf-file'
     publishLocation: 'Container'
   displayName: 'Publish Unity .alf File'
-
-- task: PublishBuildArtifacts@1
-  inputs:
-    PathtoPublish: '$(Build.SourcesDirectory)/unity-log.txt'
-    ArtifactName: 'unityLogs'
-    publishLocation: 'Container'
-  displayName: 'Publish Unity Log File'
