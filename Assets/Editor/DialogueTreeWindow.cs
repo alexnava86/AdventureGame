@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEditor;
 using SimpleJSON;
 using UnityEngine.Rendering;
-using cherrydev;
 
 public class DialogueTreeEditorWindow : EditorWindow
 {
