@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/bubble1TEST.unity
-    guid: 4cd936d624ca948c88007d407b28aa4b
   - enabled: 1
     path: Assets/Scenes/AdventureWaterfall1_TEST.unity
     guid: 5958a34ac90ba4d52b2fa66948767c16

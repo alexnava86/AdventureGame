@@ -1,0 +1,80 @@
+# .github/workflows/build.yml
+# Builds AdventureGame for Windows, macOS, and WebGL using GameCI.
+# Triggers on every push to main, and on a weekly schedule (Monday 06:00 UTC).
+#
+# ── ONE-TIME SETUP (GitHub repo ▸ Settings ▸ Secrets and variables ▸ Actions) ──
+#   UNITY_LICENSE   = the full contents of your Unity_lic.ulf file (paste it in)
+#   UNITY_EMAIL     = your Unity account email
+#   UNITY_PASSWORD  = your Unity account password
+#
+#   These let GameCI activate Unity inside the build container. The .ulf is a
+#   Personal license file; paste its entire XML contents as the secret value.
+#   (Never commit the license file to the repo — only store it as a secret.)
+
+name: Build AdventureGame
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # Weekly build every Monday at 06:00 UTC, even with no pushes.
+    - cron: '0 6 * * 1'
+  workflow_dispatch:   # also allow manual runs from the Actions tab
+
+jobs:
+  build:
+    name: Build ${{ matrix.targetPlatform }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false   # one platform failing shouldn't cancel the others
+      matrix:
+        targetPlatform:
+          - StandaloneWindows64   # Windows
+          - StandaloneOSX         # macOS
+          - WebGL
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true                # pull Git LFS assets (art, etc.) if you use LFS
+          fetch-depth: 0
+
+      # Cache the Library folder per platform to speed up subsequent builds.
+      - name: Cache Library
+        uses: actions/cache@v4
+        with:
+          path: Library
+          key: Library-${{ matrix.targetPlatform }}-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          restore-keys: |
+            Library-${{ matrix.targetPlatform }}-
+            Library-
+
+      - name: Build with GameCI
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          unityVersion: 2022.3.52f1
+          targetPlatform: ${{ matrix.targetPlatform }}
+          # buildMethod is optional — GameCI has a sensible default builder, but
+          # we point it at our BuildScript so output paths/names are controlled.
+          # Map each platform to the matching method:
+          buildMethod: ${{ matrix.targetPlatform == 'StandaloneWindows64' && 'BuildScript.BuildWindows' || matrix.targetPlatform == 'StandaloneOSX' && 'BuildScript.BuildMac' || 'BuildScript.BuildWebGL' }}
+          allowDirtyBuild: true
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: AdventureGame-${{ matrix.targetPlatform }}
+          # BuildScript writes to Builds/Windows, Builds/Mac, or Builds/WebGL.
+          # Map the platform id to the folder BuildScript actually used.
+          path: |
+            Builds/Windows
+            Builds/Mac
+            Builds/WebGL
+          if-no-files-found: ignore
+          retention-days: 14   # keep each build for two weeks

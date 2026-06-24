@@ -1,0 +1,78 @@
+{
+    "treeName": "TreeTest01",
+    "nextId": 6,
+    "maxOptionsPerNode": 3,
+    "rootAtTop": true,
+    "characterName": "",
+    "characterIconGuid": "",
+    "dialogueNodes": [
+        {
+            "id": 1,
+            "isRoot": true,
+            "characterName": "",
+            "dialogueText": "",
+            "xPos": -115.0,
+            "yPos": 0.0,
+            "nextNodeId": 2,
+            "optionIds": [],
+            "iconGuid": "",
+            "questEvents": []
+        },
+        {
+            "id": 2,
+            "isRoot": false,
+            "characterName": "",
+            "dialogueText": "",
+            "xPos": -115.0,
+            "yPos": 150.0,
+            "nextNodeId": 3,
+            "optionIds": [],
+            "iconGuid": "",
+            "questEvents": []
+        },
+        {
+            "id": 3,
+            "isRoot": false,
+            "characterName": "",
+            "dialogueText": "",
+            "xPos": -115.0,
+            "yPos": 300.0,
+            "nextNodeId": -1,
+            "optionIds": [
+                4,
+                5
+            ],
+            "iconGuid": "",
+            "questEvents": []
+        }
+    ],
+    "dialogueOptions": [
+        {
+            "id": 4,
+            "optionText": "Option",
+            "xPos": -210.0,
+            "yPos": 450.0,
+            "parentNodeId": 3,
+            "nextNodeId": -1,
+            "questEvents": []
+        },
+        {
+            "id": 5,
+            "optionText": "Option",
+            "xPos": 10.0,
+            "yPos": 450.0,
+            "parentNodeId": 3,
+            "nextNodeId": -1,
+            "questEvents": [
+                {
+                    "eventType": 1,
+                    "questId": ""
+                },
+                {
+                    "eventType": 0,
+                    "questId": ""
+                }
+            ]
+        }
+    ]
+}

@@ -156,7 +156,7 @@ TextureImporter:
       213: 1029288466821744003
     second: HP_50
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -173,9 +173,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -207,10 +210,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -222,6 +230,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -234,6 +243,59 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 512
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 512
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1320,9 +1382,60 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      HP_0: -902086654454736923
+      HP_1: 134086666222474253
+      HP_10: 2840052848382091625
+      HP_11: -1285436172399763982
+      HP_12: 761627438963066298
+      HP_13: -4867842095084157557
+      HP_14: 3129109906697280852
+      HP_15: -415997937769602205
+      HP_16: 3421815845177026993
+      HP_17: -4738066545454697108
+      HP_18: -8957598041902224698
+      HP_19: 1897703201422843001
+      HP_2: -9089433526600752901
+      HP_20: -6109099793392624386
+      HP_21: 2159566926807709208
+      HP_22: 1040998057544390791
+      HP_23: 4883125223292710380
+      HP_24: 9001971577667744481
+      HP_25: -1231674946554415614
+      HP_26: 493830158075324941
+      HP_27: 5617934262525366157
+      HP_28: -1803598751675712824
+      HP_29: 2794106666334592079
+      HP_3: 7718214077910111717
+      HP_30: -8404030711923782138
+      HP_31: -7042554932098797671
+      HP_32: 6272860391328963242
+      HP_33: -4876437286453814961
+      HP_34: 6770106789461041447
+      HP_35: 7071438897480429710
+      HP_36: 4181075654768062313
+      HP_37: 8809360963920682231
+      HP_38: -7841653726309204433
+      HP_39: 8939967768298369358
+      HP_4: -8256768769314716307
+      HP_40: 8106899932787933124
+      HP_41: 5007447783059519576
+      HP_42: 5810580810574649310
+      HP_43: -2474669992970560900
+      HP_44: 4816023375817345011
+      HP_45: 864922069930695233
+      HP_46: 8720355649326266246
+      HP_47: 46585890871728743
+      HP_48: -1536630011406424304
+      HP_49: -6355749537739055549
+      HP_5: -4962748474444153908
+      HP_50: 1029288466821744003
+      HP_6: -2650779958911644532
+      HP_7: -7769573381779235884
+      HP_8: -6349709452518448413
+      HP_9: 1748214420665980030
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,4 +1,9 @@
-﻿using System;
+// =============================================================================
+// PlayerSword.cs
+// Place in: Assets/Scripts/Items/Weapons/
+// =============================================================================
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,16 +17,25 @@ public class PlayerSword : MonoBehaviour
 
     protected void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.GetComponent<Enemy>() != null)
+        // ── Enemy ────────────────────────────────────────────────────────────
+        var enemy = collider.GetComponent<Enemy>();
+        if (enemy != null)
         {
-            if (OnWeaponContact != null)
-            {
-                OnWeaponContact(swordOffense, collider.GetComponent<Enemy>());
-            }
-            if (collider.GetComponent<ColorBlinker>() != null)
-            {
-                collider.GetComponent<ColorBlinker>().enabled = true;
-            }
+            OnWeaponContact?.Invoke(swordOffense, enemy);
+            var blinker = collider.GetComponent<ColorBlinker>();
+            if (blinker != null) blinker.enabled = true;
+            return;
+        }
+
+        // ── Hostile NPC ──────────────────────────────────────────────────────
+        // NPCs that have been flagged as hostile receive weapon hits exactly
+        // like enemies.  Passive NPCs are ignored by the sword.
+        var npc = collider.GetComponent<NPC>();
+        if (npc != null && npc.isHostile)
+        {
+            OnWeaponContact?.Invoke(swordOffense, npc);
+            var blinker = collider.GetComponent<ColorBlinker>();
+            if (blinker != null) blinker.enabled = true;
         }
     }
 }

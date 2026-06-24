@@ -14,7 +14,7 @@ public class HealthDropItem : DropItem
             {
                 character.Hp += healthValue;
             }
-            else
+            else if(character.Hp + healthValue > character.MaxHp)
             {
                 character.Hp = character.MaxHp;
             }

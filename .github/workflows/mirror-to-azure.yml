@@ -1,0 +1,42 @@
+# .github/workflows/mirror-to-azure.yml
+# Mirrors GitHub branches to the Azure DevOps repo as a READ-ONLY reflection.
+# GitHub is the source of truth; Azure just receives an exact copy. No merging,
+# no conflicts, no bypassing pull-request review — all real work happens on
+# GitHub via PRs per the branching strategy.
+#
+# ── ONE-TIME SETUP (repo ▸ Settings ▸ Secrets and variables ▸ Actions) ──
+#   AZURE_REPO_URL = the Azure DevOps Git remote URL, including a PAT so the
+#                    push can authenticate, e.g.:
+#                    https://<anything>:<AZURE_PAT>@dev.azure.com/<org>/<project>/_git/<repo>
+#   (Storing the PAT inside the URL secret keeps the workflow simple. Treat the
+#    whole URL as sensitive since it contains the token.)
+
+name: Mirror to Azure DevOps
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+      - release
+      - 'feature-*'
+      - 'hotfix-*'
+  # Mirror tags too (your release-adventure-game-vX.Y.Z markers)
+  workflow_dispatch:
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (full history, all refs)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history so the mirror is complete
+
+      - name: Push current branch to Azure (force, exact mirror)
+        run: |
+          # Push the branch that triggered this run to the same branch on Azure,
+          # force-updating so Azure always matches GitHub exactly.
+          BRANCH="${GITHUB_REF_NAME}"
+          echo "Mirroring branch: $BRANCH"
+          git push --force "${{ secrets.AZURE_REPO_URL }}" "HEAD:refs/heads/$BRANCH"

@@ -4,9 +4,19 @@ using UnityEngine;
 
 public class ColorBlinker : MonoBehaviour
 {
+    private Color32 damageColor = new Color(255, 0, 0, 255); //Default red 'damage' blinking color
+
+    public void changeBlinkColor()
+    {
+        Color32 newColor = new Color32(0, 0, 255, 255);
+        damageColor = newColor;
+    }
+
     public void OnEnable()
     {
-        StartCoroutine(blink(0.075f, 8, new Color(0.9f, 0f, 0f, 1f))); 
+        //TEST
+        //changeBlinkColor();
+        StartCoroutine(blink(0.075f, 8, damageColor)); 
     }
 
     IEnumerator blink(float delayBetweenBlinks, int numberOfBlinks, Color blinkColor)
