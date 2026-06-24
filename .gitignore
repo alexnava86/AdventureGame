@@ -76,3 +76,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 Unity_lic.ulf
 Unity_v2019.4.28f1.alf
+
+.fake

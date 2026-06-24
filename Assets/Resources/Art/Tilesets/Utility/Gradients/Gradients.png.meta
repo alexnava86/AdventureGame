@@ -483,7 +483,7 @@ TextureImporter:
       213: -8106861830962830620
     second: Gradients_159
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -500,9 +500,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -534,10 +537,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -549,6 +557,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -561,6 +570,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -573,6 +583,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -585,6 +596,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -597,6 +609,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 512
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -3972,9 +3998,169 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Gradients_0: 6411588040488095609
+      Gradients_1: -2085842595483908253
+      Gradients_10: -3845261463110386098
+      Gradients_100: -5263692876119880545
+      Gradients_101: 6617331581186525416
+      Gradients_102: -8948797349172528569
+      Gradients_103: -396051438769625287
+      Gradients_104: 1813297486697603560
+      Gradients_105: -2915745275896724167
+      Gradients_106: 9128287731448457304
+      Gradients_107: 9223042707040582330
+      Gradients_108: -1308651008330745361
+      Gradients_109: 8673972774523904468
+      Gradients_11: 5985733895421043796
+      Gradients_110: -3586282136972138556
+      Gradients_111: -861860583513876691
+      Gradients_112: -3493830136729941839
+      Gradients_113: 5901699544744731267
+      Gradients_114: -5956915554870615118
+      Gradients_115: -8299121996173289863
+      Gradients_116: -8866117469789023410
+      Gradients_117: 4606568908824944246
+      Gradients_118: 6280595131594086574
+      Gradients_119: -8605232975898305639
+      Gradients_12: 2493405892723317995
+      Gradients_120: 6115056828655276813
+      Gradients_121: -6885107827500496018
+      Gradients_122: -5107246612085053402
+      Gradients_123: -5006854240989129449
+      Gradients_124: -2659986658206343571
+      Gradients_125: 3562209466392593542
+      Gradients_126: 1721725508342779871
+      Gradients_127: 9118688871350056808
+      Gradients_128: -7451845252609796630
+      Gradients_129: -592997671826199042
+      Gradients_13: 1869472489054356711
+      Gradients_130: 8208498470081777873
+      Gradients_131: -4104458157874169517
+      Gradients_132: -992921967248079452
+      Gradients_133: 5795642421980706134
+      Gradients_134: -286813074841777477
+      Gradients_135: 4142500162340845160
+      Gradients_136: 4960472764414745580
+      Gradients_137: 7599034927724439896
+      Gradients_138: 6208988700639601358
+      Gradients_139: 714604980158509520
+      Gradients_14: -2137453363905986295
+      Gradients_140: -7279254304271697817
+      Gradients_141: -2817644859279585069
+      Gradients_142: 8156363995773548735
+      Gradients_143: -6048901140559792393
+      Gradients_144: 192776278684484281
+      Gradients_145: 5383134736674259479
+      Gradients_146: -4507443067583272217
+      Gradients_147: -1830390182493502200
+      Gradients_148: 5890361248311387086
+      Gradients_149: 7755643258628443284
+      Gradients_15: 6413427852774391757
+      Gradients_150: 6260593966934198286
+      Gradients_151: -4469075912494110572
+      Gradients_152: -5262879186233368914
+      Gradients_153: 6554709764696252806
+      Gradients_154: 7281116655837060239
+      Gradients_155: 8687219788620147211
+      Gradients_156: -6511105933003178148
+      Gradients_157: -7050225307701560107
+      Gradients_158: 6218857871283937880
+      Gradients_159: -8106861830962830620
+      Gradients_16: -7558491970398175859
+      Gradients_17: 3655236225948821452
+      Gradients_18: -2841591560950936530
+      Gradients_19: -6762372565063467720
+      Gradients_2: -7972430866596159037
+      Gradients_20: 2898973113162379720
+      Gradients_21: 5828650910412557704
+      Gradients_22: -5855270257617847282
+      Gradients_23: 5845656609496406454
+      Gradients_24: -6944233470089922728
+      Gradients_25: -5907210537798030444
+      Gradients_26: 4855539988199103259
+      Gradients_27: 9028185663877916913
+      Gradients_28: 7852979869313832306
+      Gradients_29: -8408593102383668899
+      Gradients_3: -1532470427149804281
+      Gradients_30: 2719393421464775955
+      Gradients_31: -5821543201158341457
+      Gradients_32: -841035400440534151
+      Gradients_33: -1583695366843781163
+      Gradients_34: 112927821680906262
+      Gradients_35: -2460875824356444138
+      Gradients_36: 1526376082471181084
+      Gradients_37: -2298512040599035798
+      Gradients_38: -4421773295388829891
+      Gradients_39: -3401540341167055140
+      Gradients_4: 7339526913667696790
+      Gradients_40: -8803115539487187555
+      Gradients_41: 1739453022294672178
+      Gradients_42: -4523403474544268219
+      Gradients_43: -602545759253402796
+      Gradients_44: 4990724916340506702
+      Gradients_45: 186654109342395222
+      Gradients_46: 1221501257444845775
+      Gradients_47: 1758972530287295998
+      Gradients_48: 2725359022071184492
+      Gradients_49: -332593941165437299
+      Gradients_5: 4866626131360521808
+      Gradients_50: 751905242237780410
+      Gradients_51: 5560949587127516234
+      Gradients_52: -6711007415945218186
+      Gradients_53: 2851533911979205564
+      Gradients_54: 411836854969899695
+      Gradients_55: -3173451663577781618
+      Gradients_56: 997901773581313854
+      Gradients_57: 1440957988483421248
+      Gradients_58: 2574681565272938016
+      Gradients_59: -2053403408824433017
+      Gradients_6: -2065948238610067216
+      Gradients_60: -5822744883924731333
+      Gradients_61: -7426135248064120147
+      Gradients_62: -626711485802937659
+      Gradients_63: 7780922012680863781
+      Gradients_64: 8493891352037173135
+      Gradients_65: -7937893358431724721
+      Gradients_66: 4318228949694569308
+      Gradients_67: 7317262444270984923
+      Gradients_68: -988622898998978483
+      Gradients_69: -4222723074943918892
+      Gradients_7: -3902613084821502551
+      Gradients_70: -7511982026747279994
+      Gradients_71: 904505371088857852
+      Gradients_72: 907646492458110910
+      Gradients_73: -7762985497762987961
+      Gradients_74: -1465296480664083312
+      Gradients_75: 3828752224930239683
+      Gradients_76: 578924827675230202
+      Gradients_77: -4209961745411607622
+      Gradients_78: 2535364453908675054
+      Gradients_79: -1389321133349488869
+      Gradients_8: -8598394378781093055
+      Gradients_80: 4972936378306790084
+      Gradients_81: -8524536662696852384
+      Gradients_82: 5492002069987622411
+      Gradients_83: 1926168609435847776
+      Gradients_84: 8659426311545061575
+      Gradients_85: -2110480546574875819
+      Gradients_86: 2513165546291760447
+      Gradients_87: 3357178574135802317
+      Gradients_88: 2813575831776881043
+      Gradients_89: 4545389659648507826
+      Gradients_9: 6336097796111350467
+      Gradients_90: -7663733542231236803
+      Gradients_91: 1174732338285621474
+      Gradients_92: 6701041413195587898
+      Gradients_93: -3028322982702089870
+      Gradients_94: -5761051188508389985
+      Gradients_95: 5530274418852188138
+      Gradients_96: -3168850724552392604
+      Gradients_97: 6994598389484871304
+      Gradients_98: 3273888886060108992
+      Gradients_99: 5753737899989033934
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

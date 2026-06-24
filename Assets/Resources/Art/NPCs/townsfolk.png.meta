@@ -243,7 +243,7 @@ TextureImporter:
       213: -4896922967097257325
     second: townsfolk_79
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -260,9 +260,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -294,10 +297,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -309,6 +317,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -321,6 +330,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -333,6 +343,46 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2028,9 +2078,89 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      townsfolk_0: -7823838951273659584
+      townsfolk_1: 2471281208171193627
+      townsfolk_10: 6318694308391854804
+      townsfolk_11: -8809048483013771999
+      townsfolk_12: -8140564767600796776
+      townsfolk_13: 5645121856643534495
+      townsfolk_14: -8524667685256686110
+      townsfolk_15: 3680140017148545434
+      townsfolk_16: 1824444647215611421
+      townsfolk_17: 7728340682796104540
+      townsfolk_18: -5809819601946493647
+      townsfolk_19: -4763168780376084144
+      townsfolk_2: 1004979546261106012
+      townsfolk_20: 756081560257369095
+      townsfolk_21: -7108693249808941501
+      townsfolk_22: -7383743594509986264
+      townsfolk_23: -4156803557184990251
+      townsfolk_24: 2668395419140969966
+      townsfolk_25: 6367263628513922483
+      townsfolk_26: -2043070420265603986
+      townsfolk_27: -1943025948820976022
+      townsfolk_28: 4851185573532403857
+      townsfolk_29: 4289806699733710030
+      townsfolk_3: -8656682095753938622
+      townsfolk_30: 7966204823089224950
+      townsfolk_31: -4302808608473418791
+      townsfolk_32: 6270624042709652229
+      townsfolk_33: 1547475856779512672
+      townsfolk_34: 7311833112532521037
+      townsfolk_35: 5687813615052611644
+      townsfolk_36: 9011878822248179172
+      townsfolk_37: 7142026902252989743
+      townsfolk_38: 4730805629359893427
+      townsfolk_39: 8444666750437586962
+      townsfolk_4: 6322639377172474161
+      townsfolk_40: -645448475288969416
+      townsfolk_41: 4108570114447021407
+      townsfolk_42: -4188327742909568942
+      townsfolk_43: 6777039731130069791
+      townsfolk_44: -803334286014666575
+      townsfolk_45: -2236932935915783054
+      townsfolk_46: -6974353925188311487
+      townsfolk_47: 7275070706561578033
+      townsfolk_48: -6043924604756374453
+      townsfolk_49: 4975453851095253934
+      townsfolk_5: 2515046822156282604
+      townsfolk_50: 4371736483813163228
+      townsfolk_51: 1787627449881822521
+      townsfolk_52: -7212551754733092723
+      townsfolk_53: 1212176853710587587
+      townsfolk_54: -8144845683594381218
+      townsfolk_55: -6935937114783258221
+      townsfolk_56: -8047976527067521793
+      townsfolk_57: 5007544676535277451
+      townsfolk_58: -728021114143803744
+      townsfolk_59: -2441034369757061535
+      townsfolk_6: -7643179450046206034
+      townsfolk_60: 3998892910468928802
+      townsfolk_61: -1961306385041911987
+      townsfolk_62: -2972382919674852856
+      townsfolk_63: -4951559117640036763
+      townsfolk_64: 8488389407612486905
+      townsfolk_65: -7814695963369395608
+      townsfolk_66: 904713922281173064
+      townsfolk_67: -4116514014024409364
+      townsfolk_68: 7678766627555858481
+      townsfolk_69: 5607348814175142373
+      townsfolk_7: -7986839555326523017
+      townsfolk_70: -3701284278341862881
+      townsfolk_71: 6552245867842124068
+      townsfolk_72: -1592117279886026769
+      townsfolk_73: -4525167111601422006
+      townsfolk_74: -4793387317739029212
+      townsfolk_75: -5270808992905146094
+      townsfolk_76: -2332629970982246997
+      townsfolk_77: -4378389684814408114
+      townsfolk_78: -7358635773634720915
+      townsfolk_79: -4896922967097257325
+      townsfolk_8: -5124948643804987154
+      townsfolk_9: 4306987882078323452
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

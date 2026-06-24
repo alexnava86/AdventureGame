@@ -23,13 +23,15 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
     public int MagicAttack { get; set; }
     public int MagicDefense { get; set; }
     public int ExpToLvlUp { get; set; }
+    public int CoinPurse { get; set; }
     //public AbstractItem[] Inventory { get; set; }
     //public Skill[] Skills { get; set; }
     //public Spell[] Spells { get; set; }
-    public enum StatusEffect { Poisoned, Silenced, Sleeping, Charmed, Hypnotized, Blinded, Confused, Paralyzed };
+    public enum StatusEffect { Bleed, Poisoned, Sick, Burn, Heatstroke, Frostbite, Armstrong, Ironflesh };
     public delegate void CharacterAction();
     public delegate void CharacterAction<T>(T action);
     public static event CharacterAction<Int32> OnHpUpdate;
+    public static event CharacterAction<Int32> OnCoinUpdate;
     public static event CharacterAction<AbstractCharacter> OnDeath;
 
     #endregion
@@ -47,6 +49,24 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
     void Update()
     {
 
+    }
+
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.GetComponent<TerrainVolume>() != null)
+        {
+            /*
+            if (OnWaterContact != null)
+            {
+                OnWaterContact(1);
+            }
+            if (collider.GetComponent<ColorBlinker>() != null)
+            {
+                collider.GetComponent<ColorBlinker>().enabled = true;
+            }
+            */
+            Debug.Log("WATER!");
+        }
     }
     #endregion
 
@@ -108,6 +128,17 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
         return this.Hp;
     }
 
+    public int CoinUpdate(int value)
+    {
+
+        if (OnCoinUpdate != null)
+        {
+            OnCoinUpdate(value);
+        }
+        return this.CoinPurse;
+        
+    }
+
     public virtual void ExecuteActiveStatusEffects()
     {
         /*
@@ -120,7 +151,7 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
     #endregion
 
     #region Interfaces
-    /*
+    
     public interface IStatus
     {
         void Effect(StatusEffect effectName);//AbstractCharacter character)
@@ -133,13 +164,13 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
         static Status()
         {
             statusLibrary.Add(StatusEffect.Poisoned, new Poisoned());
-            statusLibrary.Add(StatusEffect.Silenced, new Silenced());
-            statusLibrary.Add(StatusEffect.Sleeping, new Sleeping());
-            statusLibrary.Add(StatusEffect.Charmed, new Charmed());
-            statusLibrary.Add(StatusEffect.Hypnotized, new Hypnotized());
-            statusLibrary.Add(StatusEffect.Blinded, new Blinded());
-            statusLibrary.Add(StatusEffect.Confused, new Confused());
-            statusLibrary.Add(StatusEffect.Paralyzed, new Paralyzed());
+            statusLibrary.Add(StatusEffect.Bleed, new Bleed());
+            statusLibrary.Add(StatusEffect.Sick, new Sick());
+            statusLibrary.Add(StatusEffect.Burn, new Burn());
+            statusLibrary.Add(StatusEffect.Heatstroke, new Heatstroke());
+            statusLibrary.Add(StatusEffect.Frostbite, new Frostbite());
+            statusLibrary.Add(StatusEffect.Armstrong, new Armstrong());
+            statusLibrary.Add(StatusEffect.Ironflesh, new Ironflesh());
         }
         public static void Effect(StatusEffect effectName)
         {
@@ -150,20 +181,31 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
 
         }
     }
+    private class Bleed : IStatus
+    {
+        public void Effect(StatusEffect effectName)
+        {
+
+        }
+        public void Cure()
+        {
+
+        }
+    }
     private class Poisoned : IStatus
     {
         public void Effect(StatusEffect effectName)
         {
             Debug.Log("Im friggin' poisoned! "); // wrks
                                                  //Determine the damage of poison effect here, display damage text
-                                                 //Display any visual effects of poison to character
+                                                 //Display any visual effects of poison to character / instantiate partile effects
         }
         public void Cure()
         {
 
         }
     }
-    private class Silenced : IStatus
+    private class Sick : IStatus
     {
         public void Effect(StatusEffect effectName)
         {
@@ -174,7 +216,7 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
 
         }
     }
-    private class Sleeping : IStatus
+    private class Burn : IStatus
     {
         public void Effect(StatusEffect effectName)
         {
@@ -185,7 +227,7 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
 
         }
     }
-    private class Charmed : IStatus
+    private class Heatstroke : IStatus
     {
         public void Effect(StatusEffect effectName)
         {
@@ -196,7 +238,7 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
 
         }
     }
-    private class Hypnotized : IStatus
+    private class Frostbite : IStatus
     {
         public void Effect(StatusEffect effectName)
         {
@@ -207,7 +249,7 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
 
         }
     }
-    private class Blinded : IStatus
+    private class Armstrong : IStatus
     {
         public void Effect(StatusEffect effectName)
         {
@@ -218,7 +260,7 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
 
         }
     }
-    private class Confused : IStatus
+    private class Ironflesh : IStatus
     {
         public void Effect(StatusEffect effectName)
         {
@@ -229,17 +271,5 @@ public class AbstractCharacter : MonoBehaviour, ITakeDamage
 
         }
     }
-    private class Paralyzed : IStatus
-    {
-        public void Effect(StatusEffect effectName)
-        {
-
-        }
-        public void Cure()
-        {
-
-        }
-    }
-    */
     #endregion
 }

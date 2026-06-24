@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f14cefca590a4e389a99f9e51cbb394, type: 3}
+  m_Name: UISettings
+  m_EditorClassIdentifier: 
+  styleIndex: 4
+  fontIndex: 0
+  textBorderColor: {r: 0, g: 1, b: 1, a: 1}
+  textBoxColor: {r: 1, g: 0.5, b: 0.5, a: 1}
+  textColor: {r: 1, g: 0, b: 0, a: 1}
+  textShadowColor: {r: 0, g: 1, b: 0, a: 1}
+  gradientColor: {r: 0, g: 0.6039216, b: 0, a: 1}
+  textBoxTransparency: 0.25
+  gradientTransparency: 0.75
+  textShadowTransparency: 1
+  gradientEnabled: 1
+  musicVolume: 1
+  sfxVolume: 1
+  hudMode: 0
+  difficulty: 3

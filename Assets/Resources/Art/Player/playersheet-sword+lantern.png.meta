@@ -249,7 +249,7 @@ TextureImporter:
       213: 8118743336958574763
     second: playersheet-sword+lantern_81
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -266,9 +266,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -300,10 +303,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -315,6 +323,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -327,6 +336,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -339,6 +349,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -351,6 +362,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -363,6 +375,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -375,6 +388,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2112,9 +2126,91 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      playersheet-sword+lantern_0: -3340633781089066444
+      playersheet-sword+lantern_1: -1531624297480030385
+      playersheet-sword+lantern_10: -1748847655335750217
+      playersheet-sword+lantern_11: -7510321667243245315
+      playersheet-sword+lantern_12: 724872627848840604
+      playersheet-sword+lantern_13: 1981432278855966989
+      playersheet-sword+lantern_14: 8791069628597314978
+      playersheet-sword+lantern_15: 5544738222003524642
+      playersheet-sword+lantern_16: 7288109501247053059
+      playersheet-sword+lantern_17: 6082574717940351582
+      playersheet-sword+lantern_18: -6558446512146738657
+      playersheet-sword+lantern_19: 5071941391724933951
+      playersheet-sword+lantern_2: -6733636472248019867
+      playersheet-sword+lantern_20: -6065820158815653405
+      playersheet-sword+lantern_21: -1181506859040329388
+      playersheet-sword+lantern_22: 4234598979113287897
+      playersheet-sword+lantern_23: -795573651727303598
+      playersheet-sword+lantern_24: 990301186695184992
+      playersheet-sword+lantern_25: 256283768093306881
+      playersheet-sword+lantern_26: -8689154743785629647
+      playersheet-sword+lantern_27: 1307346631787008758
+      playersheet-sword+lantern_28: -8633463595101955014
+      playersheet-sword+lantern_29: 2561405228846884190
+      playersheet-sword+lantern_3: 6230275601406773661
+      playersheet-sword+lantern_30: -1473127070575533521
+      playersheet-sword+lantern_31: 8399856251728369602
+      playersheet-sword+lantern_32: 8114763890053964262
+      playersheet-sword+lantern_33: -3919244088838707025
+      playersheet-sword+lantern_34: -3440400329832215805
+      playersheet-sword+lantern_35: 6488599416086772288
+      playersheet-sword+lantern_36: 3188662458389952067
+      playersheet-sword+lantern_37: 7016977335386249661
+      playersheet-sword+lantern_38: 3811801978479625696
+      playersheet-sword+lantern_39: -6983684654620596743
+      playersheet-sword+lantern_4: 7585804719932501890
+      playersheet-sword+lantern_40: 985583585914336351
+      playersheet-sword+lantern_41: 3771146900664823342
+      playersheet-sword+lantern_42: 5451921050195340809
+      playersheet-sword+lantern_43: -3315559085017585563
+      playersheet-sword+lantern_44: 8171402099985592776
+      playersheet-sword+lantern_45: 183895510070330324
+      playersheet-sword+lantern_46: -4577813062444786204
+      playersheet-sword+lantern_47: 8386589161566814003
+      playersheet-sword+lantern_48: 5472566116620491373
+      playersheet-sword+lantern_49: -5922700965757168631
+      playersheet-sword+lantern_5: 3717258814268712995
+      playersheet-sword+lantern_50: 1682498085184502154
+      playersheet-sword+lantern_51: 4798886526489815770
+      playersheet-sword+lantern_52: -2794581695081006237
+      playersheet-sword+lantern_53: -4988541256997748306
+      playersheet-sword+lantern_54: 4830219217275768106
+      playersheet-sword+lantern_55: -2228024117244920081
+      playersheet-sword+lantern_56: 2949440750969497524
+      playersheet-sword+lantern_57: -7302641706841534793
+      playersheet-sword+lantern_58: -7879718806753930243
+      playersheet-sword+lantern_59: 3272810427697171266
+      playersheet-sword+lantern_6: -6038148613492050820
+      playersheet-sword+lantern_60: -8171534632131202035
+      playersheet-sword+lantern_61: -671417254255039435
+      playersheet-sword+lantern_62: 2617517603734418090
+      playersheet-sword+lantern_63: -4362771713388285296
+      playersheet-sword+lantern_64: -8317155411098676410
+      playersheet-sword+lantern_65: -5221656081782924100
+      playersheet-sword+lantern_66: 1492344773719669753
+      playersheet-sword+lantern_67: -1942577532921384340
+      playersheet-sword+lantern_68: -2644198955080733583
+      playersheet-sword+lantern_69: -1827479528628273293
+      playersheet-sword+lantern_7: -3463482521306882649
+      playersheet-sword+lantern_70: 4430995801780552852
+      playersheet-sword+lantern_71: -5739306344855658832
+      playersheet-sword+lantern_72: 5906046769019212249
+      playersheet-sword+lantern_73: -1321821298574845201
+      playersheet-sword+lantern_74: -8421254497629023328
+      playersheet-sword+lantern_75: 3178534243520135320
+      playersheet-sword+lantern_76: -2157101192117730841
+      playersheet-sword+lantern_77: -4823934932935294083
+      playersheet-sword+lantern_78: 5316113827310499915
+      playersheet-sword+lantern_79: 8273974643202969453
+      playersheet-sword+lantern_8: 5415670836767232813
+      playersheet-sword+lantern_80: -8063746665260155863
+      playersheet-sword+lantern_81: 8118743336958574763
+      playersheet-sword+lantern_9: -8122023117039426624
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

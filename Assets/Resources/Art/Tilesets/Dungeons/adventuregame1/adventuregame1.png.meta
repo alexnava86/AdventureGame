@@ -1539,7 +1539,7 @@ TextureImporter:
       213: -9102672176223285305
     second: adventuregame1_511
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -1556,9 +1556,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1590,10 +1593,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -1605,6 +1613,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -1617,6 +1626,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -1629,6 +1639,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -1641,6 +1652,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -1653,6 +1665,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -1665,6 +1678,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -12432,9 +12446,521 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      adventuregame1_0: -1014951238817926141
+      adventuregame1_1: 7061454203008704000
+      adventuregame1_10: 1597098716095120416
+      adventuregame1_100: -8607914375732795343
+      adventuregame1_101: -4206339000515664228
+      adventuregame1_102: 209004862804028284
+      adventuregame1_103: 8760816444980153868
+      adventuregame1_104: 5080435243840010192
+      adventuregame1_105: 1022869599490805681
+      adventuregame1_106: 1971360292115829198
+      adventuregame1_107: 6888452605340468662
+      adventuregame1_108: 7902990542961183122
+      adventuregame1_109: 9204254849541720146
+      adventuregame1_11: 5371890921289508030
+      adventuregame1_110: -4413554846935749446
+      adventuregame1_111: -2275300804563457740
+      adventuregame1_112: 8665817558928355073
+      adventuregame1_113: -7077564919196155344
+      adventuregame1_114: -2207516705519237446
+      adventuregame1_115: -4534961593404942351
+      adventuregame1_116: -2086886179869467051
+      adventuregame1_117: -4032301875228698538
+      adventuregame1_118: -1158951542985552038
+      adventuregame1_119: 5440562728620325186
+      adventuregame1_12: -2037824941931793786
+      adventuregame1_120: 3729413761342956389
+      adventuregame1_121: 7802387372594535315
+      adventuregame1_122: 404835876586426128
+      adventuregame1_123: -887804705386793663
+      adventuregame1_124: -2449190232577559530
+      adventuregame1_125: 7344750254419232362
+      adventuregame1_126: -3891885548024719157
+      adventuregame1_127: -6639921159505838385
+      adventuregame1_128: 3121980349129235092
+      adventuregame1_129: -3353156631097764410
+      adventuregame1_13: 3049561159416797654
+      adventuregame1_130: -4041023839298872124
+      adventuregame1_131: -2915574030028640528
+      adventuregame1_132: 1771159929388645947
+      adventuregame1_133: -6515412612975618341
+      adventuregame1_134: -416577788950319094
+      adventuregame1_135: 7682655228215887720
+      adventuregame1_136: 8523618601157680647
+      adventuregame1_137: 8424064350390373634
+      adventuregame1_138: -3516694575259496869
+      adventuregame1_139: -450461507012909114
+      adventuregame1_14: -5090414752422121865
+      adventuregame1_140: 6328919516360370269
+      adventuregame1_141: -3165904843796194776
+      adventuregame1_142: -6691677255699530522
+      adventuregame1_143: -654057097252184
+      adventuregame1_144: -348621190874090549
+      adventuregame1_145: -8740649098155675192
+      adventuregame1_146: -6193740498359556068
+      adventuregame1_147: 1649613053594250749
+      adventuregame1_148: -4482065145492271659
+      adventuregame1_149: 126661094868156044
+      adventuregame1_15: 2901570791758205324
+      adventuregame1_150: 4552315279381295014
+      adventuregame1_151: -5020679610889729423
+      adventuregame1_152: 1459897132909412825
+      adventuregame1_153: -4033044294803401464
+      adventuregame1_154: -1234625680451245803
+      adventuregame1_155: -6529642168205036882
+      adventuregame1_156: 1227637790371957668
+      adventuregame1_157: -1153505114529549517
+      adventuregame1_158: -6665280917585042441
+      adventuregame1_159: 7089312520156105513
+      adventuregame1_16: 6257834753455558214
+      adventuregame1_160: 6785218512763691505
+      adventuregame1_161: 5672740325228754024
+      adventuregame1_162: 4962941055127696821
+      adventuregame1_163: 7158388246055163595
+      adventuregame1_164: -8736972958352918419
+      adventuregame1_165: 1200742222136635927
+      adventuregame1_166: 6330072118029733959
+      adventuregame1_167: -637477681297594867
+      adventuregame1_168: -2443910440534701328
+      adventuregame1_169: -4708302791290796037
+      adventuregame1_17: -1138135880753796921
+      adventuregame1_170: 6308450611904380658
+      adventuregame1_171: -6738968529608069803
+      adventuregame1_172: 273487360317496581
+      adventuregame1_173: 7076937801730384899
+      adventuregame1_174: -1147138457559566148
+      adventuregame1_175: -4317053742610306285
+      adventuregame1_176: -3044017267923337226
+      adventuregame1_177: 315880509456658905
+      adventuregame1_178: -4908294169385465633
+      adventuregame1_179: -979684793289457650
+      adventuregame1_18: -6146446397464955533
+      adventuregame1_180: 5201342560709044921
+      adventuregame1_181: 6266412781544976691
+      adventuregame1_182: 6022693402242950777
+      adventuregame1_183: 3441685129213190296
+      adventuregame1_184: -2480344930001620928
+      adventuregame1_185: 3382386725745497747
+      adventuregame1_186: -5893113255168511190
+      adventuregame1_187: -7998395576958486122
+      adventuregame1_188: 9169555823333398000
+      adventuregame1_189: 5055703783084291144
+      adventuregame1_19: 2348681375815264722
+      adventuregame1_190: 8618436572430790789
+      adventuregame1_191: -3159607704398661310
+      adventuregame1_192: 2941263321926046867
+      adventuregame1_193: -4793752837553511608
+      adventuregame1_194: -7377418887955270007
+      adventuregame1_195: -2443935188139367762
+      adventuregame1_196: -5625900401463154347
+      adventuregame1_197: 7285875695899516426
+      adventuregame1_198: -2357837652054612455
+      adventuregame1_199: 8456662659283273374
+      adventuregame1_2: -4708798405374208667
+      adventuregame1_20: 5352886199595478316
+      adventuregame1_200: 3968031483073454861
+      adventuregame1_201: -8816675153942975495
+      adventuregame1_202: 6045420067717922599
+      adventuregame1_203: -7122322882961180799
+      adventuregame1_204: 703509612069103545
+      adventuregame1_205: 4015066740171573888
+      adventuregame1_206: -5324334282884734778
+      adventuregame1_207: 4860551650127007979
+      adventuregame1_208: 6391571676018027150
+      adventuregame1_209: -1742513542096615397
+      adventuregame1_21: 6841079027953343235
+      adventuregame1_210: 6790787998454026819
+      adventuregame1_211: 7426563942317134643
+      adventuregame1_212: -7416981661483716375
+      adventuregame1_213: 1413278629426646627
+      adventuregame1_214: -2974055232527159011
+      adventuregame1_215: 1255955397428176193
+      adventuregame1_216: 7214631589120903159
+      adventuregame1_217: -5227104714726091757
+      adventuregame1_218: -1405537039563990054
+      adventuregame1_219: 8786578904902417255
+      adventuregame1_22: -406597254133482731
+      adventuregame1_220: 7587765493758933980
+      adventuregame1_221: -1762472501240284092
+      adventuregame1_222: 5553239394907340326
+      adventuregame1_223: 6514299813114969511
+      adventuregame1_224: -4680762618640633637
+      adventuregame1_225: 4600765867704302196
+      adventuregame1_226: 5851671129317129182
+      adventuregame1_227: 5363001995289560903
+      adventuregame1_228: -3783748178397611508
+      adventuregame1_229: -2083304329622017585
+      adventuregame1_23: 4076345737215525134
+      adventuregame1_230: -4090791413410614684
+      adventuregame1_231: -7030631057875941146
+      adventuregame1_232: -4876532142466244242
+      adventuregame1_233: -7145255726431206876
+      adventuregame1_234: 2855773496770309914
+      adventuregame1_235: 7252565282976713617
+      adventuregame1_236: -5675531356331005715
+      adventuregame1_237: 361096412638505407
+      adventuregame1_238: -2258433538484401380
+      adventuregame1_239: -1717341650863442761
+      adventuregame1_24: 8066267519320521701
+      adventuregame1_240: 821599640953394044
+      adventuregame1_241: -8298448696207254300
+      adventuregame1_242: -8314280375667863949
+      adventuregame1_243: 4405572655628914350
+      adventuregame1_244: 990657551472406933
+      adventuregame1_245: 251659996588906639
+      adventuregame1_246: 4720912361427075419
+      adventuregame1_247: 5947980734293951941
+      adventuregame1_248: -2890163646465823606
+      adventuregame1_249: 2732675407342441204
+      adventuregame1_25: 742955166037241913
+      adventuregame1_250: 6363244352495395264
+      adventuregame1_251: 8797130633721978702
+      adventuregame1_252: -2940810055713358698
+      adventuregame1_253: 4118326286294077485
+      adventuregame1_254: 722251205509230367
+      adventuregame1_255: -398068353569804459
+      adventuregame1_256: -2869355887440551229
+      adventuregame1_257: 7222735050598276771
+      adventuregame1_258: -3780981068495553789
+      adventuregame1_259: -1965986246914063125
+      adventuregame1_26: 6667582514697617252
+      adventuregame1_260: 7534903330753852319
+      adventuregame1_261: -446572712039124323
+      adventuregame1_262: 1667609801929231905
+      adventuregame1_263: 6487382319292594815
+      adventuregame1_264: -1729638492041364926
+      adventuregame1_265: 1216519513291108400
+      adventuregame1_266: 6358367052981672450
+      adventuregame1_267: 8875390143875070163
+      adventuregame1_268: -6393755804976135170
+      adventuregame1_269: 6991136197157447852
+      adventuregame1_27: 2351243600043640188
+      adventuregame1_270: 6814706852722543526
+      adventuregame1_271: -2784133782185128389
+      adventuregame1_272: -4099689535363543881
+      adventuregame1_273: -3810201316146786407
+      adventuregame1_274: -545015013928326765
+      adventuregame1_275: -6564303034482253462
+      adventuregame1_276: -6616665420184032621
+      adventuregame1_277: 4733748615728697648
+      adventuregame1_278: -966797737413099167
+      adventuregame1_279: 2163657070172680600
+      adventuregame1_28: 3689474377985847602
+      adventuregame1_280: 8030929910674588508
+      adventuregame1_281: 7571045914333450042
+      adventuregame1_282: -5651002545421312205
+      adventuregame1_283: -1225475529988991154
+      adventuregame1_284: -6230181331032776700
+      adventuregame1_285: 2076493987973078046
+      adventuregame1_286: 8302552179541268229
+      adventuregame1_287: 5607624797560774540
+      adventuregame1_288: 8733398356138355749
+      adventuregame1_289: 8415896274286411113
+      adventuregame1_29: 1608009439944499119
+      adventuregame1_290: 1299438179734115494
+      adventuregame1_291: 3250248369256957768
+      adventuregame1_292: 7452322753749328056
+      adventuregame1_293: 8468482324618065585
+      adventuregame1_294: 1330945012085915210
+      adventuregame1_295: 5533814666455762351
+      adventuregame1_296: -1571186223622406761
+      adventuregame1_297: -7050374584450333961
+      adventuregame1_298: -8876053858938236079
+      adventuregame1_299: 8413191607920975
+      adventuregame1_3: 4650430469560872741
+      adventuregame1_30: -6688040269749140454
+      adventuregame1_300: -4737577898664353164
+      adventuregame1_301: -2149384454518748431
+      adventuregame1_302: -8131285672217374691
+      adventuregame1_303: 6480223686235956043
+      adventuregame1_304: -6493900678237711533
+      adventuregame1_305: 1283839109061344486
+      adventuregame1_306: 5130677455034837973
+      adventuregame1_307: -2681617901941346633
+      adventuregame1_308: 9077023968792528760
+      adventuregame1_309: 2091327499095796079
+      adventuregame1_31: 8167821814162419377
+      adventuregame1_310: -4104745162409425107
+      adventuregame1_311: -248238368914522405
+      adventuregame1_312: 1910482251281686922
+      adventuregame1_313: -690798793450015422
+      adventuregame1_314: -124564161043119453
+      adventuregame1_315: 7602386767762103019
+      adventuregame1_316: -2333512463527230866
+      adventuregame1_317: 8088455312983556365
+      adventuregame1_318: -4582480276544815654
+      adventuregame1_319: -8573878166028001702
+      adventuregame1_32: -1783974884740355275
+      adventuregame1_320: 5268253968442459644
+      adventuregame1_321: 6990837245127580567
+      adventuregame1_322: -5190988489162955517
+      adventuregame1_323: 4582344673554471633
+      adventuregame1_324: -6259662400708999901
+      adventuregame1_325: -3978028191827448546
+      adventuregame1_326: -4558616495232840802
+      adventuregame1_327: 9101676931899065462
+      adventuregame1_328: -3158196254118012081
+      adventuregame1_329: -531234267292350596
+      adventuregame1_33: -1717332642152806993
+      adventuregame1_330: 1468935220560536987
+      adventuregame1_331: -7060280341732596152
+      adventuregame1_332: 2519137571074339242
+      adventuregame1_333: 2044134399765815574
+      adventuregame1_334: -2259412470931160220
+      adventuregame1_335: -1023135898179573477
+      adventuregame1_336: -7913984372639820368
+      adventuregame1_337: -5212603256045533449
+      adventuregame1_338: -1581161301912819070
+      adventuregame1_339: 9137737698129230755
+      adventuregame1_34: 4601157164827066525
+      adventuregame1_340: 4060101865817948470
+      adventuregame1_341: -1029810901271814944
+      adventuregame1_342: -5797189616957038137
+      adventuregame1_343: -5835929603395766170
+      adventuregame1_344: -4322284104135814146
+      adventuregame1_345: 3628513759340783675
+      adventuregame1_346: 1002851353085908202
+      adventuregame1_347: -7796267537087022174
+      adventuregame1_348: -7825127069803357536
+      adventuregame1_349: 8037220053680902216
+      adventuregame1_35: 2259450031874706840
+      adventuregame1_350: 1564076495647445674
+      adventuregame1_351: -1103489682562988653
+      adventuregame1_352: -8044136138861827651
+      adventuregame1_353: 6969598652162746578
+      adventuregame1_354: -4434648356509608279
+      adventuregame1_355: -8442214398980940946
+      adventuregame1_356: 516156886892728112
+      adventuregame1_357: -5693333796909270913
+      adventuregame1_358: -1414785143680096251
+      adventuregame1_359: -3347704921292997980
+      adventuregame1_36: -3835463404187469368
+      adventuregame1_360: -3820999188223061023
+      adventuregame1_361: 6977052419586684446
+      adventuregame1_362: -5070871171255219162
+      adventuregame1_363: -9013600790982967891
+      adventuregame1_364: -6983947689463921782
+      adventuregame1_365: -482095451661920157
+      adventuregame1_366: -647205352128087926
+      adventuregame1_367: 6981608496477196397
+      adventuregame1_368: 2912750682354588591
+      adventuregame1_369: 2708892383920249733
+      adventuregame1_37: 4629497934897186280
+      adventuregame1_370: -4586179059070147151
+      adventuregame1_371: -4929193798046364909
+      adventuregame1_372: 2439890441999456720
+      adventuregame1_373: -4379616266231178894
+      adventuregame1_374: 8098603209168417469
+      adventuregame1_375: 8774198560344466500
+      adventuregame1_376: -6491625380173785777
+      adventuregame1_377: 1204588946341956207
+      adventuregame1_378: -8710107519985279133
+      adventuregame1_379: 108179759875890110
+      adventuregame1_38: 4263518485031231148
+      adventuregame1_380: 8371804233458675463
+      adventuregame1_381: 6326870558891102880
+      adventuregame1_382: 4660421826106009277
+      adventuregame1_383: -8551365134323702300
+      adventuregame1_384: 7108601102026107415
+      adventuregame1_385: 397409814493592088
+      adventuregame1_386: -7827817191203175
+      adventuregame1_387: 145548340570259829
+      adventuregame1_388: -843635076071270755
+      adventuregame1_389: -7277988239799304402
+      adventuregame1_39: -5026923870097756944
+      adventuregame1_390: -5260188811471751569
+      adventuregame1_391: 35354376104686885
+      adventuregame1_392: 8991131812559561566
+      adventuregame1_393: -5094558275991480049
+      adventuregame1_394: -7607388310967941003
+      adventuregame1_395: -1500992442604999059
+      adventuregame1_396: 8667947029736540425
+      adventuregame1_397: -5488849727092888505
+      adventuregame1_398: 3501904115473746717
+      adventuregame1_399: 6567986835280599920
+      adventuregame1_4: 2463059069897974742
+      adventuregame1_40: 6565541756028305761
+      adventuregame1_400: 2959155603948925797
+      adventuregame1_401: -1594020100966935165
+      adventuregame1_402: -2420595925471425239
+      adventuregame1_403: 7524710388577837318
+      adventuregame1_404: 4675363863385489681
+      adventuregame1_405: 9078346503327604129
+      adventuregame1_406: 5602392884723308078
+      adventuregame1_407: -2102278214070931151
+      adventuregame1_408: -4492049516225960099
+      adventuregame1_409: -4895993184226637642
+      adventuregame1_41: 5282649942434068965
+      adventuregame1_410: -7104583215839238473
+      adventuregame1_411: 572248631068914018
+      adventuregame1_412: 6980679656236422126
+      adventuregame1_413: 4236031649599777406
+      adventuregame1_414: 3454367356647856685
+      adventuregame1_415: 3337386981458718479
+      adventuregame1_416: 8859234233390229665
+      adventuregame1_417: -6714042306182156060
+      adventuregame1_418: -1247774099983533603
+      adventuregame1_419: 4374353814531872759
+      adventuregame1_42: 8062494415761813414
+      adventuregame1_420: 6366791574876722926
+      adventuregame1_421: 6144666707106391764
+      adventuregame1_422: -2939753795595462738
+      adventuregame1_423: 4390036564118520576
+      adventuregame1_424: -6410837757990773512
+      adventuregame1_425: -3583922622264937052
+      adventuregame1_426: -2405204877746757129
+      adventuregame1_427: 2732091230394680410
+      adventuregame1_428: 3982848732255118212
+      adventuregame1_429: 9174082416096913538
+      adventuregame1_43: 3325527948554595868
+      adventuregame1_430: -1563589611110476454
+      adventuregame1_431: -668165529687272036
+      adventuregame1_432: 5107692308436401372
+      adventuregame1_433: 8401654041221611002
+      adventuregame1_434: -3984140646684356816
+      adventuregame1_435: -4684686153223339157
+      adventuregame1_436: 8620410258306185274
+      adventuregame1_437: 6971904470057487681
+      adventuregame1_438: 7805155919840731553
+      adventuregame1_439: 5964487520991362809
+      adventuregame1_44: -4546064052355756955
+      adventuregame1_440: -6725743685321449398
+      adventuregame1_441: 5318138265256677997
+      adventuregame1_442: -2571143097506594375
+      adventuregame1_443: -5437825586394486001
+      adventuregame1_444: -4478612541932244367
+      adventuregame1_445: 3491853439716980785
+      adventuregame1_446: -4781627388482219166
+      adventuregame1_447: 8955803191928868790
+      adventuregame1_448: 518740425584800716
+      adventuregame1_449: -3543971328586405983
+      adventuregame1_45: -1526132637734222401
+      adventuregame1_450: -5321038948610035579
+      adventuregame1_451: 1137671550371044371
+      adventuregame1_452: -5132950745946372669
+      adventuregame1_453: -7447758349408901419
+      adventuregame1_454: 8690892716575864376
+      adventuregame1_455: 1683517724327198677
+      adventuregame1_456: -7259684575773927029
+      adventuregame1_457: 6480965551087828405
+      adventuregame1_458: -1791729746516839852
+      adventuregame1_459: -4996604565175257144
+      adventuregame1_46: -7375329140941863576
+      adventuregame1_460: -1505847358646300294
+      adventuregame1_461: 8618755214847870225
+      adventuregame1_462: -4282277295607893159
+      adventuregame1_463: -8926244682888843516
+      adventuregame1_464: -1049151166717739144
+      adventuregame1_465: 5603781883503015109
+      adventuregame1_466: -7571606363192346685
+      adventuregame1_467: 3546206881629156819
+      adventuregame1_468: 2301740133768045456
+      adventuregame1_469: -1048838057656502635
+      adventuregame1_47: -2018015352441099749
+      adventuregame1_470: 5067486021555154781
+      adventuregame1_471: -669950542217419214
+      adventuregame1_472: 7665943872208463381
+      adventuregame1_473: -3531125914623657472
+      adventuregame1_474: 8611523917391673540
+      adventuregame1_475: -2293011446538565758
+      adventuregame1_476: -2886239141946131540
+      adventuregame1_477: -4435665668524293577
+      adventuregame1_478: 4956725677490809943
+      adventuregame1_479: 5442626220092546897
+      adventuregame1_48: -178807332824790006
+      adventuregame1_480: 6286790896667221369
+      adventuregame1_481: -6825650259296482736
+      adventuregame1_482: 3675727350077243996
+      adventuregame1_483: 8411596320939113358
+      adventuregame1_484: -1956149154089682868
+      adventuregame1_485: 9110260710272922549
+      adventuregame1_486: 8304036155750795407
+      adventuregame1_487: -2516097502659866738
+      adventuregame1_488: 8456055881566703155
+      adventuregame1_489: -4833969893126000065
+      adventuregame1_49: -7828548438356418214
+      adventuregame1_490: -6154493268155276001
+      adventuregame1_491: 2326717567966786637
+      adventuregame1_492: 5793952787779507504
+      adventuregame1_493: 8515407128160510180
+      adventuregame1_494: 8657216561992715922
+      adventuregame1_495: -8146397721078643599
+      adventuregame1_496: 8563019478332408262
+      adventuregame1_497: 8031096631185980419
+      adventuregame1_498: 362847062200713558
+      adventuregame1_499: 3879820652014636165
+      adventuregame1_5: 200145993580732310
+      adventuregame1_50: 3384103884001178661
+      adventuregame1_500: 3098269932013658384
+      adventuregame1_501: 1285120370061145889
+      adventuregame1_502: 1554651314465169641
+      adventuregame1_503: 7475721778652084884
+      adventuregame1_504: -4170937193295942737
+      adventuregame1_505: 4814454250157731697
+      adventuregame1_506: 2084760398976297091
+      adventuregame1_507: 3000426030023117212
+      adventuregame1_508: -5379096218663550042
+      adventuregame1_509: 8670419851088604194
+      adventuregame1_51: 6992821566925148916
+      adventuregame1_510: 7685365061062128178
+      adventuregame1_511: -9102672176223285305
+      adventuregame1_52: -910434017302028620
+      adventuregame1_53: 6429451271023592739
+      adventuregame1_54: 2840459320316992651
+      adventuregame1_55: 3601479939508865304
+      adventuregame1_56: -5752507411524972718
+      adventuregame1_57: 7959516458073310386
+      adventuregame1_58: -3113617053563234644
+      adventuregame1_59: -5533963314792158868
+      adventuregame1_6: 3482781146060709294
+      adventuregame1_60: -8538876960121822645
+      adventuregame1_61: 5056692796050017837
+      adventuregame1_62: 4029045299114036200
+      adventuregame1_63: -3916660128762188991
+      adventuregame1_64: 1275797665607243076
+      adventuregame1_65: 8323401886671904771
+      adventuregame1_66: -6915380976713993384
+      adventuregame1_67: 6068769873533638150
+      adventuregame1_68: 5609392278050672373
+      adventuregame1_69: 6390461848047379306
+      adventuregame1_7: 157437200423061316
+      adventuregame1_70: 1198123805415188153
+      adventuregame1_71: -8799198763934722552
+      adventuregame1_72: -4315297576508644571
+      adventuregame1_73: -6014419838493550474
+      adventuregame1_74: 752924488927816694
+      adventuregame1_75: 6863354617123356459
+      adventuregame1_76: 6847816600989037883
+      adventuregame1_77: 2339430421350117653
+      adventuregame1_78: 541860802491248724
+      adventuregame1_79: -4161242277548102380
+      adventuregame1_8: 8870873542765038544
+      adventuregame1_80: 6816173143403392833
+      adventuregame1_81: -4793357607434499695
+      adventuregame1_82: 5170330679898806113
+      adventuregame1_83: 4501472761132373627
+      adventuregame1_84: -8873871292509617500
+      adventuregame1_85: 8235265540484754427
+      adventuregame1_86: -7984049659037722888
+      adventuregame1_87: -5140586370317747680
+      adventuregame1_88: 5684860888458976299
+      adventuregame1_89: 5883045807710866025
+      adventuregame1_9: -4748948625894110752
+      adventuregame1_90: 3745679211807758737
+      adventuregame1_91: -6245651469794502719
+      adventuregame1_92: -5125800389852967445
+      adventuregame1_93: 8572619733991682093
+      adventuregame1_94: -4745273193348699665
+      adventuregame1_95: -4865200867701582441
+      adventuregame1_96: 1036964295669012217
+      adventuregame1_97: -5512415149754303195
+      adventuregame1_98: -130647993533780891
+      adventuregame1_99: 1158931451958192425
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

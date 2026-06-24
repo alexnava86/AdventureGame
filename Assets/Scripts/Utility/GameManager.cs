@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-//using UnityEngine.InputSystem;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 //using System.Collections;
 
@@ -42,7 +42,10 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
-        
+        // Load UI settings from PlayerPrefs (or use ScriptableObject defaults
+        // on first launch) and apply them to any scene UI immediately.
+        _ = UISettings.Instance;               // triggers Load()
+        OptionsManager.ApplySettingsToScene(); // notifies all IUISettingsConsumers
     }
     private void Update()
     {

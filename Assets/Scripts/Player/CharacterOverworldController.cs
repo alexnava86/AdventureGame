@@ -31,6 +31,12 @@ public class CharacterOverworldController : MonoBehaviour
         rb.velocity = new Vector2(horizontal * speed, vertical * speed);
     }
 
+    private void OnDisable()
+    {
+        playerBaseInputs?.Overworld.Disable();
+        playerBaseInputs?.Dispose();
+    }
+    
     public void Move(InputAction.CallbackContext context)
     {
         //Vector2 movementInput = context.ReadValue<Vector2>();//.normalized;

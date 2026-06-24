@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="96" height="84" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="47">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="96" height="84" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="47">
  <tileset firstgid="1" name="AdventureSet" tilewidth="16" tileheight="16" tilecount="512" columns="16">
   <image source="../Art/Tilesets/Dungeons/adventuregame/adventuregame.png" width="256" height="512"/>
   <tile id="243">
@@ -100,52 +100,52 @@
  <tileset firstgid="513" name="Items" tilewidth="26" tileheight="22" tilecount="11" columns="0" objectalignment="center">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
-   <image width="10" height="11" source="../Art/Items/#Placeholder/Apple.png"/>
+   <image source="../Art/Items/#Placeholder/Apple.png" width="10" height="11"/>
   </tile>
   <tile id="1">
-   <image width="24" height="16" source="../Art/Items/#Placeholder/BananaBunch.png"/>
+   <image source="../Art/Items/#Placeholder/BananaBunch.png" width="24" height="16"/>
   </tile>
   <tile id="2">
-   <image width="13" height="11" source="../Art/Items/#Placeholder/BigBurger.png"/>
+   <image source="../Art/Items/#Placeholder/BigBurger.png" width="13" height="11"/>
   </tile>
   <tile id="3">
-   <image width="8" height="13" source="../Art/Items/#Placeholder/LargeFries.png"/>
+   <image source="../Art/Items/#Placeholder/LargeFries.png" width="8" height="13"/>
   </tile>
   <tile id="4">
-   <image width="26" height="22" source="../Art/Items/#Placeholder/Watermelon.png"/>
+   <image source="../Art/Items/#Placeholder/Watermelon.png" width="26" height="22"/>
   </tile>
   <tile id="5">
-   <image width="9" height="10" source="../Art/Items/Drops/apple_red.png"/>
+   <image source="../Art/Items/Drops/apple_red.png" width="9" height="10"/>
   </tile>
   <tile id="6">
-   <image width="9" height="10" source="../Art/Items/Drops/apple_yellow.png"/>
+   <image source="../Art/Items/Drops/apple_yellow.png" width="9" height="10"/>
   </tile>
   <tile id="7">
-   <image width="16" height="6" source="../Art/Items/Drops/carrot_orange.png"/>
+   <image source="../Art/Items/Drops/carrot_orange.png" width="16" height="6"/>
   </tile>
   <tile id="8">
-   <image width="12" height="6" source="../Art/Items/Drops/shrooms_blue.png"/>
+   <image source="../Art/Items/Drops/shrooms_blue.png" width="12" height="6"/>
   </tile>
   <tile id="9">
-   <image width="13" height="9" source="../Art/Items/Drops/steak_red.png"/>
+   <image source="../Art/Items/Drops/steak_red.png" width="13" height="9"/>
   </tile>
   <tile id="10">
-   <image width="14" height="11" source="../Art/Items/Drops/goldenberry.png"/>
+   <image source="../Art/Items/Drops/goldenberry.png" width="14" height="11"/>
   </tile>
  </tileset>
  <tileset firstgid="524" name="#Tools" tilewidth="33" tileheight="57" tilecount="4" columns="0" objectalignment="center">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
-   <image width="33" height="16" source="../Art/Tools/Start.png"/>
+   <image source="../Art/Tools/Start.png" width="33" height="16"/>
   </tile>
   <tile id="1">
-   <image width="22" height="16" source="../Art/Tools/End.png"/>
+   <image source="../Art/Tools/End.png" width="22" height="16"/>
   </tile>
   <tile id="2">
-   <image width="29" height="57" source="../Art/Tools/OverworldPortal.png"/>
+   <image source="../Art/Tools/OverworldPortal.png" width="29" height="57"/>
   </tile>
   <tile id="3">
-   <image width="29" height="57" source="../Art/Tools/Portal.png"/>
+   <image source="../Art/Tools/Portal.png" width="29" height="57"/>
   </tile>
  </tileset>
  <tileset firstgid="528" name="Zelda2TheAdventureOfLink-Palace1" tilewidth="16" tileheight="16" tilecount="24" columns="8">
@@ -871,7 +871,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="6" name="SECRET" width="96" height="84" visible="0">
+ <layer id="6" name="SECRET" width="96" height="84">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -959,7 +959,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="10" name="DEV" visible="0">
+ <objectgroup id="10" name="DEV">
   <object id="1" gid="524" x="417" y="664" width="33" height="16"/>
   <object id="4" gid="525" x="1376" y="1112" width="22" height="16"/>
   <object id="17" gid="514" x="12" y="8" width="24" height="16"/>

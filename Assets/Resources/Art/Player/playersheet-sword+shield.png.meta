@@ -12,7 +12,7 @@ TextureImporter:
       213: -8698924292926273541
     second: playersheet-sword+shield_85
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -29,9 +29,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,10 +66,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -78,6 +86,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -90,6 +99,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -102,6 +112,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -114,6 +125,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -126,6 +138,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -138,6 +151,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1959,9 +1973,95 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      playersheet-sword+shield_0: 3740673850833386564
+      playersheet-sword+shield_1: 6543052278589996579
+      playersheet-sword+shield_10: 561063051894121222
+      playersheet-sword+shield_11: -6834716209495630142
+      playersheet-sword+shield_12: -4870927173565498177
+      playersheet-sword+shield_13: 5295166629503174717
+      playersheet-sword+shield_14: -4478193980950764768
+      playersheet-sword+shield_15: -7632453107106976323
+      playersheet-sword+shield_16: -8369856868733187409
+      playersheet-sword+shield_17: -476788813956802754
+      playersheet-sword+shield_18: -4595484612356838296
+      playersheet-sword+shield_19: -3274182006743330775
+      playersheet-sword+shield_2: 7165315773000613396
+      playersheet-sword+shield_20: 1938493236403308443
+      playersheet-sword+shield_21: 7533715821374164837
+      playersheet-sword+shield_22: -9053187868024779961
+      playersheet-sword+shield_23: -649638885671786753
+      playersheet-sword+shield_24: 1470954385527732490
+      playersheet-sword+shield_25: -1556319638005771830
+      playersheet-sword+shield_26: 4028597958424143206
+      playersheet-sword+shield_27: 8884087228169180129
+      playersheet-sword+shield_28: -6314584496044715191
+      playersheet-sword+shield_29: -5608189639547667860
+      playersheet-sword+shield_3: 3057280352531717293
+      playersheet-sword+shield_30: -3718591190004874052
+      playersheet-sword+shield_31: -6542191970942066742
+      playersheet-sword+shield_32: -8758879654344042922
+      playersheet-sword+shield_33: 6268562300670281183
+      playersheet-sword+shield_34: -7033627412588959417
+      playersheet-sword+shield_35: 2975817114462442275
+      playersheet-sword+shield_36: 9003571646523234354
+      playersheet-sword+shield_37: -5366581821115718973
+      playersheet-sword+shield_38: -5044868826667882072
+      playersheet-sword+shield_39: 5941760217218919524
+      playersheet-sword+shield_4: -6354296432096057160
+      playersheet-sword+shield_40: 8892300960976563045
+      playersheet-sword+shield_41: 2190429223591978111
+      playersheet-sword+shield_42: -7017061373677021870
+      playersheet-sword+shield_43: 5799397648218903343
+      playersheet-sword+shield_44: 648466166785861778
+      playersheet-sword+shield_45: -7355169146953871533
+      playersheet-sword+shield_46: -7741280446231183816
+      playersheet-sword+shield_47: 6945531465146320398
+      playersheet-sword+shield_48: 2949998265266229213
+      playersheet-sword+shield_49: -8011274290885260993
+      playersheet-sword+shield_5: -2774318645173745933
+      playersheet-sword+shield_50: -2582795313399469038
+      playersheet-sword+shield_51: -8074518764660974048
+      playersheet-sword+shield_52: 6615229570419773496
+      playersheet-sword+shield_53: -1415559914664956758
+      playersheet-sword+shield_54: 4809596566426520331
+      playersheet-sword+shield_55: 2124892863093122914
+      playersheet-sword+shield_56: -4839964279381070057
+      playersheet-sword+shield_57: 862713602515331445
+      playersheet-sword+shield_58: -2504321829809458694
+      playersheet-sword+shield_59: -7105935569187817531
+      playersheet-sword+shield_6: 7492437839381072182
+      playersheet-sword+shield_60: -3089765435912548196
+      playersheet-sword+shield_61: -8770727430627992980
+      playersheet-sword+shield_62: -1134636109175463256
+      playersheet-sword+shield_63: 7471390996042005113
+      playersheet-sword+shield_64: 4498641226377761760
+      playersheet-sword+shield_65: -5964791823852358461
+      playersheet-sword+shield_66: -4817948350322234232
+      playersheet-sword+shield_67: 1804721366130364411
+      playersheet-sword+shield_68: 3458776120482433286
+      playersheet-sword+shield_69: 7582627212671834897
+      playersheet-sword+shield_7: -5110790831728968837
+      playersheet-sword+shield_70: 2651081135598374728
+      playersheet-sword+shield_71: 8696434053865155109
+      playersheet-sword+shield_72: -8307595609377987872
+      playersheet-sword+shield_73: 5844565888261026778
+      playersheet-sword+shield_74: -1522798599427905815
+      playersheet-sword+shield_75: -8905123862908822158
+      playersheet-sword+shield_76: 5335654794131515993
+      playersheet-sword+shield_77: 8396835570292527999
+      playersheet-sword+shield_78: -8693202839028576876
+      playersheet-sword+shield_79: 5405939630325721420
+      playersheet-sword+shield_8: -448769838128721109
+      playersheet-sword+shield_80: 5537006190800722129
+      playersheet-sword+shield_81: 7825933879718272219
+      playersheet-sword+shield_82: 1197790571250883005
+      playersheet-sword+shield_83: -1983493234007777400
+      playersheet-sword+shield_84: -4678541646731071642
+      playersheet-sword+shield_85: -8698924292926273541
+      playersheet-sword+shield_9: 1635671783554743191
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

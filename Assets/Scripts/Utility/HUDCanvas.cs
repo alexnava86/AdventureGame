@@ -27,6 +27,7 @@ public class HUDCanvas : MonoBehaviour
     {
         Player.OnPlayerDamage += UpdateHpBar;
         Player.OnHpUpdate += UpdateHpBar;
+        Player.OnHpUpdate += UpdateHpBar;
     }
 
     void OnDisable()
@@ -39,5 +40,10 @@ public class HUDCanvas : MonoBehaviour
     {
         int animID = (hpSprites.Length - 1) - hpPercentage / 2;
         this.HpBar.GetComponent<Image>().sprite = hpSprites[animID];
+    }
+
+        void UpdateCoinHeld(int hpPercentage)
+    {
+        //Update UI text that represents the total value of held coins here...
     }
 }
