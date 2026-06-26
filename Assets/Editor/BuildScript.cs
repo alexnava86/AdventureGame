@@ -29,22 +29,25 @@ public static class BuildScript
 
     public static void BuildWindows()
     {
+        string v = GetBuildVersion();
         Build(BuildTarget.StandaloneWindows64,
-              $"{BuildRoot}/Windows/AdventureGame.exe");
+              $"{BuildRoot}/Windows/adventure-game-{v}.exe", v);
     }
 
     public static void BuildMac()
     {
         // macOS produces a .app bundle (a folder). The path ends in .app.
+        string v = GetBuildVersion();
         Build(BuildTarget.StandaloneOSX,
-              $"{BuildRoot}/Mac/AdventureGame.app");
+              $"{BuildRoot}/Mac/adventure-game-{v}.app", v);
     }
 
     public static void BuildWebGL()
     {
         // WebGL outputs a folder of web files (index.html, Build/, etc.).
+        string v = GetBuildVersion();
         Build(BuildTarget.WebGL,
-              $"{BuildRoot}/WebGL");
+              $"{BuildRoot}/WebGL/adventure-game-{v}", v);
     }
 
     // Optional: build all three in one invocation (useful for local testing).
@@ -59,8 +62,13 @@ public static class BuildScript
     // Core build routine
     // -------------------------------------------------------------------------
 
-    private static void Build(BuildTarget target, string locationPathName)
+    private static void Build(BuildTarget target, string locationPathName, string version)
     {
+        // Stamp the version into the build itself so it shows in the player /
+        // executable metadata, not just the file name.
+        if (!string.IsNullOrEmpty(version))
+            PlayerSettings.bundleVersion = version;
+
         string[] scenes = GetEnabledScenes();
         if (scenes.Length == 0)
         {
@@ -104,5 +112,19 @@ public static class BuildScript
                                   .Where(s => s.enabled)
                                   .Select(s => s.path)
                                   .ToArray();
+    }
+
+    /// <summary>
+    /// Reads the version passed from CI via "-buildVersion X.Y.Z" on the Unity
+    /// command line. Falls back to the project's current bundleVersion if absent
+    /// (e.g. when building locally without the argument).
+    /// </summary>
+    private static string GetBuildVersion()
+    {
+        string[] args = System.Environment.GetCommandLineArgs();
+        for (int i = 0; i < args.Length - 1; i++)
+            if (args[i] == "-buildVersion")
+                return args[i + 1];
+        return PlayerSettings.bundleVersion;
     }
 }
