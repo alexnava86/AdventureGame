@@ -1,47 +1,117 @@
 # .github/workflows/build.yml
-# Builds AdventureGame for Windows, macOS, and WebGL using GameCI.
-# Triggers on every push to main, and on a weekly schedule (Monday 06:00 UTC).
+# Builds AdventureGame for Windows, macOS, and WebGL using GameCI, with
+# automatic semantic version increments tracked via Git tags.
 #
-# ── ONE-TIME SETUP (GitHub repo ▸ Settings ▸ Secrets and variables ▸ Actions) ──
-#   UNITY_LICENSE   = the full contents of your Unity_lic.ulf file (paste it in)
+# VERSIONING (source of truth = Git tags named "adventure-game-X.Y.Z"):
+#   • Push to release → PATCH auto-increments (0.0.5 → 0.0.6).
+#   • Manual run (Actions ▸ Run workflow) → choose patch / minor / major.
+#       minor: 0.0.6 → 0.1.0   major: 0.1.0 → 1.0.0   (resets lower numbers)
+#   • Weekly scheduled build → rebuilds the CURRENT version, no bump, no tag.
+#   On a successful build the new tag is created and pushed, recording the version.
+#
+# ── ONE-TIME SETUP (repo ▸ Settings ▸ Secrets and variables ▸ Actions) ──
+#   UNITY_LICENSE   = full contents of your Unity_lic.ulf
 #   UNITY_EMAIL     = your Unity account email
 #   UNITY_PASSWORD  = your Unity account password
-#
-#   These let GameCI activate Unity inside the build container. The .ulf is a
-#   Personal license file; paste its entire XML contents as the secret value.
-#   (Never commit the license file to the repo — only store it as a secret.)
 
 name: Build AdventureGame
 
 on:
   push:
     branches:
-      - main
+      - release
   schedule:
-    # Weekly build every Monday at 06:00 UTC, even with no pushes.
-    - cron: '0 6 * * 1'
-  workflow_dispatch:   # also allow manual runs from the Actions tab
+    - cron: '0 6 * * 1'   # Mondays 06:00 UTC — rebuild current version
+  workflow_dispatch:
+    inputs:
+      bump:
+        description: 'Version bump type'
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+        default: patch
+
+permissions:
+  contents: write   # needed so the tag job can push the new version tag
 
 jobs:
+  # ---------------------------------------------------------------------------
+  # 1) Compute the next version from the latest Git tag
+  # ---------------------------------------------------------------------------
+  version:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.ver.outputs.version }}
+      tag: ${{ steps.ver.outputs.tag }}
+      shouldTag: ${{ steps.ver.outputs.shouldTag }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history so all tags are available
+
+      - name: Compute version
+        id: ver
+        run: |
+          git fetch --tags --force
+
+          # Highest existing version tag, prefix stripped (sort -V = version sort)
+          LATEST=$(git tag -l 'adventure-game-*' | sed 's/^adventure-game-//' | sort -V | tail -n1)
+          if [ -z "$LATEST" ]; then
+            MAJOR=0; MINOR=0; PATCH=0; HAVE=0
+          else
+            MAJOR=$(echo "$LATEST" | cut -d. -f1)
+            MINOR=$(echo "$LATEST" | cut -d. -f2)
+            PATCH=$(echo "$LATEST" | cut -d. -f3)
+            HAVE=1
+          fi
+
+          # Decide the bump type from the trigger
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            BUMP="${{ inputs.bump }}"
+          elif [ "${{ github.event_name }}" = "schedule" ]; then
+            BUMP="none"
+          else
+            BUMP="patch"
+          fi
+
+          case "$BUMP" in
+            major) MAJOR=$((MAJOR+1)); MINOR=0; PATCH=0 ;;
+            minor) MINOR=$((MINOR+1)); PATCH=0 ;;
+            patch) PATCH=$((PATCH+1)) ;;
+            none)  if [ "$HAVE" = "0" ]; then PATCH=1; fi ;;   # first-ever build
+          esac
+
+          NEW="$MAJOR.$MINOR.$PATCH"
+          # Only create a tag when we actually bumped (push or manual), not on schedule
+          if [ "$BUMP" = "none" ]; then SHOULD_TAG="false"; else SHOULD_TAG="true"; fi
+
+          echo "version=$NEW"                     >> "$GITHUB_OUTPUT"
+          echo "tag=adventure-game-$NEW"          >> "$GITHUB_OUTPUT"
+          echo "shouldTag=$SHOULD_TAG"            >> "$GITHUB_OUTPUT"
+          echo "Computed version $NEW (bump=$BUMP, previous=${LATEST:-none}, tag=$SHOULD_TAG)"
+
+  # ---------------------------------------------------------------------------
+  # 2) Build each platform with the computed version
+  # ---------------------------------------------------------------------------
   build:
+    needs: version
     name: Build ${{ matrix.targetPlatform }}
     runs-on: ubuntu-latest
     strategy:
-      fail-fast: false   # one platform failing shouldn't cancel the others
+      fail-fast: false
       matrix:
         targetPlatform:
-          - StandaloneWindows64   # Windows
-          - StandaloneOSX         # macOS
+          - StandaloneWindows64
+          - StandaloneOSX
           - WebGL
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          lfs: true                # pull Git LFS assets (art, etc.) if you use LFS
+          lfs: true
           fetch-depth: 0
 
-      # Cache the Library folder per platform to speed up subsequent builds.
       - name: Cache Library
         uses: actions/cache@v4
         with:
@@ -60,21 +130,44 @@ jobs:
         with:
           unityVersion: 2022.3.52f1
           targetPlatform: ${{ matrix.targetPlatform }}
-          # buildMethod is optional — GameCI has a sensible default builder, but
-          # we point it at our BuildScript so output paths/names are controlled.
-          # Map each platform to the matching method:
           buildMethod: ${{ matrix.targetPlatform == 'StandaloneWindows64' && 'BuildScript.BuildWindows' || matrix.targetPlatform == 'StandaloneOSX' && 'BuildScript.BuildMac' || 'BuildScript.BuildWebGL' }}
+          # Pass the computed version to Unity; BuildScript reads -buildVersion
+          # and applies it to PlayerSettings.bundleVersion and the output name.
+          customParameters: -buildVersion ${{ needs.version.outputs.version }}
           allowDirtyBuild: true
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
-          name: AdventureGame-${{ matrix.targetPlatform }}
-          # BuildScript writes to Builds/Windows, Builds/Mac, or Builds/WebGL.
-          # Map the platform id to the folder BuildScript actually used.
+          name: adventure-game-${{ needs.version.outputs.version }}-${{ matrix.targetPlatform }}
           path: |
             Builds/Windows
             Builds/Mac
             Builds/WebGL
           if-no-files-found: ignore
-          retention-days: 14   # keep each build for two weeks
+          retention-days: 14
+
+  # ---------------------------------------------------------------------------
+  # 3) Tag the commit with the new version — only on a successful bump build
+  # ---------------------------------------------------------------------------
+  tag:
+    needs: [version, build]
+    if: needs.version.outputs.shouldTag == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create and push version tag
+        run: |
+          TAG="${{ needs.version.outputs.tag }}"
+          git config user.name  "github-actions"
+          git config user.email "github-actions@github.com"
+          if git rev-parse "$TAG" >/dev/null 2>&1; then
+            echo "Tag $TAG already exists; skipping."
+          else
+            git tag "$TAG"
+            git push origin "$TAG"
+            echo "Created and pushed tag $TAG"
+          fi
