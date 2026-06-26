@@ -1,5 +1,5 @@
 {
-    "activeFile": "Overworld1.json",
+    "activeFile": "AdventureWaterfall1_TEST.json",
     "expandedProjectPaths": [
         "."
     ],
@@ -148,11 +148,11 @@
             "scaleInDock": 1
         },
         "AdventureWaterfall1_TEST.json": {
-            "scale": 1,
+            "scale": 2,
             "selectedLayer": 5,
             "viewCenter": {
-                "x": 439.5,
-                "y": 613
+                "x": 288.75,
+                "y": 632
             }
         },
         "AdventureWaterfall1_TEST.json##Tools": {
@@ -391,8 +391,8 @@
             "scale": 1,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 1079.5,
-                "y": 432
+                "x": 1023.5,
+                "y": 896
             }
         },
         "Overworld1.json##Tools": {
@@ -560,7 +560,7 @@
             "selectedLayer": 5,
             "viewCenter": {
                 "x": 1023.6666666666666,
-                "y": 896
+                "y": 892
             }
         },
         "bubble1TEST.tmx##Tools": {
@@ -661,19 +661,19 @@
     "last.imagePath": "/Users/nava/Studio/Projects/AdventureGame/Assets/Resources/Art/Tools",
     "map.lastUsedFormat": "json",
     "openFiles": [
-        "AdventureWaterfall1_TEST1.json",
         "bubble1TEST.tmx",
         "bubble1TEST.json",
-        "Overworld1.json"
+        "Overworld1.json",
+        "AdventureWaterfall1_TEST.json"
     ],
     "project": "AdventureGame.tiled-project",
     "property.type": "string",
     "recentFiles": [
-        "AdventureWaterfall1_TEST.json",
-        "AdventureWaterfall1_TEST1.json",
         "bubble1TEST.tmx",
         "bubble1TEST.json",
         "Overworld1.json",
+        "AdventureWaterfall1_TEST.json",
+        "AdventureWaterfall1_TEST1.json",
         "town1W.tmx",
         "Overworld1.tmx",
         "bubble1.tmx",
