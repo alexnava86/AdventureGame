@@ -115,16 +115,26 @@ public static class BuildScript
     }
 
     /// <summary>
-    /// Reads the version passed from CI via "-buildVersion X.Y.Z" on the Unity
-    /// command line. Falls back to the project's current bundleVersion if absent
-    /// (e.g. when building locally without the argument).
+    /// Reads the version CI wants this build stamped with. Checks, in order:
+    ///   1. the "-buildVersion X.Y.Z" command-line argument, then
+    ///   2. the BUILD_VERSION environment variable (fallback if GameCI doesn't
+    ///      forward the command-line arg), then
+    ///   3. the project's current bundleVersion (for local builds with neither).
     /// </summary>
     private static string GetBuildVersion()
     {
+        // 1) command-line argument
         string[] args = System.Environment.GetCommandLineArgs();
         for (int i = 0; i < args.Length - 1; i++)
             if (args[i] == "-buildVersion")
                 return args[i + 1];
+
+        // 2) environment variable
+        string env = System.Environment.GetEnvironmentVariable("BUILD_VERSION");
+        if (!string.IsNullOrEmpty(env))
+            return env;
+
+        // 3) fallback to whatever the project already has
         return PlayerSettings.bundleVersion;
     }
 }
