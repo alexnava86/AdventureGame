@@ -140,9 +140,11 @@ jobs:
           # -buildVersion (read by BuildScript) is the single source of truth.
           versioning: None
           buildMethod: ${{ matrix.targetPlatform == 'StandaloneWindows64' && 'BuildScript.BuildWindows' || matrix.targetPlatform == 'StandaloneOSX' && 'BuildScript.BuildMac' || 'BuildScript.BuildWebGL' }}
-          # Pass the computed version to Unity; BuildScript reads -buildVersion
-          # and applies it to PlayerSettings.bundleVersion and the output name.
-          customParameters: -buildVersion ${{ needs.version.outputs.version }}
+          # Pass the computed version to Unity under a UNIQUE arg name. We avoid
+          # "-buildVersion" because GameCI injects its OWN "-buildVersion None"
+          # when versioning is None, and two competing args caused the build to
+          # read "None". "-agVersion" can't collide with anything GameCI adds.
+          customParameters: -agVersion ${{ needs.version.outputs.version }}
           allowDirtyBuild: true
 
       - name: Upload build artifact
