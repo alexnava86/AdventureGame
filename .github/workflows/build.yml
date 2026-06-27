@@ -127,9 +127,18 @@ jobs:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          # Also expose the version as an env var; BuildScript reads this as a
+          # fallback if the -buildVersion command-line arg doesn't come through.
+          BUILD_VERSION: ${{ needs.version.outputs.version }}
         with:
           unityVersion: 2022.3.52f1
           targetPlatform: ${{ matrix.targetPlatform }}
+          # Turn OFF GameCI's built-in versioning. By default it uses "Semantic"
+          # mode, which sets PlayerSettings.bundleVersion from the commit count
+          # (e.g. 0.0.419 for 419 commits) and overrode our intended version.
+          # With versioning None, GameCI leaves bundleVersion alone, so our
+          # -buildVersion (read by BuildScript) is the single source of truth.
+          versioning: None
           buildMethod: ${{ matrix.targetPlatform == 'StandaloneWindows64' && 'BuildScript.BuildWindows' || matrix.targetPlatform == 'StandaloneOSX' && 'BuildScript.BuildMac' || 'BuildScript.BuildWebGL' }}
           # Pass the computed version to Unity; BuildScript reads -buildVersion
           # and applies it to PlayerSettings.bundleVersion and the output name.
