@@ -116,25 +116,36 @@ public static class BuildScript
 
     /// <summary>
     /// Reads the version CI wants this build stamped with. Checks, in order:
-    ///   1. the "-buildVersion X.Y.Z" command-line argument, then
-    ///   2. the BUILD_VERSION environment variable (fallback if GameCI doesn't
-    ///      forward the command-line arg), then
+    ///   1. our unique "-agVersion X.Y.Z" command-line argument, then
+    ///   2. the BUILD_VERSION environment variable, then
     ///   3. the project's current bundleVersion (for local builds with neither).
+    /// We deliberately do NOT read "-buildVersion": GameCI injects its own
+    /// "-buildVersion None" when versioning is disabled, which would yield "None".
+    /// Any "None"/empty value found is ignored so it can never leak into the name.
     /// </summary>
     private static string GetBuildVersion()
     {
-        // 1) command-line argument
+        // 1) our own command-line argument
         string[] args = System.Environment.GetCommandLineArgs();
         for (int i = 0; i < args.Length - 1; i++)
-            if (args[i] == "-buildVersion")
-                return args[i + 1];
+            if (args[i] == "-agVersion")
+            {
+                string val = args[i + 1];
+                if (IsValidVersion(val)) return val;
+            }
 
         // 2) environment variable
         string env = System.Environment.GetEnvironmentVariable("BUILD_VERSION");
-        if (!string.IsNullOrEmpty(env))
-            return env;
+        if (IsValidVersion(env)) return env;
 
         // 3) fallback to whatever the project already has
         return PlayerSettings.bundleVersion;
+    }
+
+    // Rejects null, empty, and the literal "None" that GameCI can pass.
+    private static bool IsValidVersion(string v)
+    {
+        return !string.IsNullOrEmpty(v) &&
+               !v.Equals("None", System.StringComparison.OrdinalIgnoreCase);
     }
 }
